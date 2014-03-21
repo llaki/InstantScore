@@ -9,30 +9,16 @@ import java.util.*;
 
 public class TestConnectionAndParsing {
 	public static void main(String[] args) throws Exception {
-	//	System.out.println(getHtml(LIVESCORE));
-	//	refreshURLAndWriteIntoFile();
-	//	holdTestForHtmlNodeParsing();
-	//	testGettingMatchInfos();
 		while(true){
 			System.out.println("new refresh...");
 			refreshURLAndWriteIntoFile();
 			testGettingMatchInfos();
 		}
-	//	holdTestForHtmlNodeParsing();
-	//	testGettingMatchInfos();
-	//	refreshURLAndWriteIntoFile();
-	//	testGettingMatchInfos();
 	}
 	
 	public static void refreshURLAndWriteIntoFile() throws Exception {
 		System.out.println("writing...");
 		String htmlPage = getHtml(LIVESCORE);
-	//	PrintWriter pw = new PrintWriter(new FileWriter("html"));
-	//	System.out.println(htmlPage);
-//		System.exit(status);
-	//	pw.println(htmlPage);
-	//	pw.flush();
-	//	pw.close();
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
 		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
@@ -48,8 +34,6 @@ public class TestConnectionAndParsing {
 	public static void testGettingMatchInfos() throws Exception {
 		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
-	//	ArrayList<String> countries = new ArrayList<String>(), leagueNames = new ArrayList<String>(), dates = new ArrayList<String>(),
-	//			times = new ArrayList<String>();
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
 		while((line = rd.readLine()) != null){
 			MatchInfoBuilder matchBuilder = new MatchInfoBuilder();
@@ -59,7 +43,6 @@ public class TestConnectionAndParsing {
 					break;
 				}
 				String countryName = nextLine;
-				//countries.add(countryName);
 				while(true){
 					String currentLine = rd.readLine();
 					if(currentLine==null){
@@ -90,7 +73,6 @@ public class TestConnectionAndParsing {
 							break;
 						}
 						if(ParseUtils.isTimeTag(currentLine)){
-	//						timeTag = true;
 							break;
 						}
 					}
@@ -98,7 +80,6 @@ public class TestConnectionAndParsing {
 					if(dateTag){
 						String date = rd.readLine();
 						if(date==null) break;
-						//dates.add(date);
 						matchBuilder.setDate(date);
 						while(true){
 							String currentLine = rd.readLine();
@@ -118,13 +99,11 @@ public class TestConnectionAndParsing {
 					if(timeInfo==null) break;
 					if(ParseUtils.isImageTag(timeInfo))
 						timeInfo = rd.readLine();
-					//times.add(ParseUtils.parseTimeInfo(timeInfo));
 					matchBuilder.setMatchTime(ParseUtils.parseTimeInfo(timeInfo));
 		
 					if(tournamentEnded) break;
 					
 					while(true){
-					//	System.out.println("home");
 						String currentLine = rd.readLine();
 						if(currentLine==null) break;
 						if(ParseUtils.isHomeTeamTag(currentLine)){
@@ -133,7 +112,6 @@ public class TestConnectionAndParsing {
 					}
 					String homeTeam = "";
 					while(true){
-					//	System.out.println("home 2");
 						homeTeam = rd.readLine();
 						if(homeTeam==null) break;
 						if(homeTeam.length()<2) continue;
@@ -142,7 +120,6 @@ public class TestConnectionAndParsing {
 					matchBuilder.setHomeTeam(homeTeam);
 					
 					while(true){
-					//	System.out.println("score");
 						String currentLine = rd.readLine();
 						if(currentLine==null) break;
 						if(ParseUtils.isScoreTag(currentLine)){
@@ -151,7 +128,6 @@ public class TestConnectionAndParsing {
 					}
 					String score = "";
 					while(true){
-					//	System.out.println("score 2");
 						score = rd.readLine();
 						if(score==null) break;
 						if(score.length()<2) continue;
@@ -161,7 +137,6 @@ public class TestConnectionAndParsing {
 					matchBuilder.setScore(score);
 					
 					while(true){
-				//		System.out.println("away");
 						String currentLine = rd.readLine();
 						if(currentLine==null) break;
 						if(ParseUtils.isAwayTeamTag(currentLine)){
@@ -170,7 +145,6 @@ public class TestConnectionAndParsing {
 					}
 					String awayTeam = "";
 					while(true){
-					//	System.out.println("away 2");
 						awayTeam = rd.readLine();
 						if(awayTeam==null) break;
 						if(awayTeam.length()<2) continue;
@@ -182,9 +156,7 @@ public class TestConnectionAndParsing {
 			}
 		}
 		ArrayList<TournamentWithMatches> listTwms = AllMatches.groupByTournaments(matches);
-		//System.out.println(listTwms.size()+" number of tournaments parsed!");
 		for(int i=0; i<listTwms.size(); i++){
-		//	System.out.println(listTwms.get(i).getTournament());
 			ArrayList<MatchInfo> listMatches = listTwms.get(i).getAllMatches();
 			for(int j=0; j<listMatches.size(); j++){
 		//		System.out.println(listMatches.get(j));
@@ -327,7 +299,7 @@ public class TestConnectionAndParsing {
 		    // ...
 		} 
 		catch (IOException e) {   
-			System.out.println("ioexception");
+			System.out.println("IOException");
 		    // openConnection() failed
 		    // ...
 		}
