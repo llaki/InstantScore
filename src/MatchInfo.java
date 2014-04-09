@@ -18,10 +18,24 @@ public class MatchInfo {
 	private Time timeStatus;
 	
 	public static void copyUsers(MatchInfo from, MatchInfo to){
-		Iterator<User> users = from.getUsers();
-		while(users.hasNext()){
-			to.addInterestedUser(users.next());
-		}
+//		Iterator<User> users = from.getUsers();
+//		while(users.hasNext()){
+//			to.addInterestedUser(users.next());
+//		}
+		to.setInterestedUsersSet(from.getSetOfUsers());
+	}
+	
+	public HashSet<User> getSetOfUsers(){
+		return setInterestedUsers;
+	}
+	
+	/**
+	 * Works in O(1). Just copies the reference to a set. It's not a good thing in general because of security reasons but in this case it 
+	 * should be fine.
+	 * @param users the set of interested users
+	 */
+	public void setInterestedUsersSet(HashSet<User> users){
+		setInterestedUsers = users;
 	}
 	
 	public Iterator<User> getUsers(){

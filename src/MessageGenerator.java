@@ -15,17 +15,17 @@ public class MessageGenerator {
 			return "No Update for Match "+update.getCurrentMatchInfo();
 		}
 		MatchInfo m = update.getCurrentMatchInfo();
-		sb.append("UPDATE for match "+m.getHomeTeam()+" vs "+m.getAwayTeam()+" "+m.getMatchScore()+" \n");
+		sb.append("Update for match "+m.getHomeTeam()+" VS "+m.getAwayTeam()+" "+m.getMatchScore()+" \n");
 		if(update.hasBeenAbandoned()){
-			sb.append("Sorry, this match has been abandoned. \n");
+			sb.append("This match has been abandoned. \n");
 			return sb.toString();
 		}
 		if(update.hasBeenPostponed()){
-			sb.append("Sorry, this match has been postponed \n");
+			sb.append("This match has been postponed. \n");
 			return sb.toString();
 		}
 		if(update.hasStarted()){
-			sb.append("The match has just kicked off! \n");
+			sb.append("The match has just started. \n");
 		}
 		if(update.firstTeamScored()){
 			int sc = update.getNumFirstScored();
@@ -48,7 +48,12 @@ public class MessageGenerator {
 		}
 		if(update.extraTimeStarted()){
 			sb.append("Extra time has been started! \n");
-		}	
+		}
+		// TODO
+		// handle the penalty shoot-out case here
+		if(update.hasFinishedInPenalties()){
+			// TODO write implementation of this case
+		}
 		return sb.toString();
 	}
 	

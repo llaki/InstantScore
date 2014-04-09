@@ -33,15 +33,16 @@ public class AllGoingMatches {
 		return match.getHomeTeam()+" vs "+match.getAwayTeam();
 	}
 	
+	
+	
 	public static void changesToGoingMatches(ArrayList<MatchInfo> allMatches) throws Exception {
 		HashMap<String, MatchInfo> newMap = new HashMap<String, MatchInfo>();
 		for(MatchInfo match : allMatches){
-	//		System.out.println("match");
-	//		System.out.println(match);
 			if(!matchHasBeenBefore(match)){ // newly added match
 				newMap.put(makeKeyFromMatch(match), match);
-				String message = MessageGenerator.generateMessageTextViaUpdate(MatchUpdate.matchHasBeenUpdated(null, match));
-				MessageSender.sendAllMessagesForMatch(message, match);
+				HashSet<User> setUsers = new HashSet<User>();
+			//	setUsers.add(User.TEST_USER);
+				match.setInterestedUsersSet(setUsers);
 			}
 			else{
 				MatchInfo oldMatchingMatch = getSameMatchObject(match);
@@ -57,7 +58,6 @@ public class AllGoingMatches {
 				}
 			}
 		}
-		// copy HashMaps
 		map = newMap;
 	}
 	

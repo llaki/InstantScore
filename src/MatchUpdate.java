@@ -68,6 +68,16 @@ public class MatchUpdate {
 		return getNumSecondScored()>0;
 	}
 	
+	public boolean hasFinishedInPenalties(){
+		//TODO write implementation
+		return false;
+	}
+	
+	public boolean firstTeamWonInPenalties(){
+		// TODO write real implementation
+		return true;
+	}
+	
 	public static MatchUpdate matchHasBeenUpdated(MatchInfo old, MatchInfo current){
 		if(old==null){
 			old = MatchInfo.returnEmptyMatchInfo();

@@ -8,12 +8,14 @@ public class User {
 	}
 	
 	public String getPhoneNumber(){
-		return "+995598374203";
+		return phoneNumber;
 	}
 	
 	@Override
 	public String toString(){
 		return phoneNumber;
 	}
+	
+	public static final User TEST_USER = new User("+995598374203");
 	
 }

@@ -35,6 +35,7 @@ public class TestConnectionAndParsing {
 		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
+		System.out.println("TEST GETTING MATCH INFOS...");
 		while((line = rd.readLine()) != null){
 			MatchInfoBuilder matchBuilder = new MatchInfoBuilder();
 			if(line.equals("<strong>")) {
@@ -164,6 +165,7 @@ public class TestConnectionAndParsing {
 		//	System.out.println();
 		}
 		writeMatchInfosIntoFile(listTwms);
+		System.out.println("CHANGES TO GOINT MATCHES BEING INVOKED...");
 		AllGoingMatches.changesToGoingMatches(matches);
 		rd.close();
 	}
