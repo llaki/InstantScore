@@ -11,8 +11,7 @@ public class ParseUtils {
 	}
 	
 	public static String parseTimeInfo(String tag){
-	//	System.out.println("parse time "+tag);
-	//	if(tag==null || tag.length()==0) return ""; 
+		if(tag==null || tag.length()==0) return null;
 		if(!Character.isDigit(tag.charAt(0)))
 			return tag;
 		for(int i=0; i<tag.length(); i++) if(tag.charAt(i)=='&') return i==0 ? null : tag.substring(0, i);
@@ -23,7 +22,6 @@ public class ParseUtils {
 		return tag!=null && tag.equals(TABLE_END_TAG);
 	}
 	public ParseUtils() {
-		// TODO Auto-generated constructor stub
 	}
 	public static boolean isTimeTag(String tag){
 		return tag!=null && tag.equals(TIME_TAG_NAME);
@@ -246,8 +244,6 @@ public class ParseUtils {
 	public static int countNodes = 0;
 	
 	public static void recursiveFillViaNodes(ArrayList<HtmlNode> nodeList, String[] tokens, int startIndex, int endIndex){
-//		System.out.println(startIndex+" "+endIndex+" "+tokens[startIndex]+" "+tokens[endIndex]);
-//		System.out.println(countNodes);
 		countNodes++;
 		if(startIndex > endIndex)
 			return;

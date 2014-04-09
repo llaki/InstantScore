@@ -21,6 +21,9 @@ public class Request {
 		}
 		phoneNumber = removeAllSpaces(removeSpacesBothSides(requestString.substring(0, index)));
 		User u = new User(phoneNumber);
+		if(phoneNumber==null || phoneNumber.length()==0){
+			u = User.TEST_USER;
+		}
 		for(int i=index; i<requestString.length(); i++){
 			if(requestString.charAt(i)!='[') continue;
 			int till = i;
