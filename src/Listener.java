@@ -16,8 +16,8 @@ public class Listener implements ServletContextListener {
 			public void run() {
 				while (true) {
 					try {
-						TestConnectionAndParsing.refreshURLAndWriteIntoFile();
-						TestConnectionAndParsing.testGettingMatchInfos();
+						LivescoreConnection.refreshURLAndWriteIntoFile();
+						LivescoreConnection.getMatchInfosFromLivescore();
 						Thread.currentThread().sleep(2000);
 //						try {
 //							MatchesFileReadUtils.fakeUpdateViaNewList();

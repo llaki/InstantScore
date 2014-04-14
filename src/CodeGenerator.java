@@ -16,8 +16,6 @@ public class CodeGenerator {
 		}
 		String generatedCode = getRandomCode(CODE_LENGTH);
 		map.put(phoneNumber, generatedCode);
-		writeIntoFile(phoneNumber, generatedCode);
-		sendSecurityCodeToUser(phoneNumber, generatedCode);
 		return generatedCode;
 	}
 
@@ -26,11 +24,11 @@ public class CodeGenerator {
 	 * @param phoneNumber phone number of a user
 	 * @param generatedCode generated security code
 	 */
-	private static void sendSecurityCodeToUser(String phoneNumber, String generatedCode){
+	public static void sendSecurityCodeToUser(String phoneNumber, String generatedCode){
 		System.out.println("Sending security code "+generatedCode+" to the user "+phoneNumber+"...");
-		Twilio t = new Twilio();
+		Twilio twillioClient = new Twilio();
 		try {
-			t.send(phoneNumber, generatedCode);
+			twillioClient.send(phoneNumber, "Your security code is \\"+generatedCode+"\\ (without quotes). \n Thanks for using InstantScore!");
 		} catch (TwilioRestException e) {
 			e.printStackTrace();
 		}

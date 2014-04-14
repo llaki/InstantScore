@@ -7,18 +7,18 @@ import java.io.PrintWriter;
 import java.net.*;
 import java.util.*;
 
-public class TestConnectionAndParsing {
+public class LivescoreConnection {
 	public static void main(String[] args) throws Exception {
 		while(true){
 			System.out.println("new refresh...");
 			refreshURLAndWriteIntoFile();
-			testGettingMatchInfos();
+			getMatchInfosFromLivescore();
 		}
 	}
 	
 	public static void refreshURLAndWriteIntoFile() throws Exception {
 		System.out.println("writing...");
-		String htmlPage = getHtml(LIVESCORE);
+		String htmlPage = getHtml(LIVESCORE_URL);
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
 		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
@@ -31,11 +31,10 @@ public class TestConnectionAndParsing {
 		out.close();
 	}
 	
-	public static void testGettingMatchInfos() throws Exception {
+	public static void getMatchInfosFromLivescore() throws Exception {
 		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
-		System.out.println("TEST GETTING MATCH INFOS...");
 		while((line = rd.readLine()) != null){
 			MatchInfoBuilder matchBuilder = new MatchInfoBuilder();
 			if(line.equals("<strong>")) {
@@ -59,7 +58,7 @@ public class TestConnectionAndParsing {
 				matchBuilder.setTournament(countryName+" - "+championshipName);
 				
 				boolean tournamentEnded = false;
-				while(true){ // seearch for matches
+				while(true){ // search for matches
 					
 					boolean dateTag = false;
 					while(true){
@@ -157,15 +156,7 @@ public class TestConnectionAndParsing {
 			}
 		}
 		ArrayList<TournamentWithMatches> listTwms = AllMatches.groupByTournaments(matches);
-		for(int i=0; i<listTwms.size(); i++){
-			ArrayList<MatchInfo> listMatches = listTwms.get(i).getAllMatches();
-			for(int j=0; j<listMatches.size(); j++){
-		//		System.out.println(listMatches.get(j));
-			}
-		//	System.out.println();
-		}
 		writeMatchInfosIntoFile(listTwms);
-		System.out.println("CHANGES TO GOINT MATCHES BEING INVOKED...");
 		AllGoingMatches.changesToGoingMatches(matches);
 		rd.close();
 	}
@@ -202,14 +193,11 @@ public class TestConnectionAndParsing {
 	}
 	
 	public static void holdTestForHtmlNodeParsing() throws Exception {
-		String htmlPage = getHtml(LIVESCORE);
+		String htmlPage = getHtml(LIVESCORE_URL);
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
 		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
-	//		System.out.println("start printing...");
-	//		System.out.println("###"+nodeList.get(i));
 			out.println(nodeList.get(i));
-	//		System.out.println("finish printing");
 		}
 		out.flush();
 		out.close();
@@ -220,9 +208,7 @@ public class TestConnectionAndParsing {
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
 		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
-		//	out.println("//start printing...");
 			out.println(nodeList.get(i));
-		//	out.println("//finish printing");
 		}
 		out.flush();
 		out.close();
@@ -243,25 +229,20 @@ public class TestConnectionAndParsing {
 		    		sb.append("\n "+line);
 		    	}
 		    	first = false;
-		    	//System.out.println(line);
 		    }
 		    rd.close();
 		} 
 		catch (MalformedURLException e) { 
 			System.out.println("malformedUrlException");
-		    // new URL() failed
-		    // ...
 		} 
 		catch (IOException e) {   
 			System.out.println("ioexception");
-		    // openConnection() failed
-		    // ...
 		}
 		return sb.toString();
 	}
 	
 	public static void printFetchedHtml() throws Exception {
-		System.out.println(getHtml(LIVESCORE));
+		System.out.println(getHtml(LIVESCORE_URL));
 	}
 	
 	public static void printFetchedHtmlFake(){
@@ -269,7 +250,7 @@ public class TestConnectionAndParsing {
 	}
 	
 	public static void holdTestForCorrectHtml() throws Exception {
-		String htmlText = getHtml(LIVESCORE);
+		String htmlText = getHtml(LIVESCORE_URL);
 		boolean correctHtml = ParseUtils.isCorrectHtmlPage(htmlText);
 		System.out.println(correctHtml ? "Correct Html format" : "Incorrect Html format");
 	}
@@ -292,22 +273,17 @@ public class TestConnectionAndParsing {
 		    		sb.append("\n "+line);
 		    	}
 		    	first = false;
-		    	//System.out.println(line);
 		    }
 		} 
 		catch (MalformedURLException e) {
 			System.out.println("malformedUrlException");
-		    // new URL() failed
-		    // ...
 		} 
 		catch (IOException e) {   
 			System.out.println("IOException");
-		    // openConnection() failed
-		    // ...
 		}
 		return sb.toString();
 	}
 	
-	static final String LIVESCORE = "http://www.livescore.com";
+	static final String LIVESCORE_URL = "http://www.livescore.com";
 	
 }

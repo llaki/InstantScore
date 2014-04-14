@@ -1,5 +1,5 @@
 /**
- * This class keeps track of the matches that are either going now, or they're gonna start now, or they have finished not long ago.
+ * This class keeps track of the matches that are either going now, or they're going to start now, or they have finished not long ago.
  */
 
 import java.util.*;
