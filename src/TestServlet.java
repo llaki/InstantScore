@@ -24,18 +24,12 @@ public class TestServlet extends HttpServlet {
      */
     public TestServlet() throws Exception {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		try {
-//			MatchesFileReadUtils.fakeUpdateViaMatchList();
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter writer = response.getWriter();
 		
@@ -53,6 +47,21 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String str = request.getParameter("data");
+		// Security Code Request for: +995598374203
+		if(str.startsWith("Security Code Request for")){
+			int index = str.indexOf(":");
+			String phoneNumber = (index==-1 || index==str.length()-1 ? "" : str.substring(index+1));
+			while(phoneNumber.length()>0 && phoneNumber.charAt(0)==' '){
+				phoneNumber = phoneNumber.substring(1);
+			}
+			if(phoneNumber.length()>0){
+				String genCode = CodeGenerator.generateCodeForPhoneNumber(phoneNumber);
+				CodeGenerator.writeIntoFile(phoneNumber, genCode);
+				CodeGenerator.sendSecurityCodeToUser(phoneNumber, genCode);
+			}
+			return;
+		}
+		// New matches subscription case
 		Request req = new Request(str);
 		System.out.println(req.getPhoneNumber()+" \n"+req.getMatchIds());
 	}

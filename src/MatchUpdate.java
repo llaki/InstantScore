@@ -69,7 +69,7 @@ public class MatchUpdate {
 	}
 	
 	public boolean hasFinishedInPenalties(){
-		//TODO write implementation
+		//TODO write real implementation
 		return false;
 	}
 	
@@ -87,10 +87,12 @@ public class MatchUpdate {
 		boolean oldStarted = oldScore.isStarted(), currentStarted = currentScore.isStarted();
 		int update = 0;
 		if(!oldStarted && currentStarted){
-			update = (update | (1<<MATCH_STARTED));
+	//		update = (update | (1<<MATCH_STARTED));
+			// THIS UPDATE SHOULD TEMPORARILY BE REMOVED FROM MESSAGE TO DECREASE NUMBER OF TOTAL MESSAGES
 		}
 		if(!oldTime.getTime().equals("HT") && currentTime.getTime().equals("HT")){
-			update = (update | (1<<HALF_TIME_OVER));
+			//update = (update | (1<<HALF_TIME_OVER));
+			// THIS UPDATE SHOULD BE TEMPORARILY REMOVED FROM MESSAGE TO DECREASE NUMBER OF TOTAL MESSAGES
 		}
 		if(!oldTime.getTime().equals("FT") && currentTime.getTime().equals("FT")){
 			update = (update | (1<<MATCH_FINISHED));

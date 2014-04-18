@@ -28,7 +28,7 @@ public class Twilio {
 		params.add(new BasicNameValuePair("From", "+12315772575"));
 
 		MessageFactory messageFactory = client.getAccount().getMessageFactory();
-		Message message = messageFactory.create(params);
+		messageFactory.create(params);
 //		System.out.println(message.getSid());
 	}
 }
