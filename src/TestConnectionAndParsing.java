@@ -172,7 +172,7 @@ public class TestConnectionAndParsing {
 	
 	public static void writeMatchInfosIntoFile(ArrayList<TournamentWithMatches> list) throws Exception {
 		System.out.println("scores");
-		PrintWriter pw = new PrintWriter(new FileWriter("/Users/Lasha/Desktop/scores"));
+		PrintWriter pw = new PrintWriter(new FileWriter("scores"));
 		int numTournaments = list.size();
 		pw.println(numTournaments);
 		for(int tourn=0; tourn<numTournaments; tourn++){
