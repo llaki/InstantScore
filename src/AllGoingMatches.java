@@ -5,16 +5,13 @@
 import java.util.*;
 
 public class AllGoingMatches {
-	public AllGoingMatches(){
-		
-	}
 	
 	private static HashMap<String, MatchInfo> map = new HashMap<String, MatchInfo>();
 	
 	public static MatchInfo getSameMatchObject(MatchInfo match) throws Exception {
 		String key = makeKeyFromMatch(match);
 		if(!map.containsKey(key)){
-			throw new Exception("The same match doesn't exist");
+			throw new Exception("Exception: The corresponding match doesn't exist.");
 		}
 		return map.get(key);
 	}

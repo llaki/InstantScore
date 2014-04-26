@@ -1,0 +1,13801 @@
+start printing...
+###
+finish printing
+start printing...
+###<html>
+
+<head>
+
+<title>
+LiveScore Soccer : Live Soccer Scores by LiveScore.com
+</title>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+<meta name="description" content="Soccer LiveScore - Soccer Live Scores, the First live score site on the Internet, powered by LiveScore.com since 1998. Live Soccer from all around the World."/>
+
+<meta name="keywords" content="livescore, live scores, soccer, football"/>
+
+<link rel="shortcut icon" type="image/png" href="http://cdn3.livescore.com/web/img/favicon.png">
+
+<link rel="stylesheet" media="screen" href="http://cdn1.livescore.com/web/css/main_v1.0.22.css">
+
+<script src="http://cdn1.livescore.com/web/js/custom_v1.1.1.js" type="text/javascript">
+</script>
+
+<script>
+
+         $(document).ready(function() {
+         livescore.matchdetails({target: '_blank', width: 496, height: 250, left: 100, top: 100});
+         LeagueTableWidget.init('soccer', '/', '');
+         setTzCookie();
+         scheduleRefresh(90);
+         });
+
+</script>
+
+<style>
+html{background-image:url("http://cdn3.livescore.com/web/img/bg.gif")}.wrapper{background-image:url("http://cdn3.livescore.com/web/img/bkg_cont.gif")}.buttons a,.buttons ul a.cat,.switch,.right-bar .arrow,.match-details .inc,.league-wc .inc,.league-wc.comments .inc,.tennis .league-multi .ball,.league-cricket .ico{background-image:url("http://cdn3.livescore.com/web/img/sprite_v1.0.1.png")}.frame h4.app{background-image:url("http://cdn3.livescore.com/web/img/icon_app.png")}.frame h4.web{background-image:url("http://cdn3.livescore.com/web/img/icon_web.png")}.euro-2012 .frame h4.web{background-image:url("http://cdn3.livescore.com/web/img/icon_web_euro2012.png")}.frame p.itunes a.btnStore{background-image:url("http://cdn3.livescore.com/web/img/appstore.jpg")}.frame p.itunes a.btnAndMarket{background-image:url("http://cdn3.livescore.com/web/img/androidmarket.jpg")}.narrow .wrapper{background-image:url('http://cdn3.livescore.com/web/img/bkg_cont_narrow.gif')}.usaf .wrapper{background-image:url("http://cdn3.livescore.com/web/img/bkg_cont_africa.gif")}
+</style>
+
+</head>
+
+<body class="soccer narrow">
+
+<div class="wrapper">
+
+<div class="nav bb">
+
+<ul>
+
+<li class="first">
+<a href="/" title="Soccer" class="selected m1">
+SOCCER
+</a>
+</li>
+
+<li>
+<a href="/worldcup/" title="World Cup" class=" m2">
+WORLD CUP
+</a>
+</li>
+
+<li>
+<a href="/hockey/" title="Hockey" class=" m3">
+HOCKEY
+</a>
+</li>
+
+<li>
+<a href="/basketball/" title="Basketball" class=" m4">
+BASKETBALL
+</a>
+</li>
+
+<li>
+<a href="/tennis/" title="Tennis" class=" m5">
+TENNIS
+</a>
+</li>
+
+<li>
+<a href="/cricket/" title="Cricket" class=" m6">
+CRICKET
+</a>
+</li>
+
+<li>
+<a href="/iphone/" title="iPhone" class=" m7">
+iPHONE
+</a>
+</li>
+
+<li>
+<a href="/android/" title="Android" class=" m8">
+ANDROID
+</a>
+</li>
+
+<li>
+<a href="/mobile/" title="Mobile" class=" m9">
+MOBILE
+</a>
+</li>
+
+<li>
+<a href="/contact/" title="Contact Us" class=" m10">
+CONTACT US
+</a>
+</li>
+
+</ul>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="header bb">
+
+<a href="/">
+
+<img src="http://cdn3.livescore.com/web/img/logo-fb-narrow.jpg" class="left" alt="LiveScore Soccer / Football" title="LiveScore Soccer / Football" width="465" height="68"/>
+
+</a>
+
+<table class="tagline right">
+
+<tr>
+
+<td>
+
+<h1>
+LiveScore Soccer / Football
+</h1>
+
+<h2>
+your no.1 Soccer Live Scores since 1998
+</h2>
+
+<p>
+for compact Livescore visit
+<a href="http://www.livescores.com/">
+LiveScores.com
+</a>
+</p>
+
+</td>
+
+</tr>
+
+</table>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="bb">
+
+<div class="top-add left">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=123" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<div class="big-add">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=126" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowTransparency="true" width="468" height="60">
+</iframe>
+
+</div>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="left-bar">
+
+<ul class="buttons">
+
+<li>
+<a href="/" class="selected">
+Home
+</a>
+</li>
+
+<li>
+<a href="/soccer/live/">
+Live
+</a>
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/champions-league/" class="cat">
+Champions League
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/europa-league/" class="cat">
+Europa League
+</a>
+
+</li>
+
+<li>
+
+<a href="/worldcup2014/" class="cat">
+World Cup
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/confederations-cup/" class="cat" title="Confederations Cup">
+Confed. Cup
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/intl/" class="cat">
+International
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=124" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/england/" class="cat">
+England
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/italy/" class="cat">
+Italy
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/spain/" class="cat">
+Spain
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/germany/" class="cat">
+Germany
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/france/" class="cat">
+France
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/holland/" class="cat">
+Netherlands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/belgium/" class="cat">
+Belgium
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/portugal/" class="cat">
+Portugal
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/scotland/" class="cat">
+Scotland
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=125" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/world-cup-u20/" class="cat">
+World Cup U-20
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/world-cup-u17/" class="cat">
+World Cup U-17
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-21/" class="cat">
+Euro U-21
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-19/" class="cat">
+Euro U-19
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-17/" class="cat">
+Euro U-17
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-women/" class="cat">
+Euro Women
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=24&amp;pos=122" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/austria/" class="cat">
+Austria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cyprus/" class="cat">
+Cyprus
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/denmark/" class="cat">
+Denmark
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/finland/" class="cat">
+Finland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/greece/" class="cat">
+Greece
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iceland/" class="cat">
+Iceland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ireland/" class="cat">
+Ireland (Rep. of)
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/luxembourg/" class="cat">
+Luxembourg
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/norway/" class="cat">
+Norway
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/northern-ireland/" class="cat">
+Northern Ireland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sweden/" class="cat">
+Sweden
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/switzerland/" class="cat">
+Switzerland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/turkey/" class="cat">
+Turkey
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/wales/" class="cat">
+Wales
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/belarus/" class="cat">
+Belarus
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bosnia/" class="cat" title="Bosnia and Herzegovina">
+Bosnia &amp; Herz.
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bulgaria/" class="cat">
+Bulgaria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/croatia/" class="cat">
+Croatia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/czech-republic/" class="cat">
+Czech Republic
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/estonia/" class="cat">
+Estonia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/hungary/" class="cat">
+Hungary
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/israel/" class="cat">
+Israel
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/latvia/" class="cat">
+Latvia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lithuania/" class="cat">
+Lithuania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/macedonia/" class="cat">
+FYR Macedonia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/moldova/" class="cat">
+Moldova
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/montenegro/" class="cat">
+Montenegro
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/poland/" class="cat">
+Poland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/romania/" class="cat">
+Romania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/russia/" class="cat">
+Russia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/serbia/" class="cat">
+Serbia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/slovakia/" class="cat">
+Slovakia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/slovenia/" class="cat">
+Slovenia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ukraine/" class="cat">
+Ukraine
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/south-america/" class="cat">
+South America
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/argentina/" class="cat">
+Argentina
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bolivia/" class="cat">
+Bolivia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/brazil/" class="cat">
+Brazil
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/chile/" class="cat">
+Chile
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/colombia/" class="cat">
+Colombia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ecuador/" class="cat">
+Ecuador
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/paraguay/" class="cat">
+Paraguay
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/peru/" class="cat">
+Peru
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uruguay/" class="cat">
+Uruguay
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/venezuela/" class="cat">
+Venezuela
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/concacaf/" class="cat">
+CONCACAF
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mexico/" class="cat">
+Mexico
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/usa/" class="cat">
+USA
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/costa-rica/" class="cat">
+Costa Rica
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/el-salvador/" class="cat">
+El Salvador
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guatemala/" class="cat">
+Guatemala
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/honduras/" class="cat">
+Honduras
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/asia/" class="cat">
+Asia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/china/" class="cat">
+China
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/japan/" class="cat">
+Japan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/korea-republic/" class="cat">
+Korea Republic
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/singapore/" class="cat">
+Singapore
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/thailand/" class="cat">
+Thailand
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/vietnam/" class="cat">
+Vietnam
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/armenia/" class="cat">
+Armenia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/azerbaijan/" class="cat">
+Azerbaijan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/georgia/" class="cat">
+Georgia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kazakhstan/" class="cat">
+Kazakhstan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kuwait/" class="cat">
+Kuwait
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iran/" class="cat">
+Iran
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/australia/" class="cat">
+Australia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/new-zealand/" class="cat">
+New Zealand
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/africa/" class="cat">
+Africa
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/africa-cup-of-nations/" class="cat" title="Africa Cup of Nations">
+Cup of Nations
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/algeria/" class="cat">
+Algeria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/egypt/" class="cat">
+Egypt
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kenya/" class="cat">
+Kenya
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/morocco/" class="cat">
+Morocco
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/south-africa/" class="cat">
+South Africa
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tunisia/" class="cat">
+Tunisia
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/more/" class="cat" data-type="submenu">
+More countries
+</a>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/albania/" class="cat">
+Albania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/andorra/" class="cat">
+Andorra
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/faroe-islands/" class="cat">
+Faroe Islands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malta/" class="cat">
+Malta
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/san-marino/" class="cat">
+San Marino
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/antigua-and-barbuda/" class="cat">
+Antigua and Barbuda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/barbados/" class="cat">
+Barbados
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bermuda/" class="cat">
+Bermuda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/canada/" class="cat">
+Canada
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cuba/" class="cat">
+Cuba
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/grenada/" class="cat">
+Grenada
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guadeloupe/" class="cat">
+Guadeloupe
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/haiti/" class="cat">
+Haiti
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/jamaica/" class="cat">
+Jamaica
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/nicaragua/" class="cat">
+Nicaragua
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/martinique/" class="cat">
+Martinique
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/panama/" class="cat">
+Panama
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/puerto-rico/" class="cat">
+Puerto Rico
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/saint-kitts-and-nevis/" class="cat">
+Saint Kitts and Nevis
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/trinidad-and-tobago/" class="cat">
+Trinidad and Tobago
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/bahrain/" class="cat">
+Bahrain
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/hong-kong/" class="cat">
+Hong Kong
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/india/" class="cat">
+India
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/indonesia/" class="cat">
+Indonesia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iraq/" class="cat">
+Iraq
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/jordan/" class="cat">
+Jordan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lebanon/" class="cat">
+Lebanon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malaysia/" class="cat">
+Malaysia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/oman/" class="cat">
+Oman
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/palestine/" class="cat">
+Palestine
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/pakistan/" class="cat">
+Pakistan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/qatar/" class="cat">
+Qatar
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/saudi-arabia/" class="cat">
+Saudi Arabia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/syria/" class="cat">
+Syria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/united-arab-emirates/" class="cat" title="United Arab Emirates">
+U.A.E.
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/taiwan/" class="cat">
+Taiwan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uzbekistan/" class="cat">
+Uzbekistan
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/oceania/" class="cat">
+Oceania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/fiji/" class="cat">
+Fiji
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/solomon-islands/" class="cat">
+Solomon Islands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tahiti/" class="cat">
+Tahiti
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/vanuatu/" class="cat">
+Vanuatu
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/angola/" class="cat">
+Angola
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/benin/" class="cat">
+Benin
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/botswana/" class="cat">
+Botswana
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/burkina-faso/" class="cat">
+Burkina Faso
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cameroon/" class="cat">
+Cameroon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cape-verde/" class="cat">
+Cape Verde
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/dr-congo/" class="cat">
+DR Congo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/congo/" class="cat">
+Congo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/gabon/" class="cat">
+Gabon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/gambia/" class="cat">
+Gambia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ghana/" class="cat">
+Ghana
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guinea/" class="cat">
+Guinea
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/yemen/" class="cat">
+Yemen
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lesotho/" class="cat">
+Lesotho
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/liberia/" class="cat">
+Liberia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/libya/" class="cat">
+Libya
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/madagascar/" class="cat">
+Madagascar
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malawi/" class="cat">
+Malawi
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mali/" class="cat">
+Mali
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mauritius/" class="cat">
+Mauritius
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mozambique/" class="cat">
+Mozambique
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/namibia/" class="cat">
+Namibia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/nigeria/" class="cat">
+Nigeria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ivory-coast/" class="cat">
+Ivory Coast
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/rwanda/" class="cat">
+Rwanda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/senegal/" class="cat">
+Senegal
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sierra-leone/" class="cat">
+Sierra Leone
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sudan/" class="cat">
+Sudan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/swaziland/" class="cat">
+Swaziland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tanzania/" class="cat">
+Tanzania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/togo/" class="cat">
+Togo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uganda/" class="cat">
+Uganda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/zambia/" class="cat">
+Zambia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/zimbabwe/" class="cat">
+Zimbabwe
+</a>
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="content">
+
+<div class="cal-wrap">
+
+<div class="cal">
+
+<a href="/soccer/2014-04-23/">
+Apr 23
+</a>
+
+<a href="/soccer/2014-04-24/">
+Apr 24
+</a>
+
+<a href="/soccer/2014-04-25/">
+Apr 25
+</a>
+
+<a class="today " href="/soccer/2014-04-26/">
+Today
+</a>
+
+<a href="/soccer/2014-04-27/">
+Apr 27
+</a>
+
+<a href="/soccer/2014-04-28/">
+Apr 28
+</a>
+
+<a class="last " href="/soccer/2014-04-29/">
+Apr 29
+</a>
+
+<div class="clear" style="height:0">
+</div>
+
+</div>
+
+</div>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/premier-league/">
+Premier League
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Southampton
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/southampton-vs-everton/1-1475092/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Everton
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+65&#x27;
+</td>
+
+<td class="fh">
+Fulham
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/fulham-vs-hull-city/1-1475089/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Hull City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+65&#x27;
+</td>
+
+<td class="fh">
+Stoke City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/stoke-city-vs-tottenham-hotspur/1-1475093/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Tottenham Hotspur
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+65&#x27;
+</td>
+
+<td class="fh">
+Swansea City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/swansea-city-vs-aston-villa/1-1475096/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Aston Villa
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+63&#x27;
+</td>
+
+<td class="fh">
+West Bromwich Albion
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/west-bromwich-albion-vs-west-ham-united/1-1475097/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+West Ham United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+16:30
+</td>
+
+<td class="fh">
+Manchester United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/manchester-united-vs-norwich-city/1-1475091/" class="scorelink" onclick="return false;">
+? - ?
+</a>
+
+</td>
+
+<td class="fa">
+Norwich City
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/championship/">
+Championship
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Burnley
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/burnley-vs-ipswich-town/1-1475795/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Ipswich Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+AFC Bournemouth
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/afc-bournemouth-vs-nottingham-forest/1-1475786/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Nottingham Forest
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Birmingham City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/birmingham-city-vs-leeds-united/1-1475796/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Leeds United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Charlton Athletic
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/charlton-athletic-vs-blackburn-rovers/1-1475788/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Blackburn Rovers
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Derby County
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/derby-county-vs-watford/1-1475793/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Watford
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Doncaster Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/doncaster-rovers-vs-reading/1-1475787/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Reading
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Huddersfield Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/huddersfield-town-vs-leicester-city/1-1475789/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Leicester City
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Middlesbrough
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/middlesbrough-vs-barnsley/1-1475791/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Barnsley
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Queens Park Rangers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/queens-park-rangers-vs-millwall/1-1475790/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Millwall
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Sheffield Wednesday
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/sheffield-wednesday-vs-bolton-wanderers/1-1475785/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Bolton Wanderers
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Wigan Athletic
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/wigan-athletic-vs-blackpool/1-1475792/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Blackpool
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/league-1/">
+League 1
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Bradford City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/bradford-city-vs-crawley-town/1-1476683/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Crawley Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Bristol City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/bristol-city-vs-crewe-alexandra/1-1476686/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Crewe Alexandra
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Carlisle United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/carlisle-united-vs-oldham-athletic/1-1476680/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Oldham Athletic
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Colchester United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/colchester-united-vs-brentford/1-1476684/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Brentford
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Coventry City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/coventry-city-vs-wolverhampton-wanderers/1-1476688/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Wolverhampton Wanderers
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Leyton Orient
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/leyton-orient-vs-tranmere-rovers/1-1476685/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Tranmere Rovers
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Notts County
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/notts-county-vs-swindon-town/1-1476690/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Swindon Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Preston North End
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/preston-north-end-vs-gillingham/1-1476682/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Gillingham
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+54&#x27;
+</td>
+
+<td class="fh">
+Rotherham United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/rotherham-united-vs-milton-keynes-dons/1-1476687/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Milton Keynes Dons
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Shrewsbury Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/shrewsbury-town-vs-peterborough-united/1-1476689/" class="scorelink" onclick="return false;">
+2 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Peterborough United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Stevenage
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/stevenage-vs-walsall/1-1476679/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Walsall
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/league-2/">
+League 2
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+AFC Wimbledon
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/afc-wimbledon-vs-morecambe/1-1476255/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Morecambe
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Bury
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/bury-vs-portsmouth/1-1476256/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Portsmouth
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Dagenham &amp; Redbridge
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/dagenham-redbridge-vs-northampton-town/1-1476250/" class="scorelink" onclick="return false;">
+0 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Northampton Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Exeter City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/exeter-city-vs-scunthorpe-united/1-1476253/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Scunthorpe United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Fleetwood Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/fleetwood-town-vs-southend-united/1-1476252/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Southend United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Mansfield Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/mansfield-town-vs-torquay-united/1-1476247/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Torquay United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Oxford United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/oxford-united-vs-accrington-stanley/1-1476254/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Accrington Stanley
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Plymouth Argyle
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/plymouth-argyle-vs-hartlepool-united/1-1476248/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Hartlepool United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Rochdale
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/rochdale-vs-cheltenham-town/1-1476245/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Cheltenham Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Wycombe Wanderers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/wycombe-wanderers-vs-bristol-rovers/1-1476251/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Bristol Rovers
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+York City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/york-city-vs-newport-county/1-1476246/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Newport County
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/blue-square-north/">
+Conference North
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Barrow
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/barrow-vs-hednesford/1-1495693/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Hednesford
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Guiseley
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/guiseley-vs-gloucester-city/1-1495694/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Gloucester City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+69&#x27;
+</td>
+
+<td class="fh">
+Histon
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/histon-vs-altrincham/1-1495695/" class="scorelink" onclick="return false;">
+0 - 5
+</a>
+
+</td>
+
+<td class="fa">
+Altrincham
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Leamington
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/leamington-vs-colwyn-bay/1-1495696/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Colwyn Bay
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+North Ferriby United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/north-ferriby-united-vs-brackley-town/1-1495697/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Brackley Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+72&#x27;
+</td>
+
+<td class="fh">
+Oxford City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/oxford-city-vs-bradford-pa/1-1495698/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Bradford PA
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Stalybridge
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/stalybridge-vs-workington/1-1495699/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Workington
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Stockport
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/stockport-vs-harrogate/1-1495700/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Harrogate
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Telford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/telford-vs-gainsborough/1-1495692/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Gainsborough
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Vauxhall Motors
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/vauxhall-motors-vs-solihull-moors/1-1495701/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Solihull Moors
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Worcester
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/worcester-vs-boston-utd-/1-1495702/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Boston Utd.
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/england/">
+<strong>
+England
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/england/blue-square-south/">
+Conference South
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Bishop Stortford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/bishop-stortford-vs-maidenhead-u/1-1496148/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Maidenhead U
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Concord Rangers
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Bath City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Eastleigh
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/eastleigh-vs-boreham-wood/1-1496150/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Boreham Wood
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Ebbsfleet United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/ebbsfleet-united-vs-dorchester-town/1-1496151/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Dorchester Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Farnborough
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/farnborough-vs-eastbourne-borough/1-1496152/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Eastbourne Borough
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Gosport Borough
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/gosport-borough-vs-bromley/1-1496153/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Bromley
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Hayes &amp; Yeading United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/hayes-yeading-united-vs-dover/1-1496154/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Dover
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Staines Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/staines-town-vs-basingstoke/1-1496155/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Basingstoke
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Tonbridge Angels
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Havant and W.
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Weston Super Mare
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/weston-super-mare-vs-chelmsford/1-1496157/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Chelmsford
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Whitehawk
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/whitehawk-vs-sutton-united/1-1496158/" class="scorelink" onclick="return false;">
+2 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Sutton United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/spain/">
+<strong>
+Spain
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/spain/primera-division/">
+Liga BBVA
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Granada
+</td>
+
+<td class="fs">
+
+<a href="/soccer/spain/primera-division/granada-vs-rayo-vallecano/1-1506157/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Rayo Vallecano
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/germany/">
+<strong>
+Germany
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/germany/bundesliga/">
+Bundesliga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Bayern Munich
+</td>
+
+<td class="fs">
+
+<a href="/soccer/germany/bundesliga/bayern-munich-vs-werder-bremen/1-1479276/" class="scorelink" onclick="return false;">
+5 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Werder Bremen
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Hertha Berlin
+</td>
+
+<td class="fs">
+
+<a href="/soccer/germany/bundesliga/hertha-berlin-vs-braunschweig/1-1479284/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Braunschweig
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Hoffenheim
+</td>
+
+<td class="fs">
+
+<a href="/soccer/germany/bundesliga/hoffenheim-vs-eintracht-frankfurt/1-1479281/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Eintracht Frankfurt
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Mainz 05
+</td>
+
+<td class="fs">
+
+<a href="/soccer/germany/bundesliga/mainz-05-vs-nurnberg/1-1479282/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Nurnberg
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Wolfsburg
+</td>
+
+<td class="fs">
+
+<a href="/soccer/germany/bundesliga/wolfsburg-vs-freiburg/1-1479280/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Freiburg
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/france/">
+<strong>
+France
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/france/ligue-1/">
+Ligue 1
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+Ajaccio
+</td>
+
+<td class="fs">
+
+<a href="/soccer/france/ligue-1/ajaccio-vs-monaco/1-1468549/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Monaco
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/portugal/">
+<strong>
+Portugal
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/portugal/liga-de-honra/">
+Segunda Liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+Benfica B
+</td>
+
+<td class="fs">
+
+<a href="/soccer/portugal/liga-de-honra/benfica-b-vs-farense/1-1499125/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Farense
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/scotland/">
+<strong>
+Scotland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/scotland/premier-league/">
+Premiership
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Aberdeen
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/premier-league/aberdeen-vs-st-johnstone/1-1686210/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+St.Johnstone
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Dundee United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/premier-league/dundee-united-vs-motherwell/1-1686211/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Motherwell
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Ross County
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/premier-league/ross-county-vs-kilmarnock/1-1686212/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Kilmarnock
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/scotland/">
+<strong>
+Scotland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/scotland/1-division/">
+Championship
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Alloa Athletic
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/1-division/alloa-athletic-vs-dundee-fc/1-1476871/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Dundee FC
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Dumbarton
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/1-division/dumbarton-vs-hamilton-academical/1-1476872/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Hamilton Academical
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Morton
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/1-division/morton-vs-falkirk/1-1476873/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Falkirk
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Queen of South
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/1-division/queen-of-south-vs-livingston/1-1476874/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Livingston
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Raith Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/1-division/raith-rovers-vs-cowdenbeath/1-1476875/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Cowdenbeath
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/scotland/">
+<strong>
+Scotland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/scotland/2-division/">
+League 1
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Arbroath
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/2-division/arbroath-vs-dunfermline-athletic/1-1474877/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Dunfermline Athletic
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+East Fife
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/2-division/east-fife-vs-brechin-city/1-1474878/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Brechin City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Forfar Athletic
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/2-division/forfar-athletic-vs-ayr-united/1-1474879/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Ayr United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Stenhousemuir
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/2-division/stenhousemuir-vs-airdrieonians/1-1474881/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Airdrieonians
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/scotland/">
+<strong>
+Scotland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/scotland/3-division/">
+League 2
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Clyde
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/3-division/clyde-vs-albion-rovers/1-1475306/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Albion Rovers
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Elgin City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/3-division/elgin-city-vs-east-stirlingshire/1-1475307/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+East Stirlingshire
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Montrose
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/3-division/montrose-vs-annan-athletic/1-1475309/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Annan Athletic
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Peterhead
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/3-division/peterhead-vs-stirling-albion/1-1475310/" class="scorelink" onclick="return false;">
+0 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Stirling Albion
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Queens Park
+</td>
+
+<td class="fs">
+
+<a href="/soccer/scotland/3-division/queens-park-vs-berwick-rangers/1-1475311/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Berwick Rangers
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/denmark/">
+<strong>
+Denmark
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/denmark/sas-ligaen/">
+Superligaen
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+23&#x27;
+</td>
+
+<td class="fh">
+OB
+</td>
+
+<td class="fs">
+
+<a href="/soccer/denmark/sas-ligaen/ob-vs-aab/1-1457264/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+AaB
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/sweden/">
+<strong>
+Sweden
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/sweden/superettan/">
+Superettan
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Husqvarna FF
+</td>
+
+<td class="fs">
+
+<a href="/soccer/sweden/superettan/husqvarna-ff-vs-gais/1-1629791/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Gais
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Varbergs BoIS FC
+</td>
+
+<td class="fs">
+
+<a href="/soccer/sweden/superettan/varbergs-bois-fc-vs-landskrona/1-1629792/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Landskrona
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/finland/">
+<strong>
+Finland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/finland/veikkausliga/">
+Veikkausliiga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Helsinki
+</td>
+
+<td class="fs">
+
+<a href="/soccer/finland/veikkausliga/helsinki-vs-turku-ps/1-1649209/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Turku PS
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/austria/">
+<strong>
+Austria
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/austria/bundesliga/">
+Bundesliga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Ried
+</td>
+
+<td class="fs">
+
+<a href="/soccer/austria/bundesliga/ried-vs-adm-modling/1-1480536/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Adm/Modling
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/switzerland/">
+<strong>
+Switzerland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/switzerland/challenge-league/">
+Challenge League
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+Chiasso
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Schaffhausen
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+Winterthur
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Lugano
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/turkey/">
+<strong>
+Turkey
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/turkey/super-lig/">
+Super Lig
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+16:00
+</td>
+
+<td class="fh">
+Trabzonspor
+</td>
+
+<td class="fs">
+
+<a href="/soccer/turkey/super-lig/trabzonspor-vs-gaziantepspor/1-1517749/" class="scorelink" onclick="return false;">
+? - ?
+</a>
+
+</td>
+
+<td class="fa">
+Gaziantepspor
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/ireland/">
+<strong>
+Ireland (Rep. of)
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/ireland/fai-cup/">
+FAI Cup
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Avondale United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/ireland/fai-cup/avondale-united-vs-carrigaline-united/1-1685708/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Carrigaline United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/wales/">
+<strong>
+Wales
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/wales/premier-league/">
+Premier League
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Afan Lido
+</td>
+
+<td class="fs">
+
+<a href="/soccer/wales/premier-league/afan-lido-vs-connahs-quay/1-1656550/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Connahs Quay
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Bangor City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/wales/premier-league/bangor-city-vs-rhyl/1-1664444/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Rhyl
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Newtown
+</td>
+
+<td class="fs">
+
+<a href="/soccer/wales/premier-league/newtown-vs-airbus-uk-broughton/1-1656554/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Airbus UK Broughton
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Port Talbot
+</td>
+
+<td class="fs">
+
+<a href="/soccer/wales/premier-league/port-talbot-vs-bala-town/1-1656496/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Bala Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Prestatyn Town FC
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Aberystwyth
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/northern-ireland/">
+<strong>
+Northern Ireland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/northern-ireland/premier-league/">
+Premiership
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Ballymena United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/northern-ireland/premier-league/ballymena-united-vs-ards/1-1680607/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Ards
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Cliftonville
+</td>
+
+<td class="fs">
+
+<a href="/soccer/northern-ireland/premier-league/cliftonville-vs-crusaders/1-1694658/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Crusaders
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Coleraine
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Dungannon Swifts
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Glenavon
+</td>
+
+<td class="fs">
+
+<a href="/soccer/northern-ireland/premier-league/glenavon-vs-linfield/1-1680996/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Linfield
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Portadown
+</td>
+
+<td class="fs">
+
+<a href="/soccer/northern-ireland/premier-league/portadown-vs-glentoran/1-1680997/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Glentoran
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Warrenpoint Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/northern-ireland/premier-league/warrenpoint-town-vs-ballinamallard-united/1-1680609/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Ballinamallard United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/cyprus/">
+<strong>
+Cyprus
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/cyprus/1-division-phase-b-group-a/">
+1st League Phase B Group A
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+AEL Limassol
+</td>
+
+<td class="fs">
+
+<a href="/soccer/cyprus/1-division-phase-b-group-a/ael-limassol-vs-anorthosis/1-1680336/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Anorthosis
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+APOEL Nicosia
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Ermis Aradippou
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/luxembourg/">
+<strong>
+Luxembourg
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/luxembourg/national-division/">
+National Division
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Progrès Nidderkuer
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Kaerjeng
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/czech-republic/">
+<strong>
+Czech Republic
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/czech-republic/gambrinus-liga/">
+Gambrinus liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+23&#x27;
+</td>
+
+<td class="fh">
+Banik Ostrava
+</td>
+
+<td class="fs">
+
+<a href="/soccer/czech-republic/gambrinus-liga/banik-ostrava-vs-dukla-praha/1-1484770/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Dukla Praha
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/czech-republic/">
+<strong>
+Czech Republic
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/czech-republic/druha-liga/">
+2. liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+FC Vlasim
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Slovan Varnsdorf
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+Frydek-Mistek
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Budejovice
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/slovakia/">
+<strong>
+Slovakia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/slovakia/corgon-liga/">
+Corgon Liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Trnava
+</td>
+
+<td class="fs">
+
+<a href="/soccer/slovakia/corgon-liga/trnava-vs-zilina/1-1472070/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Zilina
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/russia/">
+<strong>
+Russia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/russia/premier-league/">
+Premier Liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+23&#x27;
+</td>
+
+<td class="fh">
+FC Krasnodar
+</td>
+
+<td class="fs">
+
+<a href="/soccer/russia/premier-league/fc-krasnodar-vs-lok-moscow/1-1477642/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Lok. Moscow
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/russia/">
+<strong>
+Russia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/russia/2-division-center/">
+2. Division Center
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+FC Metallurg Vyksa
+</td>
+
+<td class="fs">
+
+<a href="/soccer/russia/2-division-center/fc-metallurg-vyksa-vs-spartak-moscow-ii/1-1522078/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Spartak Moscow II
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Zvezda Ryazan
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Spartak Tambov
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+23&#x27;
+</td>
+
+<td class="fh">
+Fakel
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Vityaz Podolsk
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/russia/">
+<strong>
+Russia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/russia/2-division-south/">
+2. Division South
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Astrakhan
+</td>
+
+<td class="fs">
+
+<a href="/soccer/russia/2-division-south/astrakhan-vs-chernomorets-n-/1-1544609/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Chernomorets N.
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/poland/">
+<strong>
+Poland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/poland/ekstraklasa-relegation/">
+Ekstraklasa:: relegation
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Slask Wroclaw
+</td>
+
+<td class="fs">
+
+<a href="/soccer/poland/ekstraklasa-relegation/slask-wroclaw-vs-zaglebie-lubin/1-1690140/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Zaglebie Lubin
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/poland/">
+<strong>
+Poland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/poland/1-liga/">
+1st League
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Flota Swinoujscie
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Olimpia Grudziadz
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+20&#x27;
+</td>
+
+<td class="fh">
+Plock
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Termalica Bruk-Bet Nieciecza
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+20&#x27;
+</td>
+
+<td class="fh">
+Sandecja Nowy Sacz
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Chojniczanka Chojnice
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/poland/">
+<strong>
+Poland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/poland/2-league-west/">
+2nd League:: west
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Bytovia Bytow
+</td>
+
+<td class="fs">
+
+<a href="/soccer/poland/2-league-west/bytovia-bytow-vs-ruch-zdzieszowice/1-1493527/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Ruch Zdzieszowice
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Odra Opole
+</td>
+
+<td class="fs">
+
+<a href="/soccer/poland/2-league-west/odra-opole-vs-ukp-zielona-gora/1-1493534/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+UKP Zielona Gora
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+TP Ostrovia 1909
+</td>
+
+<td class="fs">
+
+<a href="/soccer/poland/2-league-west/tp-ostrovia-1909-vs-rakow-czestochowa/1-1493535/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Rakow Czestochowa
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Warta Poznan
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+MKS Kluczbork
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/poland/">
+<strong>
+Poland
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/poland/2-league-east/">
+2nd League:: east
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Radomiak Radom
+</td>
+
+<td class="fs">
+
+<a href="/soccer/poland/2-league-east/radomiak-radom-vs-motor-lublin/1-1492144/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Motor Lublin
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+20&#x27;
+</td>
+
+<td class="fh">
+Siarka Tarnobrzeg
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+KS Legionovia Legionowo
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/serbia/">
+<strong>
+Serbia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/serbia/super-liga/">
+Super Liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Cukaricki
+</td>
+
+<td class="fs">
+
+<a href="/soccer/serbia/super-liga/cukaricki-vs-fk-spartak-subotica/1-1481780/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+FK Spartak Subotica
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+FK Sloboda Uzice
+</td>
+
+<td class="fs">
+
+<a href="/soccer/serbia/super-liga/fk-sloboda-uzice-vs-jagodina/1-1481775/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Jagodina
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Novi Pazar
+</td>
+
+<td class="fs">
+
+<a href="/soccer/serbia/super-liga/novi-pazar-vs-vozdovac/1-1481779/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Vozdovac
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Radnicki N.
+</td>
+
+<td class="fs">
+
+<a href="/soccer/serbia/super-liga/radnicki-n--vs-fk-donji-srem/1-1481778/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+FK Donji Srem
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/slovenia/">
+<strong>
+Slovenia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/slovenia/1-snl/">
+1. SNL
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+HT
+</td>
+
+<td class="fh">
+Domzale
+</td>
+
+<td class="fs">
+
+<a href="/soccer/slovenia/1-snl/domzale-vs-gorica/1-1488802/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Gorica
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/hungary/">
+<strong>
+Hungary
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/hungary/nb1/">
+OTP BANK Liga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Haladas
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Mezokovesd SE
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+MTK Budapest
+</td>
+
+<td class="fs">
+
+<a href="/soccer/hungary/nb1/mtk-budapest-vs-lombard/1-1609960/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Lombard
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/romania/">
+<strong>
+Romania
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/romania/liga-1/">
+Liga 1
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+90&#x27;
+</td>
+
+<td class="fh">
+Otelul Galati
+</td>
+
+<td class="fs">
+
+<a href="/soccer/romania/liga-1/otelul-galati-vs-afc-sageata-navodari/1-1572662/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+AFC Sageata Navodari
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/bulgaria/">
+<strong>
+Bulgaria
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/bulgaria/a-pfg/">
+A PFG
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Lokomotiv Sofia
+</td>
+
+<td class="fs">
+
+<a href="/soccer/bulgaria/a-pfg/lokomotiv-sofia-vs-neftochimic-1962/1-1674677/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Neftochimic 1962
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/belarus/">
+<strong>
+Belarus
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/belarus/premier/">
+Premier
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Neman Grodno
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Torpedo Zhodino
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+23&#x27;
+</td>
+
+<td class="fh">
+Shakhtyor Soligorsk
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Dnepr Mogilev
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/latvia/">
+<strong>
+Latvia
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/latvia/virsliga/">
+Virsliga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+22&#x27;
+</td>
+
+<td class="fh">
+FK Daugava Riga
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+FK Spartaks
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/lithuania/">
+<strong>
+Lithuania
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/lithuania/a-lyga/">
+A Lyga
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+68&#x27;
+</td>
+
+<td class="fh">
+Klaipedos Granitas
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Traku FK
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<a href="/soccer/moldova/">
+<strong>
+Moldova
+</strong>
+</a>
+-
+<span>
+<a href="/soccer/moldova/national-division/">
+National Division
+</a>
+</span>
+
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+<img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+67&#x27;
+</td>
+
+<td class="fh">
+Dacia Chisinau
+</td>
+
+<td class="fs">
+
+<a href="/soccer/moldova/national-division/dacia-chisinau-vs-fc-veris/1-1677398/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+<\/a>
+
+<\a href="/soccer/moldova/national-division/dacia-chisinau-vs-fc-veris/1-1677398/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/moldova/national-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/moldova/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/lithuania/a-lyga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/lithuania/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/latvia/virsliga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/latvia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/belarus/premier/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/belarus/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/bulgaria/a-pfg/lokomotiv-sofia-vs-neftochimic-1962/1-1674677/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/bulgaria/a-pfg/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/bulgaria/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/romania/liga-1/otelul-galati-vs-afc-sageata-navodari/1-1572662/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/romania/liga-1/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/romania/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/hungary/nb1/mtk-budapest-vs-lombard/1-1609960/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/hungary/nb1/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/hungary/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/slovenia/1-snl/domzale-vs-gorica/1-1488802/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/slovenia/1-snl/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/slovenia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/serbia/super-liga/radnicki-n--vs-fk-donji-srem/1-1481778/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/serbia/super-liga/novi-pazar-vs-vozdovac/1-1481779/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/serbia/super-liga/fk-sloboda-uzice-vs-jagodina/1-1481775/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/serbia/super-liga/cukaricki-vs-fk-spartak-subotica/1-1481780/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/serbia/super-liga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/serbia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-east/radomiak-radom-vs-motor-lublin/1-1492144/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-east/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/poland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-west/tp-ostrovia-1909-vs-rakow-czestochowa/1-1493535/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-west/odra-opole-vs-ukp-zielona-gora/1-1493534/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-west/bytovia-bytow-vs-ruch-zdzieszowice/1-1493527/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/poland/2-league-west/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/poland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/poland/1-liga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/poland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/poland/ekstraklasa-relegation/slask-wroclaw-vs-zaglebie-lubin/1-1690140/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/poland/ekstraklasa-relegation/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/poland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/russia/2-division-south/astrakhan-vs-chernomorets-n-/1-1544609/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/russia/2-division-south/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/russia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/russia/2-division-center/fc-metallurg-vyksa-vs-spartak-moscow-ii/1-1522078/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/russia/2-division-center/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/russia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/russia/premier-league/fc-krasnodar-vs-lok-moscow/1-1477642/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/russia/premier-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/russia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/slovakia/corgon-liga/trnava-vs-zilina/1-1472070/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/slovakia/corgon-liga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/slovakia/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/czech-republic/druha-liga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/czech-republic/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/czech-republic/gambrinus-liga/banik-ostrava-vs-dukla-praha/1-1484770/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/czech-republic/gambrinus-liga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/czech-republic/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/luxembourg/national-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/luxembourg/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/cyprus/1-division-phase-b-group-a/ael-limassol-vs-anorthosis/1-1680336/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/cyprus/1-division-phase-b-group-a/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/cyprus/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/warrenpoint-town-vs-ballinamallard-united/1-1680609/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/portadown-vs-glentoran/1-1680997/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/glenavon-vs-linfield/1-1680996/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/cliftonville-vs-crusaders/1-1694658/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/ballymena-united-vs-ards/1-1680607/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/premier-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/northern-ireland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/wales/premier-league/port-talbot-vs-bala-town/1-1656496/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/wales/premier-league/newtown-vs-airbus-uk-broughton/1-1656554/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/wales/premier-league/bangor-city-vs-rhyl/1-1664444/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/wales/premier-league/afan-lido-vs-connahs-quay/1-1656550/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/wales/premier-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/wales/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/ireland/fai-cup/avondale-united-vs-carrigaline-united/1-1685708/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/ireland/fai-cup/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/ireland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/turkey/super-lig/trabzonspor-vs-gaziantepspor/1-1517749/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/turkey/super-lig/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/turkey/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/switzerland/challenge-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/switzerland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/austria/bundesliga/ried-vs-adm-modling/1-1480536/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/austria/bundesliga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/austria/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/finland/veikkausliga/helsinki-vs-turku-ps/1-1649209/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/finland/veikkausliga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/finland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/sweden/superettan/varbergs-bois-fc-vs-landskrona/1-1629792/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/sweden/superettan/husqvarna-ff-vs-gais/1-1629791/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/sweden/superettan/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/sweden/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/denmark/sas-ligaen/ob-vs-aab/1-1457264/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/denmark/sas-ligaen/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/denmark/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/queens-park-vs-berwick-rangers/1-1475311/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/peterhead-vs-stirling-albion/1-1475310/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/montrose-vs-annan-athletic/1-1475309/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/elgin-city-vs-east-stirlingshire/1-1475307/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/clyde-vs-albion-rovers/1-1475306/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/scotland/3-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/scotland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/2-division/stenhousemuir-vs-airdrieonians/1-1474881/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/2-division/forfar-athletic-vs-ayr-united/1-1474879/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/2-division/east-fife-vs-brechin-city/1-1474878/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/2-division/arbroath-vs-dunfermline-athletic/1-1474877/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/scotland/2-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/scotland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/raith-rovers-vs-cowdenbeath/1-1476875/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/queen-of-south-vs-livingston/1-1476874/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/morton-vs-falkirk/1-1476873/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/dumbarton-vs-hamilton-academical/1-1476872/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/alloa-athletic-vs-dundee-fc/1-1476871/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/scotland/1-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/scotland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/premier-league/ross-county-vs-kilmarnock/1-1686212/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/premier-league/dundee-united-vs-motherwell/1-1686211/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/scotland/premier-league/aberdeen-vs-st-johnstone/1-1686210/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/scotland/premier-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/scotland/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/portugal/liga-de-honra/benfica-b-vs-farense/1-1499125/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/portugal/liga-de-honra/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/portugal/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/france/ligue-1/ajaccio-vs-monaco/1-1468549/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/france/ligue-1/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/france/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/wolfsburg-vs-freiburg/1-1479280/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/mainz-05-vs-nurnberg/1-1479282/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/hoffenheim-vs-eintracht-frankfurt/1-1479281/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/hertha-berlin-vs-braunschweig/1-1479284/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/bayern-munich-vs-werder-bremen/1-1479276/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/germany/bundesliga/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/germany/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/spain/primera-division/granada-vs-rayo-vallecano/1-1506157/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/spain/primera-division/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/spain/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/whitehawk-vs-sutton-united/1-1496158/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/weston-super-mare-vs-chelmsford/1-1496157/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/staines-town-vs-basingstoke/1-1496155/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/hayes-yeading-united-vs-dover/1-1496154/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/gosport-borough-vs-bromley/1-1496153/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/farnborough-vs-eastbourne-borough/1-1496152/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/ebbsfleet-united-vs-dorchester-town/1-1496151/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/eastleigh-vs-boreham-wood/1-1496150/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/bishop-stortford-vs-maidenhead-u/1-1496148/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/worcester-vs-boston-utd-/1-1495702/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/vauxhall-motors-vs-solihull-moors/1-1495701/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/telford-vs-gainsborough/1-1495692/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/stockport-vs-harrogate/1-1495700/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/stalybridge-vs-workington/1-1495699/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/oxford-city-vs-bradford-pa/1-1495698/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/north-ferriby-united-vs-brackley-town/1-1495697/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/leamington-vs-colwyn-bay/1-1495696/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/histon-vs-altrincham/1-1495695/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/guiseley-vs-gloucester-city/1-1495694/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/barrow-vs-hednesford/1-1495693/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/york-city-vs-newport-county/1-1476246/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/wycombe-wanderers-vs-bristol-rovers/1-1476251/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/rochdale-vs-cheltenham-town/1-1476245/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/plymouth-argyle-vs-hartlepool-united/1-1476248/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/oxford-united-vs-accrington-stanley/1-1476254/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/mansfield-town-vs-torquay-united/1-1476247/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/fleetwood-town-vs-southend-united/1-1476252/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/exeter-city-vs-scunthorpe-united/1-1476253/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/dagenham-redbridge-vs-northampton-town/1-1476250/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/bury-vs-portsmouth/1-1476256/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/afc-wimbledon-vs-morecambe/1-1476255/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/stevenage-vs-walsall/1-1476679/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/shrewsbury-town-vs-peterborough-united/1-1476689/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/rotherham-united-vs-milton-keynes-dons/1-1476687/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/preston-north-end-vs-gillingham/1-1476682/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/notts-county-vs-swindon-town/1-1476690/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/leyton-orient-vs-tranmere-rovers/1-1476685/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/coventry-city-vs-wolverhampton-wanderers/1-1476688/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/colchester-united-vs-brentford/1-1476684/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/carlisle-united-vs-oldham-athletic/1-1476680/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/bristol-city-vs-crewe-alexandra/1-1476686/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/bradford-city-vs-crawley-town/1-1476683/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/wigan-athletic-vs-blackpool/1-1475792/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/sheffield-wednesday-vs-bolton-wanderers/1-1475785/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/queens-park-rangers-vs-millwall/1-1475790/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/middlesbrough-vs-barnsley/1-1475791/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/huddersfield-town-vs-leicester-city/1-1475789/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/doncaster-rovers-vs-reading/1-1475787/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/derby-county-vs-watford/1-1475793/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/charlton-athletic-vs-blackburn-rovers/1-1475788/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/birmingham-city-vs-leeds-united/1-1475796/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/afc-bournemouth-vs-nottingham-forest/1-1475786/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/burnley-vs-ipswich-town/1-1475795/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/championship/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/manchester-united-vs-norwich-city/1-1475091/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/west-bromwich-albion-vs-west-ham-united/1-1475097/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/swansea-city-vs-aston-villa/1-1475096/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/stoke-city-vs-tottenham-hotspur/1-1475093/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/fulham-vs-hull-city/1-1475089/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\img src="http://cdn3.livescore.com/web/img/flash.gif" alt="live"/>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/southampton-vs-everton/1-1475092/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/">
+
+<\span>
+
+<\/a>
+
+<\/strong>
+
+<\strong>
+
+<\a href="/soccer/england/">
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/div>
+
+<\/div>
+
+<\/div>
+
+<\div class="clear" style="height:0">
+
+<\/a>
+
+<\a class="last " href="/soccer/2014-04-29/">
+
+<\/a>
+
+<\a href="/soccer/2014-04-28/">
+
+<\/a>
+
+<\a href="/soccer/2014-04-27/">
+
+<\/a>
+
+<\a class="today " href="/soccer/2014-04-26/">
+
+<\/a>
+
+<\a href="/soccer/2014-04-25/">
+
+<\/a>
+
+<\a href="/soccer/2014-04-24/">
+
+<\/a>
+
+<\a href="/soccer/2014-04-23/">
+
+<\div class="cal">
+
+<\div class="cal-wrap">
+
+<\div class="content">
+
+<\/div>
+
+<\/ul>
+
+<\/li>
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/zimbabwe/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/zambia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uganda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/togo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tanzania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/swaziland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sudan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sierra-leone/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/senegal/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/rwanda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ivory-coast/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/nigeria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/namibia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mozambique/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mauritius/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mali/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malawi/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/madagascar/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/libya/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/liberia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lesotho/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/yemen/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guinea/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ghana/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/gambia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/gabon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/congo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/dr-congo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cape-verde/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cameroon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/burkina-faso/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/botswana/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/benin/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/angola/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/vanuatu/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tahiti/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/solomon-islands/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/fiji/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/oceania/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uzbekistan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/taiwan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/united-arab-emirates/" class="cat" title="United Arab Emirates">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/syria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/saudi-arabia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/qatar/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/pakistan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/palestine/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/oman/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malaysia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lebanon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/jordan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iraq/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/indonesia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/india/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/hong-kong/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bahrain/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/trinidad-and-tobago/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/saint-kitts-and-nevis/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/puerto-rico/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/panama/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/martinique/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/nicaragua/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/jamaica/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/haiti/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guadeloupe/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/grenada/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cuba/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/canada/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bermuda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/barbados/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/antigua-and-barbuda/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/san-marino/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malta/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/faroe-islands/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/andorra/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/albania/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/a>
+
+<\a href="/soccer/more/" class="cat" data-type="submenu">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tunisia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/south-africa/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/morocco/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kenya/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/egypt/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/algeria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/africa-cup-of-nations/" class="cat" title="Africa Cup of Nations">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/africa/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/new-zealand/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/australia/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iran/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kuwait/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kazakhstan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/georgia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/azerbaijan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/armenia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/vietnam/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/thailand/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/singapore/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/korea-republic/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/japan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/china/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/asia/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/honduras/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guatemala/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/el-salvador/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/costa-rica/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/usa/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mexico/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/concacaf/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/venezuela/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uruguay/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/peru/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/paraguay/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ecuador/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/colombia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/chile/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/brazil/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bolivia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/argentina/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/south-america/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ukraine/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/slovenia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/slovakia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/serbia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/russia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/romania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/poland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/montenegro/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/moldova/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/macedonia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lithuania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/latvia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/israel/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/hungary/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/estonia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/czech-republic/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/croatia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bulgaria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bosnia/" class="cat" title="Bosnia and Herzegovina">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/belarus/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/wales/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/turkey/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/switzerland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sweden/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/norway/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/luxembourg/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ireland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iceland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/greece/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/finland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/denmark/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cyprus/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/austria/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=24&amp;pos=122" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-women/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-17/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-19/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-21/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/world-cup-u17/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/world-cup-u20/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=125" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/scotland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/portugal/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/belgium/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/holland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/france/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/germany/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/spain/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/italy/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=124" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/intl/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/confederations-cup/" class="cat" title="Confederations Cup">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/worldcup2014/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/europa-league/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/champions-league/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/live/">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/" class="selected">
+
+<\li>
+
+<\ul class="buttons">
+
+<\div class="left-bar">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=126" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowTransparency="true" width="468" height="60">
+
+<\div class="big-add">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=123" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="top-add left">
+
+<\div class="bb">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\/p>
+
+<\/a>
+
+<\a href="http://www.livescores.com/">
+
+<\p>
+
+<\/h2>
+
+<\h2>
+
+<\/h1>
+
+<\h1>
+
+<\td>
+
+<\tr>
+
+<\table class="tagline right">
+
+<\/a>
+
+<\img src="http://cdn3.livescore.com/web/img/logo-fb-narrow.jpg" class="left" alt="LiveScore Soccer / Football" title="LiveScore Soccer / Football" width="465" height="68"/>
+
+<\a href="/">
+
+<\div class="header bb">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/contact/" title="Contact Us" class=" m10">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/mobile/" title="Mobile" class=" m9">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/android/" title="Android" class=" m8">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/iphone/" title="iPhone" class=" m7">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/cricket/" title="Cricket" class=" m6">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/tennis/" title="Tennis" class=" m5">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/basketball/" title="Basketball" class=" m4">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/hockey/" title="Hockey" class=" m3">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/worldcup/" title="World Cup" class=" m2">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/" title="Soccer" class="selected m1">
+
+<\li class="first">
+
+<\ul>
+
+<\div class="nav bb">
+
+<\div class="wrapper">
+
+<\body class="soccer narrow">
+
+<\/head>
+
+<\/style>
+
+<\style>
+
+<\/script>
+
+<\script>
+
+<\/script>
+
+<\script src="http://cdn1.livescore.com/web/js/custom_v1.1.1.js" type="text/javascript">
+
+<\link rel="stylesheet" media="screen" href="http://cdn1.livescore.com/web/css/main_v1.0.22.css">
+
+<\link rel="shortcut icon" type="image/png" href="http://cdn3.livescore.com/web/img/favicon.png">
+
+<\meta name="keywords" content="livescore, live scores, soccer, football"/>
+
+<\meta name="description" content="Soccer LiveScore - Soccer Live Scores, the First live score site on the Internet, powered by LiveScore.com since 1998. Live Soccer from all around the World."/>
+
+<\meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+<\/title>
+
+<\title>
+
+<\head>
+
+<\html>
+
+finish printing

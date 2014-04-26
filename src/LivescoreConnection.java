@@ -157,6 +157,7 @@ public class LivescoreConnection {
 		}
 		ArrayList<TournamentWithMatches> listTwms = AllMatches.groupByTournaments(matches);
 		writeMatchInfosIntoFile(listTwms);
+		
 		AllGoingMatches.changesToGoingMatches(matches);
 		rd.close();
 	}
@@ -187,74 +188,7 @@ public class LivescoreConnection {
 		pw.flush();
 		pw.close();
 	}
-	
-	public static void holdTestForParsedHtmlText(){
-		System.out.println(Arrays.toString(ParseUtils.returnParsedStringArray(getHtmlFake())));
-	}
-	
-	public static void holdTestForHtmlNodeParsing() throws Exception {
-		String htmlPage = getHtml(LIVESCORE_URL);
-		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
-		PrintWriter out = new PrintWriter(new FileWriter("console"));
-		for(int i=0; i<nodeList.size(); i++){
-			out.println(nodeList.get(i));
-		}
-		out.flush();
-		out.close();
-	}
-	
-	public static void holdTestForHtmlNodeParsingFake() throws Exception {
-		String htmlPage = getHtmlFake();
-		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
-		PrintWriter out = new PrintWriter(new FileWriter("console"));
-		for(int i=0; i<nodeList.size(); i++){
-			out.println(nodeList.get(i));
-		}
-		out.flush();
-		out.close();
-	}
-	
-	public static String getHtmlFake(){
-		StringBuilder sb = new StringBuilder();
-		try {
-		    BufferedReader rd = new BufferedReader(new FileReader("html"));
-		    boolean first = true;
-		    while(true){
-		    	String line = rd.readLine();
-		    	if(line==null) break;
-		    	if(first){
-		    		sb.append(line);
-		    	}
-		    	else{
-		    		sb.append("\n "+line);
-		    	}
-		    	first = false;
-		    }
-		    rd.close();
-		} 
-		catch (MalformedURLException e) { 
-			System.out.println("malformedUrlException");
-		} 
-		catch (IOException e) {   
-			System.out.println("ioexception");
-		}
-		return sb.toString();
-	}
-	
-	public static void printFetchedHtml() throws Exception {
-		System.out.println(getHtml(LIVESCORE_URL));
-	}
-	
-	public static void printFetchedHtmlFake(){
-		System.out.println(getHtmlFake());
-	}
-	
-	public static void holdTestForCorrectHtml() throws Exception {
-		String htmlText = getHtml(LIVESCORE_URL);
-		boolean correctHtml = ParseUtils.isCorrectHtmlPage(htmlText);
-		System.out.println(correctHtml ? "Correct Html format" : "Incorrect Html format");
-	}
-	
+			
 	public static String getHtml(String url) throws Exception {
 		StringBuilder sb = new StringBuilder();
 		try {

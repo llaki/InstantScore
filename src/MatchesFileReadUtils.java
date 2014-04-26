@@ -2,22 +2,8 @@ import java.io.*;
 import java.util.*;
 
 public class MatchesFileReadUtils {
-	public static void main(String[] args) throws IOException {
-		oldList = readMatchInfosFromFile("D:\\eclipse_enterprise\\oldScores");
-		newList = readMatchInfosFromFile("D:\\eclipse_enterprise\\newScores");
-		System.out.println(oldList);
-		System.out.println(newList);
-	}
-	
+
 	public static ArrayList<MatchInfo> oldList, newList;
-	
-	public static void fakeUpdateViaMatchList() throws Exception {
-		AllGoingMatches.changesToGoingMatches(readMatchInfosFromFile("D:\\eclipse_enterprise\\oldScores"));		
-	}
-	
-	public static void fakeUpdateViaNewList() throws Exception {
-		AllGoingMatches.changesToGoingMatches(readMatchInfosFromFile("D:\\eclipse_enterprise\\newScores"));		
-	}
 	
 	public static ArrayList<MatchInfo> readMatchInfosFromFile(String fileName) throws IOException {
 		ArrayList<MatchInfo> list = new ArrayList<MatchInfo>();

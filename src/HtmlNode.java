@@ -107,8 +107,7 @@ public class HtmlNode {
 		}
 		StringBuilder sb = new StringBuilder();
 		sb.append("<"+getTagName()+">\n");
-	//	sb.append("Inside part of the tag... \n");
-		for(int i=0; i<childNodes.size(); i++){
+	 	for(int i=0; i<childNodes.size(); i++){
 			HtmlNode childNode = childNodes.get(i);
 			sb.append(childNode.toString()+"\n");
 		}
