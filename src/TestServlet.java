@@ -33,7 +33,7 @@ public class TestServlet extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter writer = response.getWriter();
 		
-		BufferedReader br = new BufferedReader(new FileReader("/usr/share/tomcat7/scores"));
+		BufferedReader br = new BufferedReader(new FileReader("scores"));
 		String str;
 		while((str = br.readLine()) != null){
 			writer.println(str);
