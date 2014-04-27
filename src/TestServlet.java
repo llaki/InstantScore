@@ -46,24 +46,28 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String str = request.getParameter("data");
+		System.out.println("aexla mogetynat...");
+		String data = request.getParameter("data");
+		String phoneNum = request.getParameter("phonenum");
+		String securityCode = request.getParameter("securitycode");
 		// Security Code Request for: +995598374203
-		if(str.startsWith("Security Code Request for")){
-			int index = str.indexOf(":");
-			String phoneNumber = (index==-1 || index==str.length()-1 ? "" : str.substring(index+1));
-			while(phoneNumber.length()>0 && phoneNumber.charAt(0)==' '){
-				phoneNumber = phoneNumber.substring(1);
-			}
-			if(phoneNumber.length()>0){
-				String genCode = CodeGenerator.generateCodeForPhoneNumber(phoneNumber);
-				CodeGenerator.writeIntoFile(phoneNumber, genCode);
-				CodeGenerator.sendSecurityCodeToUser(phoneNumber, genCode);
-			}
-			return;
-		}
+//		if(str.startsWith("Security Code Request for")){
+//			int index = str.indexOf(":");
+//			String phoneNumber = (index==-1 || index==str.length()-1 ? "" : str.substring(index+1));
+//			while(phoneNumber.length()>0 && phoneNumber.charAt(0)==' '){
+//				phoneNumber = phoneNumber.substring(1);
+//			}
+//			if(phoneNumber.length()>0){
+//				String genCode = CodeGenerator.generateCodeForPhoneNumber(phoneNumber);
+//				CodeGenerator.writeIntoFile(phoneNumber, genCode);
+//				CodeGenerator.sendSecurityCodeToUser(phoneNumber, genCode);
+//			}
+//			return;
+//		}
 		// New matches subscription case
-		Request req = new Request(str);
-		System.out.println(req.getPhoneNumber()+" \n"+req.getMatchIds());
+		System.out.println("request ");
+		Request req = new Request(data, phoneNum, securityCode);
+		System.out.println("CHECK:"+req.getPhoneNumber()+" \n"+req.getMatchIds());
 	}
 
 }

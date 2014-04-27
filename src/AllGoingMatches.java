@@ -27,7 +27,7 @@ public class AllGoingMatches {
 	}
 	
 	private static String makeKeyFromMatch(MatchInfo match){
-		return match.getHomeTeam()+" vs "+match.getAwayTeam();
+		return match.getHomeTeam()+" VS "+match.getAwayTeam();
 	}
 	
 	

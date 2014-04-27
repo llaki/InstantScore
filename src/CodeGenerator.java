@@ -28,7 +28,7 @@ public class CodeGenerator {
 		System.out.println("Sending security code "+generatedCode+" to the user "+phoneNumber+"...");
 		Twilio twillioClient = new Twilio();
 		try {
-			twillioClient.send(phoneNumber, "Your security code is \\"+generatedCode+"\\ (without quotes). \n Thanks for using InstantScore!");
+			twillioClient.send(phoneNumber, "Your security code is "+generatedCode+". \n Thanks for using InstantScore!");
 		} catch (TwilioRestException e) {
 			e.printStackTrace();
 		}
@@ -91,7 +91,7 @@ public class CodeGenerator {
 	
 	private static java.util.Random rgen = new java.util.Random();
 
-	private static final int CODE_LENGTH = 8;
+	private static final int CODE_LENGTH = 5;
 
 	private static final String CODES_FILE_NAME = "codes"; // TODO change the filename to a path of the file on AWS
 
