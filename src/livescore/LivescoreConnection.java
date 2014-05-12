@@ -1,5 +1,6 @@
 package livescore;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,17 +19,20 @@ import parseutils.HtmlNode;
 import parseutils.ParseUtils;
 
 public class LivescoreConnection {
-	public static void main(String[] args) throws Exception {
-		while(true){
-			//System.out.println("new refresh...");
-			refreshURLAndWriteIntoFile();
-			getMatchInfosFromLivescore();
-		}
+	
+	private String url, filename;
+	
+	private boolean allMatches = false;
+
+	public LivescoreConnection(String url, String filename, boolean allMatches) {
+		this.url = url;
+		this.filename = filename;
+		this.allMatches = allMatches;
 	}
 	
-	public static void refreshURLAndWriteIntoFile() throws Exception {
+	public void refreshURLAndWriteIntoFile() throws Exception {
 		//System.out.println("writing...");
-		String htmlPage = getHtml(LIVESCORE_URL);
+		String htmlPage = getHtml(url);
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
 		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
@@ -41,7 +45,7 @@ public class LivescoreConnection {
 		out.close();
 	}
 	
-	public static void getMatchInfosFromLivescore() throws Exception {
+	public void getMatchInfosFromLivescore() throws Exception {
 		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
@@ -161,7 +165,11 @@ public class LivescoreConnection {
 						break;
 					}
 					matchBuilder.setAwayTeam(awayTeam);
-					matches.add(matchBuilder.toMatchInfo());
+					MatchInfo matchInfo = matchBuilder.toMatchInfo();
+					if(!allMatches && matchInfo.isAlreadyGoingOrFinished()){
+						continue; // this is the case when we are searching for the future matches and the current has already started
+					}
+					matches.add(matchInfo);
 				}
 			}
 		}
@@ -172,9 +180,8 @@ public class LivescoreConnection {
 		rd.close();
 	}
 	
-	public static void writeMatchInfosIntoFile(ArrayList<TournamentWithMatches> list) throws Exception {
-		//System.out.println("scores");
-		PrintWriter pw = new PrintWriter(new FileWriter("scores"));
+	public void writeMatchInfosIntoFile(ArrayList<TournamentWithMatches> list) throws Exception {
+		PrintWriter pw = new PrintWriter(new FileWriter(filename));
 		int numTournaments = list.size();
 		pw.println(numTournaments);
 		for(int tourn=0; tourn<numTournaments; tourn++){
@@ -195,6 +202,7 @@ public class LivescoreConnection {
 				pw.println(info.getAwayTeam());
 			}
 		}
+		System.out.println("written inside file : "+filename);
 		pw.flush();
 		pw.close();
 	}
@@ -227,7 +235,15 @@ public class LivescoreConnection {
 		}
 		return sb.toString();
 	}
-	
-	static final String LIVESCORE_URL = "http://www.livescore.com";
+
+	public static void main(String[] args) throws Exception {
+		// basic test here ...
+		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/England", "scores", true);
+		while(true){
+			//System.out.println("new refresh...");
+			livescoreCon.refreshURLAndWriteIntoFile();
+			livescoreCon.getMatchInfosFromLivescore();
+		}
+	}
 	
 }

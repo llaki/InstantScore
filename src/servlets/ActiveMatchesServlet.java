@@ -17,15 +17,15 @@ import request.Request;
 /**
  * Servlet implementation class TestServlet
  */
-@WebServlet("/TestServlet")
-public class TestServlet extends HttpServlet {
+@WebServlet("/ActiveMatchesServlet")
+public class ActiveMatchesServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @throws Exception 
      * @see HttpServlet#HttpServlet()
      */
-    public TestServlet() throws Exception {
+    public ActiveMatchesServlet() throws Exception {
         super();
     }
 
@@ -35,14 +35,17 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter writer = response.getWriter();
-		
-		BufferedReader br = new BufferedReader(new FileReader("scores"));
-		String str;
-		while((str = br.readLine()) != null){
-			writer.println(str);
+		String[] fileNames = new String[]{"scores.Live"};
+		for(String filename : fileNames) {
+			BufferedReader br = new BufferedReader(new FileReader(filename));
+			String str;
+			while((str = br.readLine()) != null){
+				writer.println(str);
+			}
+			br.close();
 		}
 		writer.flush();
-		br.close();
+		
 	}
 
 	/**

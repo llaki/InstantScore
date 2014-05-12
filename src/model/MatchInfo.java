@@ -76,6 +76,13 @@ public class MatchInfo {
 		return score;
 	}
 	
+	public boolean isAlreadyGoingOrFinished(){
+		for(char ch='0'; ch<='9'; ch++) {
+			if(score.toString().indexOf(ch)!=-1) return true;
+		}
+		return false;
+	}
+	
 	public Tournament getTournament(){
 		return tournament;
 	}
