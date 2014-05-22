@@ -52,19 +52,17 @@ public class MessageGenerator {
 		if(update.hasEndedMatch()){
 			sb.append("The match has finished! \n");
 		}
-		if(update.extraTimeFinished() ){
+		if(update.extraTimeFinished() && !update.hasFinishedInPenalties()){
 			sb.append("The match has finished in extra time! \n");
 		}
 		if(update.extraTimeStarted()){
 			sb.append("Extra time has been started! \n");
 		}
 		if(update.hasFinishedInPenalties()){
-			if(update.firstTeamWonInPenalties()) {
-				sb.append(update.getCurrentMatchInfo().getHomeTeam().toString()+" has won in penalty shoot-outs!");
-			}
-			else {
-				sb.append(update.getCurrentMatchInfo().getAwayTeam().toString()+" has won in penalty shoot-outs!");
-			}
+			sb.append((update.firstTeamWonInPenalties() ? update.getCurrentMatchInfo().getHomeTeam().toString() :
+					update.getCurrentMatchInfo().getAwayTeam())
+					+" has won in penalty shoot-outs!");
+			
 		}
 		return sb.toString();
 	}
