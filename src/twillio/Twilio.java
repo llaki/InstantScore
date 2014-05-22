@@ -9,7 +9,6 @@ import org.apache.http.message.BasicNameValuePair;
 import com.twilio.sdk.TwilioRestClient;
 import com.twilio.sdk.TwilioRestException;
 import com.twilio.sdk.resource.factory.MessageFactory;
-import com.twilio.sdk.resource.instance.Message;
 
 public class Twilio {
 	// Find your Account Sid and Token at twilio.com/user/account

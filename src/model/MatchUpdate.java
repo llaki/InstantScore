@@ -71,13 +71,11 @@ public class MatchUpdate {
 	}
 	
 	public boolean hasFinishedInPenalties(){
-		//TODO write real implementation
-		return false;
+		return bitmaskContainsBit(updateStatus, HOME_WON_PENALTIES) || bitmaskContainsBit(updateStatus, AWAY_WON_IN_PENALTIES);
 	}
 	
 	public boolean firstTeamWonInPenalties(){
-		// TODO write real implementation
-		return true;
+		return bitmaskContainsBit(updateStatus, HOME_WON_PENALTIES);
 	}
 	
 	public static MatchUpdate matchHasBeenUpdated(MatchInfo old, MatchInfo current){
@@ -125,6 +123,9 @@ public class MatchUpdate {
 				update = (update | (1<<EXTRA_TIME_STARTED));
 			}
 		}
+		if(!old.finishedInPenalties() && current.finishedInPenalties()){
+			update = (update | (1<<(current.firstTeamWonInPenalties() ? HOME_WON_PENALTIES : AWAY_WON_IN_PENALTIES)));
+		}
 		int oldGoalsFirst = (oldStarted ? oldScore.getFirstScored() : 0), oldGoalsSecond = (oldStarted ? oldScore.getSecondScored() : 0);
 		int currentGoalsFirst = (currentStarted ? currentScore.getFirstScored() : 0),
 				currentGoalSecond = (currentStarted ? currentScore.getSecondScored() : 0);
@@ -139,6 +140,7 @@ public class MatchUpdate {
 	}
 	
 	public static final int MATCH_STARTED = 1, MATCH_FINISHED = 2, HALF_TIME_OVER = 4, FIRST_TEAM_SCORED = 5, SECOND_TEAM_SCORED = 6,
-			POSTPONED = 7, ABANDONED = 8,	NO_UPDATE = 0, FINISHED_EXTRA_TIME = 9, EXTRA_TIME_STARTED = 10;
+			POSTPONED = 7, ABANDONED = 8,	NO_UPDATE = 0, FINISHED_EXTRA_TIME = 9, EXTRA_TIME_STARTED = 10, HOME_WON_PENALTIES = 11,
+			AWAY_WON_IN_PENALTIES = 12;
 	
 }

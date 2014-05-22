@@ -16,6 +16,8 @@ public class MatchInfo {
 	
 	private Time timeStatus;
 	
+	private boolean endedInPenalties = false, firstTeamWonInPenalties = false;
+	
 	public static void copyUsers(MatchInfo from, MatchInfo to){
 		to.setInterestedUsersSet(from.getSetOfUsers());
 	}
@@ -49,7 +51,8 @@ public class MatchInfo {
 		System.out.println("added user "+getId());
 	}
 	
-	public MatchInfo(Team homeTeam, Team awayTeam, Score matchScore, Date date, Tournament tournament, Time timeStatus){
+	public MatchInfo(Team homeTeam, Team awayTeam, Score matchScore, Date date, Tournament tournament, Time timeStatus,
+			boolean endedInPenalties, boolean firstTeamWonInPenalties){
 		home = homeTeam;
 		away = awayTeam;
 		score = matchScore;
@@ -58,10 +61,12 @@ public class MatchInfo {
 		this.date = date;
 		this.tournament = tournament;
 		this.timeStatus = timeStatus;
+		this.endedInPenalties = endedInPenalties;
+		this.firstTeamWonInPenalties = firstTeamWonInPenalties;
 	}
 	
 	public static MatchInfo returnEmptyMatchInfo(){
-		return new MatchInfo(new Team(""), new Team(""), new Score(""), new Date(""), new Tournament(""), new Time(""));
+		return new MatchInfo(new Team(""), new Team(""), new Score(""), new Date(""), new Tournament(""), new Time(""), false, false);
 	}
 	
 	public Team getHomeTeam(){
@@ -93,6 +98,14 @@ public class MatchInfo {
 	
 	public Time getTimeStatus(){
 		return timeStatus;
+	}
+	
+	public boolean firstTeamWonInPenalties() {
+		return firstTeamWonInPenalties;
+	}
+	
+	public boolean finishedInPenalties() {
+		return endedInPenalties;
 	}
 
 	@Override

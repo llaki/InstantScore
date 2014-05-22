@@ -13,6 +13,8 @@ public class MatchInfoBuilder {
 	
 	private Tournament tournament;
 	
+	private boolean endedInPenalties = false, firstWonInPenalties = false;
+	
 	/**
 	 * Empty constructor here
 	 */
@@ -45,7 +47,12 @@ public class MatchInfoBuilder {
 	}
 	
 	public MatchInfo toMatchInfo(){
-		return new MatchInfo(home, away, score, date, tournament, timeStatus);
+		return new MatchInfo(home, away, score, date, tournament, timeStatus, endedInPenalties, firstWonInPenalties);
+	}
+	
+	public void setPenaltiesCase(boolean firstWon){
+		endedInPenalties = true;
+		firstWonInPenalties = firstWon;
 	}
 	
 }

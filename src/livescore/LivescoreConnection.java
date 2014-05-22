@@ -237,8 +237,10 @@ public class LivescoreConnection {
 	}
 
 	public static void main(String[] args) throws Exception {
+		
+		
 		// basic test here ...
-		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/England", "scores", true);
+		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/soccer/europa-league/", "scores", true);
 		while(true){
 			//System.out.println("new refresh...");
 			livescoreCon.refreshURLAndWriteIntoFile();

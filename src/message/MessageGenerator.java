@@ -11,9 +11,9 @@ import model.Tournament;
 public class MessageGenerator {
 	public static void main(String[] args) {
 		MatchInfo m1 = new MatchInfo(new Team("A"), new Team("B"), new Score("0-0"), new Date("2 Dec"), 
-				new Tournament("Champ"), new Time("19:23"));
+				new Tournament("Champ"), new Time("19:23"), false, false);
 		MatchInfo m2 = new MatchInfo(new Team("A"), new Team("B"), new Score("2-0"), new Date("2 Dec"), 
-				new Tournament("Champ"), new Time("4"));
+				new Tournament("Champ"), new Time("4"), true, false);
 		System.out.println(generateMessageTextViaUpdate(MatchUpdate.matchHasBeenUpdated(m1, m2)));
 	}
 	
@@ -52,16 +52,19 @@ public class MessageGenerator {
 		if(update.hasEndedMatch()){
 			sb.append("The match has finished! \n");
 		}
-		if(update.extraTimeFinished()){
+		if(update.extraTimeFinished() ){
 			sb.append("The match has finished in extra time! \n");
 		}
 		if(update.extraTimeStarted()){
 			sb.append("Extra time has been started! \n");
 		}
-		// TODO
-		// handle the penalty shoot-out case here
 		if(update.hasFinishedInPenalties()){
-			// TODO write implementation of this case
+			if(update.firstTeamWonInPenalties()) {
+				sb.append(update.getCurrentMatchInfo().getHomeTeam().toString()+" has won in penalty shoot-outs!");
+			}
+			else {
+				sb.append(update.getCurrentMatchInfo().getAwayTeam().toString()+" has won in penalty shoot-outs!");
+			}
 		}
 		return sb.toString();
 	}
