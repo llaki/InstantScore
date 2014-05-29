@@ -48,7 +48,6 @@ public class MatchInfo {
 	
 	public void addInterestedUser(User u){
 		setInterestedUsers.add(u);
-		System.out.println("added user "+getId());
 	}
 	
 	public MatchInfo(Team homeTeam, Team awayTeam, Score matchScore, Date date, Tournament tournament, Time timeStatus,

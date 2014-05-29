@@ -19,7 +19,6 @@ public class MatchInfoBuilder {
 	 * Empty constructor here
 	 */
 	public MatchInfoBuilder(){
-		
 	}
 	
 	public void setHomeTeam(String hostTeamName){

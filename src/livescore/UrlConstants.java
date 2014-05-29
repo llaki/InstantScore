@@ -39,10 +39,10 @@ public class UrlConstants {
 //		new CountryUrl("Latvia", makeStandartUrlFromCountry("Latvia")),
 //		new CountryUrl("Lithuania", makeStandartUrlFromCountry("Lithuania")),
 //		new CountryUrl("Moldova", makeStandartUrlFromCountry("Moldova")),
-//		new CountryUrl("Russia", makeStandartUrlFromCountry("Russia")),
+		new CountryUrl("Russia", makeStandartUrlFromCountry("Russia")),
 //		new CountryUrl("Argentina", makeStandartUrlFromCountry("Argentina")),
-//		new CountryUrl("CONCACAF", makeStandartUrlFromCountry("concacaf")),
-//		new CountryUrl("Asia", makeStandartUrlFromCountry("Asia")),
+		new CountryUrl("CONCACAF", makeStandartUrlFromCountry("concacaf")),
+		new CountryUrl("Asia", makeStandartUrlFromCountry("Asia")),
 //		new CountryUrl("Georgia", makeStandartUrlFromCountry("Georgia")),
 	}; 
 	

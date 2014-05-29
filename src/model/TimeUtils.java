@@ -19,10 +19,15 @@ public class TimeUtils {
 	
 	public static boolean isFirstHalfGoing(Time time){
 		String timeString = time.getTime();
-		for(int i=0; i<timeString.length(); i++)
-			if(!Character.isDigit(timeString.charAt(i)))
+		if(timeString==null) {
+			return false;
+		}
+		for(int i=0; i<timeString.length(); i++) {
+			if(!Character.isDigit(timeString.charAt(i))) {
 				return false;
-		return Integer.parseInt(timeString)<=45;
+			}
+		}
+		return Integer.parseInt(timeString) <= FIRST_HALF_DURATION;
 	}
 	
 	public static boolean isSecondHalfGoing(Time time){
@@ -40,6 +45,7 @@ public class TimeUtils {
 	
 	private static int getMinutes(String timeString){
 		int index = timeString.indexOf(":");
+		if(index==-1) return 0;
 		int hours = Integer.parseInt(timeString.substring(0, index)), minutes = Integer.parseInt(timeString.substring(index+1));
 		return 60*hours+minutes;
 	}
@@ -56,5 +62,7 @@ public class TimeUtils {
 	public static boolean isFullTimeEnded(Time time){
 		return time.getTime().equals("FT");
 	}
+	
+	public static final int FIRST_HALF_DURATION = 45;
 	
 }

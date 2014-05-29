@@ -1,6 +1,7 @@
 package securitycode;
 import java.io.*;
 import java.util.HashMap;
+import java.util.StringTokenizer;
 
 import twillio.Twilio;
 
@@ -53,18 +54,12 @@ public class CodeGenerator {
 	}
 
 	/**
-	 * Returns arbitrarily chosen character which is one of [0-9], [a-z], [A-Z].
-	 * @return random character
+	 * Returns arbitrarily chosen character which is one of [0-9].
+	 * @return random cipher
 	 */
 	private static char getRandomChar() {
-		int offset = (int) (Math.abs(rgen.nextInt()));
-		if (offset % 3 == 0) {
-			return (char) ('0' + offset % 10);
-		}
-		if (offset % 3 == 1) {
-			return (char) ('a' + offset % 25);
-		}
-		return (char) ('A' + offset % 25);
+		int randInt = (int) (Math.abs(rgen.nextInt()));
+		return (char) ('0' + randInt % 10);
 	}
 
 	/**
@@ -75,7 +70,7 @@ public class CodeGenerator {
 	public static void writeIntoFile(String phoneNumber, String generatedCode) {
 		try {
 			PrintWriter pw = new PrintWriter(new FileWriter(CODES_FILE_NAME));
-			pw.println(phoneNumber + " -> " + generatedCode);
+			pw.println(phoneNumber + " " + generatedCode);
 			pw.flush();
 			pw.close();
 		} catch (IOException e) {
@@ -93,12 +88,25 @@ public class CodeGenerator {
 		return map.containsKey(phoneNumber) && map.get(phoneNumber).equals(claimedCode);
 	}
 	
+	public static void fillMapFromFile(File codesFile) throws IOException {
+		BufferedReader rd = new BufferedReader(new FileReader(codesFile));
+		StringTokenizer tokenizer;
+		while(true) {
+			String line = rd.readLine();
+			if(line==null) break;
+			tokenizer = new StringTokenizer(line);
+			String phoneNumber = tokenizer.nextToken(), code = tokenizer.nextToken();
+			map.put(phoneNumber, code);
+		}
+		rd.close();
+	}
+	
 	private static java.util.Random rgen = new java.util.Random();
 
-	private static final int CODE_LENGTH = 5;
+	private static final int CODE_LENGTH = 6;
 
-	private static final String CODES_FILE_NAME = "codes"; // TODO change the filename to a path of the file on AWS
+	public static final String CODES_FILE_NAME = "codes"; // TODO change the filename to a path of the file on AWS
 
-	public static HashMap<String, String> map = new HashMap<String, String>();
+	private static HashMap<String, String> map = new HashMap<String, String>();
 
 }

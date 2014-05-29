@@ -7,7 +7,7 @@ public class MatchUserBinder {
 			System.out.println("match was null");
 			return;
 		}
-		System.out.println("chaemata "+user.getPhoneNumber()+" "+match.getId());
+		System.out.println(user.getPhoneNumber()+" subscribed to the match - "+match.getId()+".");
 		match.addInterestedUser(user);
 	}
 }

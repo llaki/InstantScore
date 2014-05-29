@@ -111,8 +111,9 @@ public class LivescoreConnection {
 					
 					String timeInfo = rd.readLine();
 					if(timeInfo==null) break;
-					if(ParseUtils.isImageTag(timeInfo))
+					if(ParseUtils.isImageTag(timeInfo)) {
 						timeInfo = rd.readLine();
+					}
 					matchBuilder.setMatchTime(ParseUtils.parseTimeInfo(timeInfo));
 		
 					if(tournamentEnded) break;
@@ -167,7 +168,7 @@ public class LivescoreConnection {
 					matchBuilder.setAwayTeam(awayTeam);
 					MatchInfo matchInfo = matchBuilder.toMatchInfo();
 					if(!allMatches && matchInfo.isAlreadyGoingOrFinished()){
-						continue; // this is the case when we are searching for the future matches and the current has already started
+						continue; // this is the case when we are searching for the future matches and the current one has already started
 					}
 					matches.add(matchInfo);
 				}
@@ -228,16 +229,15 @@ public class LivescoreConnection {
 		    }
 		} 
 		catch (MalformedURLException e) {
-			System.out.println("malformedUrlException");
+			System.out.println("MalformedUrlException occured");
 		} 
 		catch (IOException e) {   
-			System.out.println("IOException");
+			System.out.println("IOException occured");
 		}
 		return sb.toString();
 	}
 
 	public static void main(String[] args) throws Exception {
-		
 		
 		// basic test here ...
 		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/soccer/europa-league/", "scores", true);

@@ -18,7 +18,6 @@ public class MessageGenerator {
 	}
 	
 	public static String generateMessageTextViaUpdate(MatchUpdate update){
-		// TODO write implementation of this method
 		StringBuilder sb = new StringBuilder();
 		if(!update.hasBeenUpdated()){
 			return "No Update for Match "+update.getCurrentMatchInfo();
@@ -38,13 +37,25 @@ public class MessageGenerator {
 		}
 		if(update.firstTeamScored()){
 			int sc = update.getNumFirstScored();
-			String g = (sc==1 ? "goal!" : "goals!");
-			sb.append(update.getCurrentMatchInfo().getHomeTeam().toString()+" scored "+sc+" "+g+"\n");
+			if(sc > 0) {
+				String g = (sc==1 ? "goal!" : "goals!");
+				sb.append(update.getCurrentMatchInfo().getHomeTeam().toString()+" scored "+sc+" "+g+"\n");
+			}
+			else {
+				String g = (sc==-1 ? "goal has" : "goals have");
+				sb.append((-sc)+" "+g+" been cancelled for "+update.getCurrentMatchInfo().getHomeTeam().toString()+".");
+			}
 		}
 		if(update.secondTeamScored()){
 			int sc = update.getNumSecondScored();
-			String g = (sc==1 ? "goal!" : "goals!");
-			sb.append(update.getCurrentMatchInfo().getAwayTeam().toString()+" scored "+sc+" "+g+"\n");
+			if(sc>0) {
+				String g = (sc==1 ? "goal!" : "goals!");
+				sb.append(update.getCurrentMatchInfo().getAwayTeam().toString()+" scored "+sc+" "+g+"\n");
+			}
+			else {
+				String g = (sc==-1 ? "goal has" : "goals have");
+				sb.append((-sc)+" "+g+" been cancelled for "+update.getCurrentMatchInfo().getAwayTeam().toString()+".");
+			}
 		}
 		if(update.hasEndedHalfTime()){
 			sb.append("The first half has finished! \n");
@@ -61,7 +72,7 @@ public class MessageGenerator {
 		if(update.hasFinishedInPenalties()){
 			sb.append((update.firstTeamWonInPenalties() ? update.getCurrentMatchInfo().getHomeTeam().toString() :
 					update.getCurrentMatchInfo().getAwayTeam())
-					+" has won in penalty shoot-outs!");
+					+" has won on penalties!");
 			
 		}
 		return sb.toString();
