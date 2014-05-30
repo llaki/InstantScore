@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.ws.Response;
 
 import livescore.UrlConstants;
 import request.Request;
@@ -41,9 +42,27 @@ public class AllFutureMatchesServlet extends HttpServlet {
 			String countryName = UrlConstants.COUNTRIES_AND_URLS[i].getCountryName();
 			fileNames[i] = "scores."+countryName;
 		}
+		int totalNumTournaments = 0;
+		for(String filename : fileNames) {
+			BufferedReader br = new BufferedReader(new FileReader(filename));
+			String line = br.readLine();
+			br.close();
+			if(line==null) continue;
+			totalNumTournaments += Integer.parseInt(line);
+		}
+		writer.println(totalNumTournaments);
 		for(String filename : fileNames) {
 			BufferedReader br = new BufferedReader(new FileReader(filename));
 			String str;
+			str = br.readLine();
+			if(str==null) {
+				br.close();
+				continue;
+			}
+			if(Integer.parseInt(str) == 0) {
+				br.close();
+				continue;
+			}
 			while((str = br.readLine()) != null){
 				writer.println(str);
 			}
@@ -62,5 +81,5 @@ public class AllFutureMatchesServlet extends HttpServlet {
 		String securityCode = request.getParameter("securitycode");
 		new Request(data, phoneNum, securityCode);
 	}
-
+	
 }

@@ -19,6 +19,7 @@ public class AllGoingMatches {
 	}
 	
 	public static MatchInfo getExistingMatchObject(String matchId){
+		System.out.println("Requested existing object for match id - " + matchId);
 		if(map.containsKey(matchId)) return map.get(matchId);
 		return null;
 	}
@@ -32,6 +33,12 @@ public class AllGoingMatches {
 		return match.getHomeTeam()+" vs "+match.getAwayTeam();
 	}
 	
+	public static void printMap() {
+		System.out.println("Printing map...");
+		for(String ids : map.keySet()) {
+			System.out.println("Match id : " + ids);
+		}
+	}
 	
 	public static void changesToGoingMatches(ArrayList<MatchInfo> allMatches) throws Exception {
 		HashMap<String, MatchInfo> newMap = new HashMap<String, MatchInfo>();
@@ -56,6 +63,7 @@ public class AllGoingMatches {
 			}
 		}
 		map = newMap;
+		printMap();
 	}
 	
 }

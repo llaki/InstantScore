@@ -130,8 +130,6 @@ public class MatchUpdate {
 		int currentGoalsFirst = (currentStarted ? currentScore.getFirstScored() : 0),
 				currentGoalSecond = (currentStarted ? currentScore.getSecondScored() : 0);
 		int firstScoredUpd = currentGoalsFirst - oldGoalsFirst, secondScoredUpd = currentGoalSecond - oldGoalsSecond;
-		//firstScoredUpd = Math.max(firstScoredUpd, 0);
-		//secondScoredUpd = Math.max(secondScoredUpd, 0);
 		return new MatchUpdate(update, firstScoredUpd, secondScoredUpd, current);
 	}
 	

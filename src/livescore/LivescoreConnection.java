@@ -176,8 +176,9 @@ public class LivescoreConnection {
 		}
 		ArrayList<TournamentWithMatches> listTwms = AllMatches.groupByTournaments(matches);
 		writeMatchInfosIntoFile(listTwms);
-		
-		AllGoingMatches.changesToGoingMatches(matches);
+		if(allMatches) {
+			AllGoingMatches.changesToGoingMatches(matches);
+		}
 		rd.close();
 	}
 	
