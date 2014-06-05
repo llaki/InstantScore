@@ -204,7 +204,7 @@ public class LivescoreConnection {
 				pw.println(info.getAwayTeam());
 			}
 		}
-		System.out.println("written inside file : "+filename);
+	//	System.out.println("written inside file : "+filename);
 		pw.flush();
 		pw.close();
 	}

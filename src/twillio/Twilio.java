@@ -24,7 +24,7 @@ public class Twilio {
 	//public static final String ACCOUNT_SID = "ACc3f2a167c056e96b1a792fe2e5f19e61"; // chemi testAccountSid 
 	public static final String AUTH_TOKEN = "313a2ccaca5f1f2c013100a69106cc43";
 	//public static final String AUTH_TOKEN = "8ae403d4931f4fd3cde77e1991a1c710"; // chemi testAccountAuthToken
-	
+	public static final String OUR_PHONE_NUMBER = "+12292562076";
 	
 	private TwilioRestClient client;
 	
@@ -34,18 +34,18 @@ public class Twilio {
 	
 	public void send(String to, String txt) throws TwilioRestException {
 		// Build a filter for the MessageList
+		System.out.println("sending message to " + to);
 		List<NameValuePair> params = new ArrayList<NameValuePair>();
 		params.add(new BasicNameValuePair("Body", txt));
 		params.add(new BasicNameValuePair("To", to));
-		params.add(new BasicNameValuePair("From", "+12292562076"));
-	//	params.add(new BasicNameValuePair("From", "+15005550006")); test phone number
+		params.add(new BasicNameValuePair("From", OUR_PHONE_NUMBER));
 
 		MessageFactory messageFactory = client.getAccount().getMessageFactory();
 		messageFactory.create(params);
 	}
 	
 	public static void main(String[] args) throws TwilioRestException {
-		new Twilio().send("+995598374203", "Oh yeah...");
+		new Twilio().send("+995595150038", "axlac ar movida?");
 	}
 	
 }

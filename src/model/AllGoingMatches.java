@@ -56,14 +56,14 @@ public class AllGoingMatches {
 					newMap.put(makeKeyFromMatch(match), match);
 					MessageSender.sendAllMessagesForMatch(MessageGenerator.generateMessageTextViaUpdate(update), match);
 				}
-				else{
+				else {
 					MatchInfo.copyUsers(oldMatchingMatch, match);
 					newMap.put(makeKeyFromMatch(match), match);
 				}
 			}
 		}
 		map = newMap;
-		printMap();
+	//	printMap();
 	}
 	
 }

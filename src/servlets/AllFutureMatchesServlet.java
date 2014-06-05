@@ -2,6 +2,7 @@ package servlets;
 
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,6 +14,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.xml.ws.Response;
 
+import org.apache.commons.codec.net.URLCodec;
+
+import livescore.CountryUrl;
 import livescore.UrlConstants;
 import request.Request;
 
@@ -33,40 +37,46 @@ public class AllFutureMatchesServlet extends HttpServlet {
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * TODO make it thread safe
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter writer = response.getWriter();
-		String[] fileNames = new String[UrlConstants.COUNTRIES_AND_URLS.length];
-		for(int i=0; i<UrlConstants.COUNTRIES_AND_URLS.length; i++) {
-			String countryName = UrlConstants.COUNTRIES_AND_URLS[i].getCountryName();
-			fileNames[i] = "scores."+countryName;
+		
+		if (firstRun) {
+			createAllFileObjects();
+			firstRun = false;
 		}
+		
+		PrintWriter writer = response.getWriter();		
 		int totalNumTournaments = 0;
-		for(String filename : fileNames) {
-			BufferedReader br = new BufferedReader(new FileReader(filename));
-			String line = br.readLine();
-			br.close();
-			if(line==null) continue;
-			totalNumTournaments += Integer.parseInt(line);
+		for(File file : ALL_SCORES_FILES) {
+			synchronized (file) {
+				BufferedReader br = new BufferedReader(new FileReader(file));
+				String line = br.readLine();
+				br.close();
+				if(line==null) continue;
+				totalNumTournaments += Integer.parseInt(line);
+			}
 		}
 		writer.println(totalNumTournaments);
-		for(String filename : fileNames) {
-			BufferedReader br = new BufferedReader(new FileReader(filename));
-			String str;
-			str = br.readLine();
-			if(str==null) {
+		for(File file : ALL_SCORES_FILES) {
+			synchronized (file) {
+				BufferedReader br = new BufferedReader(new FileReader(file));
+				String str;
+				str = br.readLine();
+				if(str==null) {
+					br.close();
+					continue;
+				}
+				if(Integer.parseInt(str) == 0) {
+					br.close();
+					continue;
+				}
+				while((str = br.readLine()) != null){
+					writer.println(str);
+				}
 				br.close();
-				continue;
 			}
-			if(Integer.parseInt(str) == 0) {
-				br.close();
-				continue;
-			}
-			while((str = br.readLine()) != null){
-				writer.println(str);
-			}
-			br.close();
 		}
 		writer.flush();
 		
@@ -81,5 +91,18 @@ public class AllFutureMatchesServlet extends HttpServlet {
 		String securityCode = request.getParameter("securitycode");
 		new Request(data, phoneNum, securityCode);
 	}
+	
+	private void createAllFileObjects() {
+		int index = 0;
+		for(CountryUrl curl : UrlConstants.COUNTRIES_AND_URLS) {
+			String countryName = curl.getCountryName();
+			ALL_SCORES_FILES[index] = new File("scores."+countryName);
+			index++;
+		}
+	}
+	
+	private static boolean firstRun = true;
+	
+	private static final File[] ALL_SCORES_FILES = new File[UrlConstants.COUNTRIES_AND_URLS.length];
 	
 }

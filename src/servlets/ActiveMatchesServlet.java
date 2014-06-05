@@ -2,6 +2,7 @@ package servlets;
 
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -31,21 +32,22 @@ public class ActiveMatchesServlet extends HttpServlet {
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * TODO make it thread safe
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter writer = response.getWriter();
-		String[] fileNames = new String[]{"scores.Live"};
-		for(String filename : fileNames) {
-			BufferedReader br = new BufferedReader(new FileReader(filename));
-			String str;
-			while((str = br.readLine()) != null){
-				writer.println(str);
+		for(File currentFile : SCORES_FILES) {
+			synchronized (currentFile) {
+				BufferedReader br = new BufferedReader(new FileReader(currentFile));
+				String str;
+				while((str = br.readLine()) != null){
+					writer.println(str);
+				}
+				br.close();
 			}
-			br.close();
 		}
 		writer.flush();
-		
 	}
 
 	/**
@@ -58,4 +60,6 @@ public class ActiveMatchesServlet extends HttpServlet {
 		new Request(data, phoneNum, securityCode);
 	}
 
+	private static File[] SCORES_FILES = new File[]	{new File("scores.Live")};
+	
 }
