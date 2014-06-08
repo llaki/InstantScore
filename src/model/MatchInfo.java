@@ -23,7 +23,9 @@ public class MatchInfo {
 	}
 	
 	public HashSet<User> getSetOfUsers(){
-		return setInterestedUsers;
+		synchronized (setInterestedUsers) {
+			return setInterestedUsers;
+		}
 	}
 	
 	/**
@@ -31,11 +33,15 @@ public class MatchInfo {
 	 * @param users the set of interested users
 	 */
 	public void setInterestedUsersSet(HashSet<User> users){
-		setInterestedUsers = users;
+		synchronized (setInterestedUsers) {
+			setInterestedUsers = users;
+		}
 	}
 	
 	public Iterator<User> getUsers(){
-		return setInterestedUsers.iterator();
+		synchronized (setInterestedUsers) {
+			return setInterestedUsers.iterator();
+		}
 	}
 	
 	private static String makeKeyFromMatch(MatchInfo match){
@@ -47,7 +53,9 @@ public class MatchInfo {
 	}
 	
 	public void addInterestedUser(User u){
-		setInterestedUsers.add(u);
+		synchronized (setInterestedUsers) {
+			setInterestedUsers.add(u);
+		}
 	}
 	
 	public MatchInfo(Team homeTeam, Team awayTeam, Score matchScore, Date date, Tournament tournament, Time timeStatus,
