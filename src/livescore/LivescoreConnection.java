@@ -13,6 +13,7 @@ import model.AllMatches;
 import model.MatchInfo;
 import model.MatchInfoBuilder;
 import model.Score;
+import model.Team;
 import model.TournamentWithMatches;
 import parseutils.HtmlNode;
 import parseutils.ParseUtils;
@@ -169,7 +170,9 @@ public class LivescoreConnection {
 					if(!allMatches && matchInfo.isAlreadyGoingOrFinished()){
 						continue; // this is the case when we are searching for the future matches and the current one has already started
 					}
-					matches.add(matchInfo);
+					if(matchInfoIsConsistent(matchInfo)) {
+						matches.add(matchInfo);
+					}
 				}
 			}
 		}
@@ -179,6 +182,14 @@ public class LivescoreConnection {
 			AllGoingMatches.changesToGoingMatches(matches);
 		}
 		rd.close();
+	}
+	
+	private boolean matchInfoIsConsistent(MatchInfo matchInfo) {
+		Team home = matchInfo.getHomeTeam(), away = matchInfo.getAwayTeam();
+		if(home==null || away==null || home.toString().length()==0 || away.toString().length()==0) {
+			return false;
+		}
+		return true;
 	}
 	
 	public void writeMatchInfosIntoFile(ArrayList<TournamentWithMatches> list) throws Exception {
