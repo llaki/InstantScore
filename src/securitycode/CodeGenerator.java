@@ -88,17 +88,37 @@ public class CodeGenerator {
 		return map.containsKey(phoneNumber) && map.get(phoneNumber).equals(claimedCode);
 	}
 	
-	public static void fillMapFromFile(File codesFile) throws IOException {
-		BufferedReader rd = new BufferedReader(new FileReader(codesFile));
-		StringTokenizer tokenizer;
-		while(true) {
-			String line = rd.readLine();
-			if(line==null) break;
-			tokenizer = new StringTokenizer(line);
-			String phoneNumber = tokenizer.nextToken(), code = tokenizer.nextToken();
-			map.put(phoneNumber, code);
+	public static void fillMapFromFile(File codesFile) {
+		boolean codesFileExists = true;
+		try{
+			BufferedReader rd = new BufferedReader(new FileReader(codesFile));
+			StringTokenizer tokenizer;
+			while(true) {
+				String line = rd.readLine();
+				if(line==null) break;
+				tokenizer = new StringTokenizer(line);
+				String phoneNumber = tokenizer.nextToken(), code = tokenizer.nextToken();
+				map.put(phoneNumber, code);
+			}
+			System.out.println("Read from codes file succesfully.");
+			rd.close();
 		}
-		rd.close();
+		catch(IOException ex) {
+			System.out.println("Codes file have not been found.");
+			codesFileExists = false;
+		}
+		if(!codesFileExists) {
+			try {
+				PrintWriter pw = new PrintWriter(new FileWriter(codesFile));
+				pw.println();
+				pw.flush();
+				pw.close();
+				System.out.println("Codes file has been created.");
+			}
+			catch(IOException ex) {
+				System.out.println("IOException occured while attempting to create a codes file.");
+			}
+		}
 	}
 	
 	private static java.util.Random rgen = new java.util.Random();

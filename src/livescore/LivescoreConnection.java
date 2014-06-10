@@ -45,7 +45,7 @@ public class LivescoreConnection {
 		out.close();
 	}
 	
-	public void getMatchInfosFromLivescore() throws Exception {
+	public ArrayList<MatchInfo> getMatchInfosFromLivescore() throws Exception {
 		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
@@ -179,12 +179,16 @@ public class LivescoreConnection {
 		ArrayList<TournamentWithMatches> listTwms = AllMatches.groupByTournaments(matches);
 		writeMatchInfosIntoFile(listTwms);
 		if(allMatches) {
-			AllGoingMatches.changesToGoingMatches(matches);
+	//		AllGoingMatches.changesToGoingMatches(matches);
 		}
 		rd.close();
+		return matches;
 	}
 	
 	private boolean matchInfoIsConsistent(MatchInfo matchInfo) {
+		if(matchInfo==null) {
+			return false;
+		}
 		Team home = matchInfo.getHomeTeam(), away = matchInfo.getAwayTeam();
 		if(home==null || away==null || home.toString().length()==0 || away.toString().length()==0) {
 			return false;

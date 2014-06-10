@@ -8,6 +8,8 @@ import securitycode.CodeGenerator;
 import livescore.CountryScores;
 import livescore.CountryUrl;
 import livescore.UrlConstants;
+import model.MatchInfo;
+import java.util.ArrayList;
 
 public class Listener implements ServletContextListener {
 
@@ -24,14 +26,17 @@ public class Listener implements ServletContextListener {
 			public void run() {
 				boolean firstTime = true;
 				while (true) {
+					ArrayList<MatchInfo> allActiveMatches = new ArrayList<MatchInfo>();
 					try {
 						CountryScores cs = new CountryScores();
 						if(firstTime) {
 							CodeGenerator.fillMapFromFile(new File(CodeGenerator.CODES_FILE_NAME));
 						}
-						cs.parseUrlForCountryScores(new CountryUrl("Live", "http://www.livescore.com"), false);
+						ArrayList<MatchInfo> matchesList =
+								cs.parseUrlForCountryScoresAndGetActiveMatches(new CountryUrl("Live", "http://www.livescore.com"), false);
+						allActiveMatches.addAll(matchesList);
 						for(CountryUrl countryUrl : UrlConstants.COUNTRIES_AND_URLS) {
-							cs.parseUrlForCountryScores(countryUrl, true);
+							allActiveMatches.addAll(cs.parseUrlForCountryScoresAndGetActiveMatches(countryUrl, true));
 						}
 						Thread.sleep(DELAY_BETWEEN_REFRESHES);
 					} catch (Exception e) {
