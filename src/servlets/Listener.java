@@ -8,7 +8,9 @@ import securitycode.CodeGenerator;
 import livescore.CountryScores;
 import livescore.CountryUrl;
 import livescore.UrlConstants;
+import model.AllGoingMatches;
 import model.MatchInfo;
+
 import java.util.ArrayList;
 
 public class Listener implements ServletContextListener {
@@ -38,6 +40,7 @@ public class Listener implements ServletContextListener {
 						for(CountryUrl countryUrl : UrlConstants.COUNTRIES_AND_URLS) {
 							allActiveMatches.addAll(cs.parseUrlForCountryScoresAndGetActiveMatches(countryUrl, true));
 						}
+						AllGoingMatches.changesToGoingMatches(allActiveMatches);
 						Thread.sleep(DELAY_BETWEEN_REFRESHES);
 					} catch (Exception e) {
 						e.printStackTrace();
