@@ -40,6 +40,7 @@ public class Request {
 		if (phoneNumber == null || phoneNumber.length() == 0) {
 			u = User.TEST_USER;
 		}
+		ArrayList<String> matchIds = new ArrayList<String>();
 		for (int i = 0; i < data.length(); i++) {
 			int till = i;
 			for (int j = i + 1; j < data.length(); j++) {
@@ -49,15 +50,17 @@ public class Request {
 					till = j;
 			}
 			if(till==i){
-				return;
+				break;
 			}
 			String matchId = data.substring(i + 1, till + 1);
 			matchIds.add(matchId);
 			System.out.println(matchId+" added to user...");
 			MatchUserBinder.addMatchToUser(u,
 					AllGoingMatches.getExistingMatchObject(matchId));
+			matchIds.add(matchId);
 			i = till+1;
 		}
+		u.setNewSubscription(matchIds);
 	}
 	
 	public ArrayList<String> getMatchIds() {

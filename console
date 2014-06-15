@@ -1,0 +1,15630 @@
+start printing...
+###
+finish printing
+start printing...
+###<html>
+
+<head>
+
+<title>
+LiveScore.com : England Soccer Live Scores
+</title>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+<meta name="description" content="LiveScore.com - England Live Soccer Scores, the First live score site on the Internet, powered by LiveScore.com since 1998. Live Soccer from all around the World."/>
+
+<meta name="keywords" content="livescore, live scores, soccer, football"/>
+
+<link rel="shortcut icon" type="image/png" href="http://cdn3.livescore.com/web/img/favicon.png">
+
+<link rel="stylesheet" media="screen" href="http://cdn1.livescore.com/web/css/main_v1.0.22.2.css">
+
+<script src="http://cdn1.livescore.com/web/js/custom_v1.1.4.js" type="text/javascript">
+</script>
+
+<script>
+
+         $(document).ready(function() {
+             livescore.matchdetails({target: '_blank', width: 496, height: 250, left: 100, top: 100});
+             LeagueTableWidget.init('soccer', '/soccer/england/', '');
+             setTzCookie();
+             scheduleRefresh(120);
+         });
+         trackPage('UA-51055565-1');
+ 
+         //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         //    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         //    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         //})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+         //var expiration = TrackingHelper.getCookieExpiration();
+         //    ga('create', {'trackingId':'UA-51055565-1','sampleRate':100,'cookieDomain':'auto','cookieExpires':expiration.time});
+         //    ga(function(tracker) {
+         //    var clientId = tracker.get('clientId');
+         //    TrackingHelper.sendPageview(ga, clientId, expiration.date);
+         //});
+
+</script>
+
+<style>
+html{background-image:url("http://cdn3.livescore.com/web/img/bg.gif")}.wrapper{background-image:url("http://cdn3.livescore.com/web/img/bkg_cont.gif")}.buttons a,.buttons ul a.cat,.switch,.right-bar .arrow,.match-details .inc,.league-wc .inc,.league-wc.comments .inc,.tennis .league-multi .ball,.league-cricket .ico{background-image:url("http://cdn3.livescore.com/web/img/sprite_v1.0.1.png")}.frame h4.app{background-image:url("http://cdn3.livescore.com/web/img/icon_app.png")}.frame h4.web{background-image:url("http://cdn3.livescore.com/web/img/icon_web.png")}.frame h4.iphone-championship{background-image:url("http://cdn3.livescore.com/web/img/icon_web_championship.png")}.euro-2012 .frame h4.web{background-image:url("http://cdn3.livescore.com/web/img/icon_web_euro2012.png")}.frame p.itunes a.btnStore{background-image:url("http://cdn3.livescore.com/web/img/appstore.jpg")}.frame p.itunes a.btnAndMarket{background-image:url("http://cdn3.livescore.com/web/img/androidmarket.jpg")}.narrow .wrapper{background-image:url('http://cdn3.livescore.com/web/img/bkg_cont_narrow.gif')}.usaf .wrapper{background-image:url("http://cdn3.livescore.com/web/img/bkg_cont_africa.gif")}.banner{right:-164px}
+</style>
+
+</head>
+
+<body class="soccer narrow">
+
+<div class="wrapper">
+
+<div class="nav bb">
+
+<ul>
+
+<li class="first">
+<a href="/" title="Soccer" class="selected m1">
+SOCCER
+</a>
+</li>
+
+<li>
+<a href="/worldcup/" title="World Cup" class=" m2">
+WORLD CUP
+</a>
+</li>
+
+<li>
+<a href="/hockey/" title="Hockey" class=" m3">
+HOCKEY
+</a>
+</li>
+
+<li>
+<a href="/basketball/" title="Basketball" class=" m4">
+BASKETBALL
+</a>
+</li>
+
+<li>
+<a href="/tennis/" title="Tennis" class=" m5">
+TENNIS
+</a>
+</li>
+
+<li>
+<a href="/cricket/" title="Cricket" class=" m6">
+CRICKET
+</a>
+</li>
+
+<li>
+<a href="/iphone/" title="iPhone" class=" m7">
+iPHONE
+</a>
+</li>
+
+<li>
+<a href="/android/" title="Android" class=" m8">
+ANDROID
+</a>
+</li>
+
+<li>
+<a href="/mobile/" title="Mobile" class=" m9">
+MOBILE
+</a>
+</li>
+
+<li>
+<a href="/contact/" title="Contact Us" class=" m10">
+CONTACT US
+</a>
+</li>
+
+</ul>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="header bb">
+
+<a href="/">
+
+<img src="http://cdn3.livescore.com/web/img/logo-fb-narrow.jpg" class="left" alt="LiveScore Soccer / Football" title="LiveScore Soccer / Football" width="465" height="68"/>
+
+</a>
+
+<table class="tagline right">
+
+<tr>
+
+<td>
+
+<h1>
+LiveScore.com Soccer : England
+</h1>
+
+<h2>
+your no.1 Soccer Live Scores since 1998
+</h2>
+
+<p>
+England Soccer Live Scores by LiveScore
+</p>
+
+</td>
+
+</tr>
+
+</table>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="bb">
+
+<div class="top-add left">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=123" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<div class="big-add">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=126" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowTransparency="true" width="468" height="60">
+</iframe>
+
+</div>
+
+<div class="clear">
+</div>
+
+</div>
+
+<div class="left-bar">
+
+<ul class="buttons">
+
+<li>
+<a href="/">
+Home
+</a>
+</li>
+
+<li>
+<a href="/soccer/live/">
+Live
+</a>
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/champions-league/" class="cat">
+Champions League
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/europa-league/" class="cat">
+Europa League
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/european-cups/" class="cat">
+UEFA
+</a>
+
+</li>
+
+<li>
+
+<a href="/worldcup2014/" class="cat">
+World Cup
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/confederations-cup/" class="cat" title="Confederations Cup">
+Confed. Cup
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/intl/" class="cat">
+International
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=124" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/england/?ssm=1" class="selected cat" data-type="selmenu">
+England
+</a>
+
+<ul class="buttons">
+
+<li>
+<a href="/soccer/england/premier-league/" title="Premier League">
+Premier League
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/championship-play-off/" title="Championship:: play-off">
+Championship:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/championship/" title="Championship">
+Championship
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/league-1-play-off/" title="League 1:: play-off">
+League 1:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/league-1/" title="League 1">
+League 1
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/league-2-play-off/" title="League 2:: play-off">
+League 2:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/league-2/" title="League 2">
+League 2
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-premier-play-off/" title="Conference Premier:: play-off">
+Conf. Premier:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-premier/" title="Conference Premier">
+Conf. Premier
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-north-play-off/" title="Conference North:: play-off">
+Conf. North:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-north/" title="Conference North">
+Conf. North
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-south-play-off/" title="Conference South:: play-off">
+Conf. South:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/blue-square-south/" title="Conference South">
+Conf. South
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/fa-cup/" title="FA Cup">
+FA Cup
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/carling-cup/" title="Capital One Cup">
+Capital One Cup
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/community-shield/" title="Community Shield">
+Community Shield
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/jp-trophy/" title="JP Trophy">
+JP Trophy
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/evo-stik-league-play-off/" title="Evo-Stik League:: play-off">
+Evo-Stik:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/evo-stik-league/" title="Evo-Stik League">
+Evo-Stik
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/zamaretto-league-play-off/" title="Evo-Stik League Southern:: play-off">
+Evo-Stik Southern:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/zamaretto-league/" title="Evo-Stik League Southern">
+Evo-Stik Southern
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/ryman-league-play-off/" title="Ryman League:: play-off">
+Ryman:: p/off
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/ryman-league/" title="Ryman League">
+Ryman
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/fa-trophy/" title="FA Trophy">
+FA Trophy
+</a>
+</li>
+
+<li>
+<a href="/soccer/england/fa-trophy-qualification/" title="FA Trophy Qualification">
+FA Trophy Qualification
+</a>
+</li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="/soccer/italy/" class="cat">
+Italy
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/spain/" class="cat">
+Spain
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/germany/" class="cat">
+Germany
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/france/" class="cat">
+France
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/holland/" class="cat">
+Netherlands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/belgium/" class="cat">
+Belgium
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/portugal/" class="cat">
+Portugal
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/scotland/" class="cat">
+Scotland
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=125" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/world-cup-u20/" class="cat">
+World Cup U-20
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/world-cup-u17/" class="cat">
+World Cup U-17
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-21/" class="cat">
+Euro U-21
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-19/" class="cat">
+Euro U-19
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-under-17/" class="cat">
+Euro U-17
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/euro-women/" class="cat">
+Euro Women
+</a>
+
+</li>
+
+</ul>
+
+<div class="ad tcenter">
+
+<iframe src="http://beta.ads.cc/ads/?site=24&amp;pos=122" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+</iframe>
+
+</div>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/austria/" class="cat">
+Austria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cyprus/" class="cat">
+Cyprus
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/denmark/" class="cat">
+Denmark
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/finland/" class="cat">
+Finland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/greece/" class="cat">
+Greece
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iceland/" class="cat">
+Iceland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ireland/" class="cat">
+Ireland (Rep. of)
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/luxembourg/" class="cat">
+Luxembourg
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/norway/" class="cat">
+Norway
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/northern-ireland/" class="cat">
+Northern Ireland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sweden/" class="cat">
+Sweden
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/switzerland/" class="cat">
+Switzerland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/turkey/" class="cat">
+Turkey
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/wales/" class="cat">
+Wales
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/belarus/" class="cat">
+Belarus
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bosnia/" class="cat" title="Bosnia and Herzegovina">
+Bosnia &amp; Herz.
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bulgaria/" class="cat">
+Bulgaria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/croatia/" class="cat">
+Croatia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/czech-republic/" class="cat">
+Czech Republic
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/estonia/" class="cat">
+Estonia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/hungary/" class="cat">
+Hungary
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/israel/" class="cat">
+Israel
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/latvia/" class="cat">
+Latvia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lithuania/" class="cat">
+Lithuania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/macedonia/" class="cat">
+FYR Macedonia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/moldova/" class="cat">
+Moldova
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/montenegro/" class="cat">
+Montenegro
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/poland/" class="cat">
+Poland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/romania/" class="cat">
+Romania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/russia/" class="cat">
+Russia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/serbia/" class="cat">
+Serbia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/slovakia/" class="cat">
+Slovakia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/slovenia/" class="cat">
+Slovenia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ukraine/" class="cat">
+Ukraine
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/south-america/" class="cat">
+South America
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/argentina/" class="cat">
+Argentina
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bolivia/" class="cat">
+Bolivia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/brazil/" class="cat">
+Brazil
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/chile/" class="cat">
+Chile
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/colombia/" class="cat">
+Colombia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ecuador/" class="cat">
+Ecuador
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/paraguay/" class="cat">
+Paraguay
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/peru/" class="cat">
+Peru
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uruguay/" class="cat">
+Uruguay
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/venezuela/" class="cat">
+Venezuela
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/concacaf/" class="cat">
+CONCACAF
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mexico/" class="cat">
+Mexico
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/usa/" class="cat">
+USA
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/costa-rica/" class="cat">
+Costa Rica
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/el-salvador/" class="cat">
+El Salvador
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guatemala/" class="cat">
+Guatemala
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/honduras/" class="cat">
+Honduras
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/asia/" class="cat">
+Asia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/china/" class="cat">
+China
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/japan/" class="cat">
+Japan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/korea-republic/" class="cat">
+Korea Republic
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/singapore/" class="cat">
+Singapore
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/thailand/" class="cat">
+Thailand
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/vietnam/" class="cat">
+Vietnam
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/armenia/" class="cat">
+Armenia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/azerbaijan/" class="cat">
+Azerbaijan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/georgia/" class="cat">
+Georgia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kazakhstan/" class="cat">
+Kazakhstan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kuwait/" class="cat">
+Kuwait
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iran/" class="cat">
+Iran
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/australia/" class="cat">
+Australia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/new-zealand/" class="cat">
+New Zealand
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/africa/" class="cat">
+Africa
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/africa-cup-of-nations/" class="cat" title="Africa Cup of Nations">
+Cup of Nations
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/algeria/" class="cat">
+Algeria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/egypt/" class="cat">
+Egypt
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/kenya/" class="cat">
+Kenya
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/morocco/" class="cat">
+Morocco
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/south-africa/" class="cat">
+South Africa
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tunisia/" class="cat">
+Tunisia
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light">
+
+<li>
+
+<a href="/soccer/more/" class="cat" data-type="submenu">
+More countries
+</a>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/albania/" class="cat">
+Albania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/andorra/" class="cat">
+Andorra
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/faroe-islands/" class="cat">
+Faroe Islands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malta/" class="cat">
+Malta
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/san-marino/" class="cat">
+San Marino
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/antigua-and-barbuda/" class="cat">
+Antigua and Barbuda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/barbados/" class="cat">
+Barbados
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/bermuda/" class="cat">
+Bermuda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/canada/" class="cat">
+Canada
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cuba/" class="cat">
+Cuba
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/grenada/" class="cat">
+Grenada
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guadeloupe/" class="cat">
+Guadeloupe
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/haiti/" class="cat">
+Haiti
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/jamaica/" class="cat">
+Jamaica
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/nicaragua/" class="cat">
+Nicaragua
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/martinique/" class="cat">
+Martinique
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/panama/" class="cat">
+Panama
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/puerto-rico/" class="cat">
+Puerto Rico
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/saint-kitts-and-nevis/" class="cat">
+Saint Kitts and Nevis
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/trinidad-and-tobago/" class="cat">
+Trinidad and Tobago
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/bahrain/" class="cat">
+Bahrain
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/hong-kong/" class="cat">
+Hong Kong
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/india/" class="cat">
+India
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/indonesia/" class="cat">
+Indonesia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/iraq/" class="cat">
+Iraq
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/jordan/" class="cat">
+Jordan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lebanon/" class="cat">
+Lebanon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malaysia/" class="cat">
+Malaysia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/oman/" class="cat">
+Oman
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/palestine/" class="cat">
+Palestine
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/pakistan/" class="cat">
+Pakistan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/qatar/" class="cat">
+Qatar
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/saudi-arabia/" class="cat">
+Saudi Arabia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/syria/" class="cat">
+Syria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/united-arab-emirates/" class="cat" title="United Arab Emirates">
+U.A.E.
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/taiwan/" class="cat">
+Taiwan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uzbekistan/" class="cat">
+Uzbekistan
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/oceania/" class="cat">
+Oceania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/fiji/" class="cat">
+Fiji
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/solomon-islands/" class="cat">
+Solomon Islands
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tahiti/" class="cat">
+Tahiti
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/vanuatu/" class="cat">
+Vanuatu
+</a>
+
+</li>
+
+</ul>
+
+<ul class="buttons btn-light" style="display: none">
+
+<li>
+
+<a href="/soccer/angola/" class="cat">
+Angola
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/benin/" class="cat">
+Benin
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/botswana/" class="cat">
+Botswana
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/burkina-faso/" class="cat">
+Burkina Faso
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cameroon/" class="cat">
+Cameroon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/cape-verde/" class="cat">
+Cape Verde
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/dr-congo/" class="cat">
+DR Congo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/congo/" class="cat">
+Congo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/gabon/" class="cat">
+Gabon
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/gambia/" class="cat">
+Gambia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ghana/" class="cat">
+Ghana
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/guinea/" class="cat">
+Guinea
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/yemen/" class="cat">
+Yemen
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/lesotho/" class="cat">
+Lesotho
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/liberia/" class="cat">
+Liberia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/libya/" class="cat">
+Libya
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/madagascar/" class="cat">
+Madagascar
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/malawi/" class="cat">
+Malawi
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mali/" class="cat">
+Mali
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mauritius/" class="cat">
+Mauritius
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/mozambique/" class="cat">
+Mozambique
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/namibia/" class="cat">
+Namibia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/nigeria/" class="cat">
+Nigeria
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/ivory-coast/" class="cat">
+Ivory Coast
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/rwanda/" class="cat">
+Rwanda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/senegal/" class="cat">
+Senegal
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sierra-leone/" class="cat">
+Sierra Leone
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/sudan/" class="cat">
+Sudan
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/swaziland/" class="cat">
+Swaziland
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/tanzania/" class="cat">
+Tanzania
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/togo/" class="cat">
+Togo
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/uganda/" class="cat">
+Uganda
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/zambia/" class="cat">
+Zambia
+</a>
+
+</li>
+
+<li>
+
+<a href="/soccer/zimbabwe/" class="cat">
+Zimbabwe
+</a>
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="content">
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/premier-league/">
+Premier League
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 11
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Cardiff City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/cardiff-city-vs-chelsea/1-1475109/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Chelsea
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Fulham
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/fulham-vs-crystal-palace/1-1475111/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Crystal Palace
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hull City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/hull-city-vs-everton/1-1475112/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Everton
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Liverpool
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/liverpool-vs-newcastle-united/1-1475113/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Newcastle United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Manchester City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/manchester-city-vs-west-ham-united/1-1475114/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+West Ham United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Norwich City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/norwich-city-vs-arsenal/1-1475115/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Arsenal
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Southampton
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/southampton-vs-manchester-united/1-1475116/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Manchester United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Sunderland
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/sunderland-vs-swansea-city/1-1475118/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Swansea City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Tottenham Hotspur
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/tottenham-hotspur-vs-aston-villa/1-1475119/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Aston Villa
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+West Bromwich Albion
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/premier-league/west-bromwich-albion-vs-stoke-city/1-1475120/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Stoke City
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/championship-play-off/">
+Championship:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 24
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Derby County
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship-play-off/derby-county-vs-queens-park-rangers/1-1702132/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Queens Park Rangers
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/championship/">
+Championship
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 3
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Barnsley
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/barnsley-vs-queens-park-rangers/1-1475805/" class="scorelink" onclick="return false;">
+2 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Queens Park Rangers
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Blackburn Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/blackburn-rovers-vs-wigan-athletic/1-1475800/" class="scorelink" onclick="return false;">
+4 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Wigan Athletic
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Blackpool
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/blackpool-vs-charlton-athletic/1-1475808/" class="scorelink" onclick="return false;">
+0 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Charlton Athletic
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Bolton Wanderers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/bolton-wanderers-vs-birmingham-city/1-1475798/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Birmingham City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Ipswich Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/ipswich-town-vs-sheffield-wednesday/1-1475806/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Sheffield Wednesday
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Leeds United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/leeds-united-vs-derby-county/1-1475803/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Derby County
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Leicester City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/leicester-city-vs-doncaster-rovers/1-1475804/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Doncaster Rovers
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Millwall
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/millwall-vs-afc-bournemouth/1-1475809/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+AFC Bournemouth
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Nottingham Forest
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/nottingham-forest-vs-brighton-hove-albion/1-1475797/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Brighton &amp; Hove Albion
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Reading
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/reading-vs-burnley/1-1475799/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Burnley
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Watford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/watford-vs-huddersfield-town/1-1475802/" class="scorelink" onclick="return false;">
+1 - 4
+</a>
+
+</td>
+
+<td class="fa">
+Huddersfield Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Yeovil Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/championship/yeovil-town-vs-middlesbrough/1-1475807/" class="scorelink" onclick="return false;">
+1 - 4
+</a>
+
+</td>
+
+<td class="fa">
+Middlesbrough
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/league-1-play-off/">
+League 1:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 25
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+AET
+</td>
+
+<td class="fh">
+Leyton Orient
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1-play-off/leyton-orient-vs-rotherham-united/1-1703142/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Rotherham United *
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/league-1/">
+League 1
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 3
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Brentford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/brentford-vs-stevenage/1-1476696/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Stevenage
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Crawley Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/crawley-town-vs-bristol-city/1-1476693/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Bristol City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Crewe Alexandra
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/crewe-alexandra-vs-preston-north-end/1-1476702/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Preston North End
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Gillingham
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/gillingham-vs-shrewsbury-town/1-1476701/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Shrewsbury Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Milton Keynes Dons
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/milton-keynes-dons-vs-leyton-orient/1-1476700/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Leyton Orient
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Oldham Athletic
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/oldham-athletic-vs-notts-county/1-1476699/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Notts County
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Peterborough United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/peterborough-united-vs-port-vale/1-1476697/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Port Vale
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Sheffield United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/sheffield-united-vs-coventry-city/1-1476692/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Coventry City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Swindon Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/swindon-town-vs-rotherham-united/1-1476694/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Rotherham United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Tranmere Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/tranmere-rovers-vs-bradford-city/1-1476691/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Bradford City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Walsall
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/walsall-vs-colchester-united/1-1476698/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Colchester United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Wolverhampton Wanderers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-1/wolverhampton-wanderers-vs-carlisle-united/1-1476695/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Carlisle United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/league-2-play-off/">
+League 2:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Burton Albion
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2-play-off/burton-albion-vs-fleetwood-town/1-1703875/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Fleetwood Town
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/league-2/">
+League 2
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 3
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Accrington Stanley
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/accrington-stanley-vs-afc-wimbledon/1-1476262/" class="scorelink" onclick="return false;">
+3 - 2
+</a>
+
+</td>
+
+<td class="fa">
+AFC Wimbledon
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Bristol Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/bristol-rovers-vs-mansfield-town/1-1476257/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Mansfield Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Cheltenham Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/cheltenham-town-vs-dagenham-redbridge/1-1476265/" class="scorelink" onclick="return false;">
+2 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Dagenham &amp; Redbridge
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Chesterfield
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/chesterfield-vs-fleetwood-town/1-1476267/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Fleetwood Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hartlepool United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/hartlepool-united-vs-exeter-city/1-1476263/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Exeter City
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Morecambe
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/morecambe-vs-bury/1-1476261/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Bury
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Newport County
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/newport-county-vs-rochdale/1-1476264/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Rochdale
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Northampton Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/northampton-town-vs-oxford-united/1-1476258/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Oxford United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Portsmouth
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/portsmouth-vs-plymouth-argyle/1-1476259/" class="scorelink" onclick="return false;">
+3 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Plymouth Argyle
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Scunthorpe United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/scunthorpe-united-vs-york-city/1-1476260/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+York City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Southend United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/southend-united-vs-burton-albion/1-1476266/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Burton Albion
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Torquay United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/league-2/torquay-united-vs-wycombe-wanderers/1-1476268/" class="scorelink" onclick="return false;">
+0 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Wycombe Wanderers
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-premier-play-off/">
+Conference Premier:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 18
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Cambridge United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier-play-off/cambridge-united-vs-gateshead-fc/1-1699006/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Gateshead FC
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-premier/">
+Conference Premier
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Aldershot Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/aldershot-town-vs-hereford-united/1-1495240/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Hereford United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Alfreton Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/alfreton-town-vs-macclesfield-town/1-1495241/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Macclesfield Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Braintree Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/braintree-town-vs-grimsby-town/1-1495242/" class="scorelink" onclick="return false;">
+0 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Grimsby Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Chester FC
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/chester-fc-vs-salisbury-city/1-1495243/" class="scorelink" onclick="return false;">
+2 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Salisbury City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Forest Green Rovers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/forest-green-rovers-vs-wrexham/1-1495245/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Wrexham
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Gateshead FC
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/gateshead-fc-vs-cambridge-united/1-1495246/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Cambridge United
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Halifax Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/halifax-town-vs-kidderminster-harriers/1-1495244/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Kidderminster Harriers
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hyde FC
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/hyde-fc-vs-luton-town/1-1495247/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Luton Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Lincoln
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/lincoln-vs-barnet/1-1495248/" class="scorelink" onclick="return false;">
+3 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Barnet
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Nuneaton Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/nuneaton-town-vs-dartford/1-1495249/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Dartford
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Tamworth
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/tamworth-vs-woking/1-1495250/" class="scorelink" onclick="return false;">
+2 - 4
+</a>
+
+</td>
+
+<td class="fa">
+Woking
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Welling United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-premier/welling-united-vs-southport/1-1495251/" class="scorelink" onclick="return false;">
+4 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Southport
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-north-play-off/">
+Conference North:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 10
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+AET
+</td>
+
+<td class="fh">
+Altrincham
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north-play-off/altrincham-vs-guiseley/1-1698722/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Guiseley
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-north/">
+Conference North
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Barrow
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/barrow-vs-hednesford/1-1495693/" class="scorelink" onclick="return false;">
+1 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Hednesford
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Guiseley
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/guiseley-vs-gloucester-city/1-1495694/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Gloucester City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Histon
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/histon-vs-altrincham/1-1495695/" class="scorelink" onclick="return false;">
+0 - 5
+</a>
+
+</td>
+
+<td class="fa">
+Altrincham
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Leamington
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/leamington-vs-colwyn-bay/1-1495696/" class="scorelink" onclick="return false;">
+2 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Colwyn Bay
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+North Ferriby United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/north-ferriby-united-vs-brackley-town/1-1495697/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Brackley Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Oxford City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/oxford-city-vs-bradford-pa/1-1495698/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Bradford PA
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Stalybridge
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/stalybridge-vs-workington/1-1495699/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Workington
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Stockport
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/stockport-vs-harrogate/1-1495700/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Harrogate
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Telford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/telford-vs-gainsborough/1-1495692/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Gainsborough
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Vauxhall Motors
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/vauxhall-motors-vs-solihull-moors/1-1495701/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Solihull Moors
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Worcester
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-north/worcester-vs-boston-utd-/1-1495702/" class="scorelink" onclick="return false;">
+3 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Boston Utd.
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-south-play-off/">
+Conference South:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 10
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Ebbsfleet United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south-play-off/ebbsfleet-united-vs-dover/1-1698723/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Dover
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/blue-square-south/">
+Conference South
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Bishop Stortford
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/bishop-stortford-vs-maidenhead-u/1-1496148/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Maidenhead U
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Concord Rangers
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/concord-rangers-vs-bath-city/1-1496149/" class="scorelink" onclick="return false;">
+0 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Bath City
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Eastleigh
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/eastleigh-vs-boreham-wood/1-1496150/" class="scorelink" onclick="return false;">
+0 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Boreham Wood
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Ebbsfleet United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/ebbsfleet-united-vs-dorchester-town/1-1496151/" class="scorelink" onclick="return false;">
+4 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Dorchester Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Farnborough
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/farnborough-vs-eastbourne-borough/1-1496152/" class="scorelink" onclick="return false;">
+3 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Eastbourne Borough
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Gosport Borough
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/gosport-borough-vs-bromley/1-1496153/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Bromley
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hayes &amp; Yeading United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/hayes-yeading-united-vs-dover/1-1496154/" class="scorelink" onclick="return false;">
+1 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Dover
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Staines Town
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/staines-town-vs-basingstoke/1-1496155/" class="scorelink" onclick="return false;">
+4 - 5
+</a>
+
+</td>
+
+<td class="fa">
+Basingstoke
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Tonbridge Angels
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Havant and W.
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Weston Super Mare
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/weston-super-mare-vs-chelmsford/1-1496157/" class="scorelink" onclick="return false;">
+2 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Chelmsford
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Whitehawk
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/blue-square-south/whitehawk-vs-sutton-united/1-1496158/" class="scorelink" onclick="return false;">
+3 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Sutton United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/fa-cup/">
+FA Cup
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 17
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+AET
+</td>
+
+<td class="fh">
+Arsenal
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/fa-cup/arsenal-vs-hull-city/1-1690195/" class="scorelink" onclick="return false;">
+3 - 2
+</a>
+
+</td>
+
+<td class="fa">
+Hull City
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/carling-cup/">
+Capital One Cup
+</a>
+</span>
+
+</span>
+
+<span class="date">
+March 2
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Manchester City
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/carling-cup/manchester-city-vs-sunderland/1-1626576/" class="scorelink" onclick="return false;">
+3 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Sunderland
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/jp-trophy/">
+JP Trophy
+</a>
+</span>
+
+</span>
+
+<span class="date">
+March 30
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Chesterfield
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/jp-trophy/chesterfield-vs-peterborough-united/1-1638179/" class="scorelink" onclick="return false;">
+1 - 3
+</a>
+
+</td>
+
+<td class="fa">
+Peterborough United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/community-shield/">
+Community Shield
+</a>
+</span>
+
+</span>
+
+<span class="date">
+August 10
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+14:00
+</td>
+
+<td class="fh">
+Arsenal
+</td>
+
+<td class="fs">
+? - ?
+</td>
+
+<td class="fa">
+Manchester City
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/evo-stik-league-play-off/">
+Evo-Stik League:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 3
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+AET
+</td>
+
+<td class="fh">
+AFC Fylde *
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/evo-stik-league-play-off/afc-fylde-vs-ashton-united/1-1697427/" class="scorelink" onclick="return false;">
+1 - 1
+</a>
+
+</td>
+
+<td class="fa">
+Ashton United
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/evo-stik-league/">
+Evo-Stik League
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+AFC Fylde
+</td>
+
+<td class="fs">
+1 - 0
+</td>
+
+<td class="fa">
+Kings Lynn
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Ashton United
+</td>
+
+<td class="fs">
+1 - 4
+</td>
+
+<td class="fa">
+Witton Albion
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Barwell F.C.
+</td>
+
+<td class="fs">
+0 - 3
+</td>
+
+<td class="fa">
+FC United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Buxton
+</td>
+
+<td class="fs">
+0 - 2
+</td>
+
+<td class="fa">
+Chorley
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Marine
+</td>
+
+<td class="fs">
+3 - 0
+</td>
+
+<td class="fa">
+Matlock Town
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Nantwich Town
+</td>
+
+<td class="fs">
+1 - 1
+</td>
+
+<td class="fa">
+Grantham Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Rushall Olympic
+</td>
+
+<td class="fs">
+0 - 1
+</td>
+
+<td class="fa">
+Droylsden
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Stamford AFC
+</td>
+
+<td class="fs">
+3 - 4
+</td>
+
+<td class="fa">
+Blyth Spartans
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Stocksbridge Park Steels
+</td>
+
+<td class="fs">
+0 - 4
+</td>
+
+<td class="fa">
+Skelmersdale United
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Trafford
+</td>
+
+<td class="fs">
+2 - 5
+</td>
+
+<td class="fa">
+Ilkeston FC
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Whitby
+</td>
+
+<td class="fs">
+2 - 1
+</td>
+
+<td class="fa">
+Stafford
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Worksop
+</td>
+
+<td class="fs">
+1 - 3
+</td>
+
+<td class="fa">
+Frickley Athletic
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/zamaretto-league-play-off/">
+Evo-Stik League Southern:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 5
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Chesham United
+</td>
+
+<td class="fs">
+1 - 3
+</td>
+
+<td class="fa">
+St.Albans
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/zamaretto-league/">
+Evo-Stik League Southern
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Banbury United
+</td>
+
+<td class="fs">
+1 - 5
+</td>
+
+<td class="fa">
+Cambridge C
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Biggleswade Town
+</td>
+
+<td class="fs">
+5 - 2
+</td>
+
+<td class="fa">
+Hemel Hempstead
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Chesham United
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+Weymouth
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Corby Town
+</td>
+
+<td class="fs">
+2 - 0
+</td>
+
+<td class="fa">
+Bedford
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Frome Town
+</td>
+
+<td class="fs">
+0 - 0
+</td>
+
+<td class="fa">
+St.Albans
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hitchin Town
+</td>
+
+<td class="fs">
+1 - 1
+</td>
+
+<td class="fa">
+Stourbridge
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hungerford Town
+</td>
+
+<td class="fs">
+2 - 1
+</td>
+
+<td class="fa">
+Bideford AFC
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Poole Town F.C
+</td>
+
+<td class="fs">
+5 - 3
+</td>
+
+<td class="fa">
+Arlesey Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Redditch United
+</td>
+
+<td class="fs">
+4 - 0
+</td>
+
+<td class="fa">
+Bashley
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+St Neots Town
+</td>
+
+<td class="fs">
+1 - 2
+</td>
+
+<td class="fa">
+Chippenham Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Truro City
+</td>
+
+<td class="fs">
+3 - 0
+</td>
+
+<td class="fa">
+Burnham
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/ryman-league-play-off/">
+Ryman League:: play-off
+</a>
+</span>
+
+</span>
+
+<span class="date">
+May 5
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Lowestoft Town
+</td>
+
+<td class="fs">
+3 - 0
+</td>
+
+<td class="fa">
+Hornchurch
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/ryman-league/">
+Ryman League
+</a>
+</span>
+
+</span>
+
+<span class="date">
+April 26
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Carshalton Athletic
+</td>
+
+<td class="fs">
+2 - 0
+</td>
+
+<td class="fa">
+Hampton &amp; Richmond
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Cray Wanderers
+</td>
+
+<td class="fs">
+1 - 2
+</td>
+
+<td class="fa">
+Enfield Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Dulwich Hamlet
+</td>
+
+<td class="fs">
+1 - 1
+</td>
+
+<td class="fa">
+Kingstonian
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+East Thurrock United
+</td>
+
+<td class="fs">
+4 - 2
+</td>
+
+<td class="fa">
+Bognor Regis Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hendon
+</td>
+
+<td class="fs">
+2 - 3
+</td>
+
+<td class="fa">
+Margate
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Hornchurch
+</td>
+
+<td class="fs">
+1 - 0
+</td>
+
+<td class="fa">
+Metropolitan Police F.C
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Lewes
+</td>
+
+<td class="fs">
+5 - 1
+</td>
+
+<td class="fa">
+Leiston
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Lowestoft Town
+</td>
+
+<td class="fs">
+3 - 0
+</td>
+
+<td class="fa">
+Harrow Borough
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Maidstone
+</td>
+
+<td class="fs">
+2 - 1
+</td>
+
+<td class="fa">
+Grays Athletic
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Thamesmead Town
+</td>
+
+<td class="fs">
+4 - 2
+</td>
+
+<td class="fa">
+Bury Town
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Wealdstone
+</td>
+
+<td class="fs">
+2 - 0
+</td>
+
+<td class="fa">
+Canvey
+</td>
+
+</tr>
+
+<tr>
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Wingate &amp; Finchley
+</td>
+
+<td class="fs">
+5 - 0
+</td>
+
+<td class="fa">
+Billericay
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/fa-trophy/">
+FA Trophy
+</a>
+</span>
+
+</span>
+
+<span class="date">
+March 23
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+FT
+</td>
+
+<td class="fh">
+Cambridge United
+</td>
+
+<td class="fs">
+
+<a href="/soccer/england/fa-trophy/cambridge-united-vs-gosport-borough/1-1666610/" class="scorelink" onclick="return false;">
+4 - 0
+</a>
+
+</td>
+
+<td class="fa">
+Gosport Borough
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table">
+
+<col class="cold"/>
+
+<col class="colh"/>
+
+<col class="cols"/>
+
+<col class="cola"/>
+
+<tr>
+
+<th colspan="4">
+
+<span class="league">
+
+<strong>
+England
+</strong>
+-
+<span>
+<a href="/soccer/england/fa-trophy-qualification/">
+FA Trophy Qualification
+</a>
+</span>
+
+</span>
+
+<span class="date">
+November 26, 2013
+</span>
+
+</th>
+
+</tr>
+
+<tr class="even">
+
+<td class="fd">
+AET
+</td>
+
+<td class="fh">
+Leek Town
+</td>
+
+<td class="fs">
+2 - 1
+</td>
+
+<td class="fa">
+Brackley Town
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div class="right-bar">
+
+<div class="date">
+<a href="/timezone/">
+13:13 (UTC)
+<span>
+10 Jun 2014 (Tue)
+</span>
+</a>
+</div>
+
+<iframe class="mt4" allowtransparency='true' src='http://beta.ads.cc/ads/?site=25&amp;pos=127' width='140' height='200' scrolling='no' frameborder='0' style='border-width:0'>
+</iframe>
+
+<div class="menu">
+
+<ul>
+
+<li>
+<span>
+&nbsp;
+</span>
+</li>
+
+<li style="border-top: 1px solid #777; border-bottom: 1px solid #222;">
+<iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" scrolling="no" frameborder="0" width="200" height="20" src="http://beta.ads.cc/ads/?site=1&pos=131">
+</iframe>
+</li>
+
+<li style="border-top: 1px solid #777; border-bottom: 1px solid #222;">
+<iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" scrolling="no" frameborder="0" width="200" height="20" src="http://beta.ads.cc/ads/?site=1&pos=130">
+</iframe>
+</li>
+
+</ul>
+
+</div>
+
+<div class="social-box">
+
+<div id="fb-root">
+</div>
+
+<div class="facebook hidden">
+
+<div class="switch switch-off">
+</div>
+
+<div class="disabled">
+<img src="http://cdn3.livescore.com/web/img/facebook_disabled.png" alt="Facebook Like button" title="Click to enable Facebook Like button" width="48" height="20"/>
+</div>
+
+<div class="fb-like" data-href="http://www.facebook.com/livescore" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true">
+</div>
+
+</div>
+
+<div class="google hidden">
+
+<div class="switch switch-off">
+</div>
+
+<div class="disabled">
+<img src="http://cdn3.livescore.com/web/img/google_disabled.png" alt="Google +1 button" title="Click to enable Google +1 button" width="32" height="20"/>
+</div>
+
+<div class="g-plusone" data-size="medium" data-annotation="bubble" data-href="http://www.livescore.com/">
+</div>
+
+</div>
+
+</div>
+
+<iframe class="mt4" allowtransparency='true' src='http://beta.ads.cc/ads/?site=25&amp;pos=128' width='140' height='200' scrolling='no' frameborder='0' style='border-width:0'>
+</iframe>
+
+<div id="leagueTableContainer" style="position: relative; overflow: hidden;">
+
+<div>
+
+<h2 class="bt bb mt4 mr4 tleft">
+LiveScore Table
+</h2>
+
+</div>
+
+<div id="leagueTableBodyContainer" class="mt4">
+
+<table class="league-table mtn" style="display: none; position: absolute;" data-name="england-premier-league-0" data-type="league-table">
+
+<tr>
+
+<th class="lt" colspan="3">
+<span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+</span>
+<a class="league-name" href="/soccer/england/premier-league/" title="England - Premier League" data-type="league-name">
+Premier League
+</a>
+<span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+</span>
+</th>
+
+<th class="gd" title="Played">
+P
+</th>
+
+<th class="gd" title="Points">
+PTS
+</th>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+1
+</td>
+
+<td class="tm" data-type="name" title="Manchester City">
+Manchester City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+86
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+2
+</td>
+
+<td class="tm" data-type="name" title="Liverpool">
+Liverpool
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+84
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+3
+</td>
+
+<td class="tm" data-type="name" title="Chelsea">
+Chelsea
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+82
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+4
+</td>
+
+<td class="tm" data-type="name" title="Arsenal">
+Arsenal
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+79
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+5
+</td>
+
+<td class="tm" data-type="name" title="Everton">
+Everton
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+72
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+6
+</td>
+
+<td class="tm" data-type="name" title="Tottenham Hotspur">
+Tottenham Hotspur
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+69
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+7
+</td>
+
+<td class="tm" data-type="name" title="Manchester United">
+Manchester United
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+64
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+8
+</td>
+
+<td class="tm" data-type="name" title="Southampton">
+Southampton
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+56
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+9
+</td>
+
+<td class="tm" data-type="name" title="Stoke City">
+Stoke City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+50
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+10
+</td>
+
+<td class="tm" data-type="name" title="Newcastle United">
+Newcastle United
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+49
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+11
+</td>
+
+<td class="tm" data-type="name" title="Crystal Palace">
+Crystal Palace
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+45
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+12
+</td>
+
+<td class="tm" data-type="name" title="Swansea City">
+Swansea City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+42
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+13
+</td>
+
+<td class="tm" data-type="name" title="West Ham United">
+West Ham United
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+40
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+14
+</td>
+
+<td class="tm" data-type="name" title="Sunderland">
+Sunderland
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+38
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+15
+</td>
+
+<td class="tm" data-type="name" title="Aston Villa">
+Aston Villa
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+38
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+16
+</td>
+
+<td class="tm" data-type="name" title="Hull City">
+Hull City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+37
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+17
+</td>
+
+<td class="tm" data-type="name" title="West Bromwich Albion">
+West Bromwich Albion
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+36
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+18
+</td>
+
+<td class="tm" data-type="name" title="Norwich City">
+Norwich City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+33
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+19
+</td>
+
+<td class="tm" data-type="name" title="Fulham">
+Fulham
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+32
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+20
+</td>
+
+<td class="tm" data-type="name" title="Cardiff City">
+Cardiff City
+</td>
+
+<td class="gd" data-type="goaldiff">
+38
+</td>
+
+<td class="gd" data-type="points">
+30
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table mtn" style="display: none; position: absolute;" data-name="england-championship-0" data-type="league-table">
+
+<tr>
+
+<th class="lt" colspan="3">
+<span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+</span>
+<a class="league-name" href="/soccer/england/championship/" title="England - Championship" data-type="league-name">
+Championship
+</a>
+<span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+</span>
+</th>
+
+<th class="gd" title="Played">
+P
+</th>
+
+<th class="gd" title="Points">
+PTS
+</th>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+1
+</td>
+
+<td class="tm" data-type="name" title="Leicester City">
+Leicester City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+102
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+2
+</td>
+
+<td class="tm" data-type="name" title="Burnley">
+Burnley
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+93
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+3
+</td>
+
+<td class="tm" data-type="name" title="Derby County">
+Derby County
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+85
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+4
+</td>
+
+<td class="tm" data-type="name" title="Queens Park Rangers">
+Queens Park Rangers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+80
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+5
+</td>
+
+<td class="tm" data-type="name" title="Wigan Athletic">
+Wigan Athletic
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+73
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+6
+</td>
+
+<td class="tm" data-type="name" title="Brighton &amp; Hove Albion">
+Brighton &amp; Hove Albion
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+72
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+7
+</td>
+
+<td class="tm" data-type="name" title="Reading">
+Reading
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+71
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+8
+</td>
+
+<td class="tm" data-type="name" title="Blackburn Rovers">
+Blackburn Rovers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+70
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+9
+</td>
+
+<td class="tm" data-type="name" title="Ipswich Town">
+Ipswich Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+68
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+10
+</td>
+
+<td class="tm" data-type="name" title="AFC Bournemouth">
+AFC Bournemouth
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+66
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+11
+</td>
+
+<td class="tm" data-type="name" title="Nottingham Forest">
+Nottingham Forest
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+65
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+12
+</td>
+
+<td class="tm" data-type="name" title="Middlesbrough">
+Middlesbrough
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+64
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+13
+</td>
+
+<td class="tm" data-type="name" title="Watford">
+Watford
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+60
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+14
+</td>
+
+<td class="tm" data-type="name" title="Bolton Wanderers">
+Bolton Wanderers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+59
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+15
+</td>
+
+<td class="tm" data-type="name" title="Leeds United">
+Leeds United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+57
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+16
+</td>
+
+<td class="tm" data-type="name" title="Sheffield Wednesday">
+Sheffield Wednesday
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+53
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+17
+</td>
+
+<td class="tm" data-type="name" title="Huddersfield Town">
+Huddersfield Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+53
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+18
+</td>
+
+<td class="tm" data-type="name" title="Charlton Athletic">
+Charlton Athletic
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+51
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+19
+</td>
+
+<td class="tm" data-type="name" title="Millwall">
+Millwall
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+48
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+20
+</td>
+
+<td class="tm" data-type="name" title="Blackpool">
+Blackpool
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+46
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+21
+</td>
+
+<td class="tm" data-type="name" title="Birmingham City">
+Birmingham City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+44
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+22
+</td>
+
+<td class="tm" data-type="name" title="Doncaster Rovers">
+Doncaster Rovers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+44
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+23
+</td>
+
+<td class="tm" data-type="name" title="Barnsley">
+Barnsley
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+39
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+24
+</td>
+
+<td class="tm" data-type="name" title="Yeovil Town">
+Yeovil Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+37
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table mtn" style="display: none; position: absolute;" data-name="england-league-1-0" data-type="league-table">
+
+<tr>
+
+<th class="lt" colspan="3">
+<span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+</span>
+<a class="league-name" href="/soccer/england/league-1/" title="England - League 1" data-type="league-name">
+League 1
+</a>
+<span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+</span>
+</th>
+
+<th class="gd" title="Played">
+P
+</th>
+
+<th class="gd" title="Points">
+PTS
+</th>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+1
+</td>
+
+<td class="tm" data-type="name" title="Wolverhampton Wanderers">
+Wolverhampton Wanderers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+103
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+2
+</td>
+
+<td class="tm" data-type="name" title="Brentford">
+Brentford
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+94
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+3
+</td>
+
+<td class="tm" data-type="name" title="Leyton Orient">
+Leyton Orient
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+86
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+4
+</td>
+
+<td class="tm" data-type="name" title="Rotherham United">
+Rotherham United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+86
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+5
+</td>
+
+<td class="tm" data-type="name" title="Preston North End">
+Preston North End
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+85
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+6
+</td>
+
+<td class="tm" data-type="name" title="Peterborough United">
+Peterborough United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+74
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+7
+</td>
+
+<td class="tm" data-type="name" title="Sheffield United">
+Sheffield United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+67
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+8
+</td>
+
+<td class="tm" data-type="name" title="Swindon Town">
+Swindon Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+66
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+9
+</td>
+
+<td class="tm" data-type="name" title="Port Vale">
+Port Vale
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+61
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+10
+</td>
+
+<td class="tm" data-type="name" title="Milton Keynes Dons">
+Milton Keynes Dons
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+60
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+11
+</td>
+
+<td class="tm" data-type="name" title="Bradford City">
+Bradford City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+59
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+12
+</td>
+
+<td class="tm" data-type="name" title="Bristol City">
+Bristol City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+58
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+13
+</td>
+
+<td class="tm" data-type="name" title="Walsall">
+Walsall
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+58
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+14
+</td>
+
+<td class="tm" data-type="name" title="Crawley Town">
+Crawley Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+57
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+15
+</td>
+
+<td class="tm" data-type="name" title="Oldham Athletic">
+Oldham Athletic
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+56
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+16
+</td>
+
+<td class="tm" data-type="name" title="Colchester United">
+Colchester United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+53
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+17
+</td>
+
+<td class="tm" data-type="name" title="Gillingham">
+Gillingham
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+53
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+18
+</td>
+
+<td class="tm" data-type="name" title="Coventry City">
+Coventry City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+51
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+19
+</td>
+
+<td class="tm" data-type="name" title="Crewe Alexandra">
+Crewe Alexandra
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+51
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+20
+</td>
+
+<td class="tm" data-type="name" title="Notts County">
+Notts County
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+50
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+21
+</td>
+
+<td class="tm" data-type="name" title="Tranmere Rovers">
+Tranmere Rovers
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+47
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+22
+</td>
+
+<td class="tm" data-type="name" title="Carlisle United">
+Carlisle United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+45
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+23
+</td>
+
+<td class="tm" data-type="name" title="Shrewsbury Town">
+Shrewsbury Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+42
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+24
+</td>
+
+<td class="tm" data-type="name" title="Stevenage">
+Stevenage
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+42
+</td>
+
+</tr>
+
+</table>
+
+<table class="league-table mtn" style="display: none; position: absolute;" data-name="england-league-2-0" data-type="league-table">
+
+<tr>
+
+<th class="lt" colspan="3">
+<span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+</span>
+<a class="league-name" href="/soccer/england/league-2/" title="England - League 2" data-type="league-name">
+League 2
+</a>
+<span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+</span>
+</th>
+
+<th class="gd" title="Played">
+P
+</th>
+
+<th class="gd" title="Points">
+PTS
+</th>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+1
+</td>
+
+<td class="tm" data-type="name" title="Chesterfield">
+Chesterfield
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+84
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+2
+</td>
+
+<td class="tm" data-type="name" title="Scunthorpe United">
+Scunthorpe United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+81
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+3
+</td>
+
+<td class="tm" data-type="name" title="Rochdale">
+Rochdale
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+81
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+4
+</td>
+
+<td class="tm" data-type="name" title="Fleetwood Town">
+Fleetwood Town
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+76
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+5
+</td>
+
+<td class="tm" data-type="name" title="Southend United">
+Southend United
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+72
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+6
+</td>
+
+<td class="tm" data-type="name" title="Burton Albion">
+Burton Albion
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+72
+</td>
+
+</tr>
+
+<tr data-type="team-data" class="odd">
+
+<td class="ic">
+&nbsp;
+</td>
+
+<td class="ps" data-type="rank">
+7
+</td>
+
+<td class="tm" data-type="name" title="York City">
+York City
+</td>
+
+<td class="gd" data-type="goaldiff">
+46
+</td>
+
+<td class="gd" data-type="points">
+71
+</td>
+
+</tr>
+
+<tr data-type="team-data">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="York City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Burton Albion">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Southend United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Fleetwood Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Rochdale">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Scunthorpe United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Chesterfield">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/th>
+
+<\th class="gd" title="Points">
+
+<\/th>
+
+<\th class="gd" title="Played">
+
+<\/th>
+
+<\/span>
+
+<\span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+
+<\/a>
+
+<\a class="league-name" href="/soccer/england/league-2/" title="England - League 2" data-type="league-name">
+
+<\/span>
+
+<\span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+
+<\th class="lt" colspan="3">
+
+<\tr>
+
+<\table class="league-table mtn" style="display: none; position: absolute;" data-name="england-league-2-0" data-type="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Stevenage">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Shrewsbury Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Carlisle United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Tranmere Rovers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Notts County">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Crewe Alexandra">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Coventry City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Gillingham">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Colchester United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Oldham Athletic">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Crawley Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Walsall">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Bristol City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Bradford City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Milton Keynes Dons">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Port Vale">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Swindon Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Sheffield United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Peterborough United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Preston North End">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Rotherham United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Leyton Orient">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Brentford">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Wolverhampton Wanderers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/th>
+
+<\th class="gd" title="Points">
+
+<\/th>
+
+<\th class="gd" title="Played">
+
+<\/th>
+
+<\/span>
+
+<\span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+
+<\/a>
+
+<\a class="league-name" href="/soccer/england/league-1/" title="England - League 1" data-type="league-name">
+
+<\/span>
+
+<\span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+
+<\th class="lt" colspan="3">
+
+<\tr>
+
+<\table class="league-table mtn" style="display: none; position: absolute;" data-name="england-league-1-0" data-type="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Yeovil Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Barnsley">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Doncaster Rovers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Birmingham City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Blackpool">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Millwall">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Charlton Athletic">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Huddersfield Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Sheffield Wednesday">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Leeds United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Bolton Wanderers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Watford">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Middlesbrough">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Nottingham Forest">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="AFC Bournemouth">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Ipswich Town">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Blackburn Rovers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Reading">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Brighton &amp; Hove Albion">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Wigan Athletic">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Queens Park Rangers">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Derby County">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Burnley">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Leicester City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/th>
+
+<\th class="gd" title="Points">
+
+<\/th>
+
+<\th class="gd" title="Played">
+
+<\/th>
+
+<\/span>
+
+<\span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+
+<\/a>
+
+<\a class="league-name" href="/soccer/england/championship/" title="England - Championship" data-type="league-name">
+
+<\/span>
+
+<\span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+
+<\th class="lt" colspan="3">
+
+<\tr>
+
+<\table class="league-table mtn" style="display: none; position: absolute;" data-name="england-championship-0" data-type="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Cardiff City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Fulham">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Norwich City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="West Bromwich Albion">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Hull City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Aston Villa">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Sunderland">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="West Ham United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Swansea City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Crystal Palace">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Newcastle United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Stoke City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Southampton">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Manchester United">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Tottenham Hotspur">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Everton">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Arsenal">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Chelsea">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Liverpool">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data">
+
+<\/tr>
+
+<\/td>
+
+<\td class="gd" data-type="points">
+
+<\/td>
+
+<\td class="gd" data-type="goaldiff">
+
+<\/td>
+
+<\td class="tm" data-type="name" title="Manchester City">
+
+<\/td>
+
+<\td class="ps" data-type="rank">
+
+<\/td>
+
+<\td class="ic">
+
+<\tr data-type="team-data" class="odd">
+
+<\/tr>
+
+<\/th>
+
+<\th class="gd" title="Points">
+
+<\/th>
+
+<\th class="gd" title="Played">
+
+<\/th>
+
+<\/span>
+
+<\span class="arrow arrow-right" data-type="right-arrow" title="Next Table">
+
+<\/a>
+
+<\a class="league-name" href="/soccer/england/premier-league/" title="England - Premier League" data-type="league-name">
+
+<\/span>
+
+<\span class="arrow arrow-left" data-type="left-arrow" title="Previous Table">
+
+<\th class="lt" colspan="3">
+
+<\tr>
+
+<\table class="league-table mtn" style="display: none; position: absolute;" data-name="england-premier-league-0" data-type="league-table">
+
+<\div id="leagueTableBodyContainer" class="mt4">
+
+<\/div>
+
+<\/h2>
+
+<\h2 class="bt bb mt4 mr4 tleft">
+
+<\div>
+
+<\div id="leagueTableContainer" style="position: relative; overflow: hidden;">
+
+<\/iframe>
+
+<\iframe class="mt4" allowtransparency='true' src='http://beta.ads.cc/ads/?site=25&amp;pos=128' width='140' height='200' scrolling='no' frameborder='0' style='border-width:0'>
+
+<\/div>
+
+<\/div>
+
+<\/div>
+
+<\div class="g-plusone" data-size="medium" data-annotation="bubble" data-href="http://www.livescore.com/">
+
+<\/div>
+
+<\img src="http://cdn3.livescore.com/web/img/google_disabled.png" alt="Google +1 button" title="Click to enable Google +1 button" width="32" height="20"/>
+
+<\div class="disabled">
+
+<\/div>
+
+<\div class="switch switch-off">
+
+<\div class="google hidden">
+
+<\/div>
+
+<\/div>
+
+<\div class="fb-like" data-href="http://www.facebook.com/livescore" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true">
+
+<\/div>
+
+<\img src="http://cdn3.livescore.com/web/img/facebook_disabled.png" alt="Facebook Like button" title="Click to enable Facebook Like button" width="48" height="20"/>
+
+<\div class="disabled">
+
+<\/div>
+
+<\div class="switch switch-off">
+
+<\div class="facebook hidden">
+
+<\/div>
+
+<\div id="fb-root">
+
+<\div class="social-box">
+
+<\/div>
+
+<\/ul>
+
+<\/li>
+
+<\/iframe>
+
+<\iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" scrolling="no" frameborder="0" width="200" height="20" src="http://beta.ads.cc/ads/?site=1&pos=130">
+
+<\li style="border-top: 1px solid #777; border-bottom: 1px solid #222;">
+
+<\/li>
+
+<\/iframe>
+
+<\iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" scrolling="no" frameborder="0" width="200" height="20" src="http://beta.ads.cc/ads/?site=1&pos=131">
+
+<\li style="border-top: 1px solid #777; border-bottom: 1px solid #222;">
+
+<\/li>
+
+<\/span>
+
+<\span>
+
+<\li>
+
+<\ul>
+
+<\div class="menu">
+
+<\/iframe>
+
+<\iframe class="mt4" allowtransparency='true' src='http://beta.ads.cc/ads/?site=25&amp;pos=127' width='140' height='200' scrolling='no' frameborder='0' style='border-width:0'>
+
+<\/div>
+
+<\/a>
+
+<\/span>
+
+<\span>
+
+<\a href="/timezone/">
+
+<\div class="date">
+
+<\div class="right-bar">
+
+<\/div>
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/fa-trophy-qualification/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/fa-trophy/cambridge-united-vs-gosport-borough/1-1666610/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/fa-trophy/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/ryman-league/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/ryman-league-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/zamaretto-league/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/zamaretto-league-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/evo-stik-league/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/evo-stik-league-play-off/afc-fylde-vs-ashton-united/1-1697427/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/evo-stik-league-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/community-shield/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/jp-trophy/chesterfield-vs-peterborough-united/1-1638179/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/jp-trophy/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/carling-cup/manchester-city-vs-sunderland/1-1626576/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/carling-cup/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/fa-cup/arsenal-vs-hull-city/1-1690195/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/fa-cup/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/whitehawk-vs-sutton-united/1-1496158/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/weston-super-mare-vs-chelmsford/1-1496157/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/staines-town-vs-basingstoke/1-1496155/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/hayes-yeading-united-vs-dover/1-1496154/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/gosport-borough-vs-bromley/1-1496153/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/farnborough-vs-eastbourne-borough/1-1496152/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/ebbsfleet-united-vs-dorchester-town/1-1496151/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/eastleigh-vs-boreham-wood/1-1496150/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/concord-rangers-vs-bath-city/1-1496149/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/bishop-stortford-vs-maidenhead-u/1-1496148/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south-play-off/ebbsfleet-united-vs-dover/1-1698723/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/worcester-vs-boston-utd-/1-1495702/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/vauxhall-motors-vs-solihull-moors/1-1495701/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/telford-vs-gainsborough/1-1495692/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/stockport-vs-harrogate/1-1495700/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/stalybridge-vs-workington/1-1495699/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/oxford-city-vs-bradford-pa/1-1495698/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/north-ferriby-united-vs-brackley-town/1-1495697/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/leamington-vs-colwyn-bay/1-1495696/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/histon-vs-altrincham/1-1495695/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/guiseley-vs-gloucester-city/1-1495694/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/barrow-vs-hednesford/1-1495693/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north-play-off/altrincham-vs-guiseley/1-1698722/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/welling-united-vs-southport/1-1495251/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/tamworth-vs-woking/1-1495250/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/nuneaton-town-vs-dartford/1-1495249/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/lincoln-vs-barnet/1-1495248/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/hyde-fc-vs-luton-town/1-1495247/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/halifax-town-vs-kidderminster-harriers/1-1495244/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/gateshead-fc-vs-cambridge-united/1-1495246/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/forest-green-rovers-vs-wrexham/1-1495245/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/chester-fc-vs-salisbury-city/1-1495243/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/braintree-town-vs-grimsby-town/1-1495242/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/alfreton-town-vs-macclesfield-town/1-1495241/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/aldershot-town-vs-hereford-united/1-1495240/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier-play-off/cambridge-united-vs-gateshead-fc/1-1699006/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/torquay-united-vs-wycombe-wanderers/1-1476268/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/southend-united-vs-burton-albion/1-1476266/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/scunthorpe-united-vs-york-city/1-1476260/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/portsmouth-vs-plymouth-argyle/1-1476259/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/northampton-town-vs-oxford-united/1-1476258/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/newport-county-vs-rochdale/1-1476264/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/morecambe-vs-bury/1-1476261/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/hartlepool-united-vs-exeter-city/1-1476263/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/chesterfield-vs-fleetwood-town/1-1476267/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/cheltenham-town-vs-dagenham-redbridge/1-1476265/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/bristol-rovers-vs-mansfield-town/1-1476257/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/accrington-stanley-vs-afc-wimbledon/1-1476262/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-2-play-off/burton-albion-vs-fleetwood-town/1-1703875/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-2-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/wolverhampton-wanderers-vs-carlisle-united/1-1476695/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/walsall-vs-colchester-united/1-1476698/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/tranmere-rovers-vs-bradford-city/1-1476691/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/swindon-town-vs-rotherham-united/1-1476694/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/sheffield-united-vs-coventry-city/1-1476692/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/peterborough-united-vs-port-vale/1-1476697/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/oldham-athletic-vs-notts-county/1-1476699/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/milton-keynes-dons-vs-leyton-orient/1-1476700/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/gillingham-vs-shrewsbury-town/1-1476701/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/crewe-alexandra-vs-preston-north-end/1-1476702/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/crawley-town-vs-bristol-city/1-1476693/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/brentford-vs-stevenage/1-1476696/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/league-1-play-off/leyton-orient-vs-rotherham-united/1-1703142/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/league-1-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/yeovil-town-vs-middlesbrough/1-1475807/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/watford-vs-huddersfield-town/1-1475802/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/reading-vs-burnley/1-1475799/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/nottingham-forest-vs-brighton-hove-albion/1-1475797/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/millwall-vs-afc-bournemouth/1-1475809/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/leicester-city-vs-doncaster-rovers/1-1475804/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/leeds-united-vs-derby-county/1-1475803/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/ipswich-town-vs-sheffield-wednesday/1-1475806/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/bolton-wanderers-vs-birmingham-city/1-1475798/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/blackpool-vs-charlton-athletic/1-1475808/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/blackburn-rovers-vs-wigan-athletic/1-1475800/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship/barnsley-vs-queens-park-rangers/1-1475805/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/championship/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/championship-play-off/derby-county-vs-queens-park-rangers/1-1702132/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/championship-play-off/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/west-bromwich-albion-vs-stoke-city/1-1475120/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/tottenham-hotspur-vs-aston-villa/1-1475119/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/sunderland-vs-swansea-city/1-1475118/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/southampton-vs-manchester-united/1-1475116/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/norwich-city-vs-arsenal/1-1475115/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/manchester-city-vs-west-ham-united/1-1475114/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/liverpool-vs-newcastle-united/1-1475113/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/hull-city-vs-everton/1-1475112/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/fulham-vs-crystal-palace/1-1475111/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr>
+
+<\/tr>
+
+<\/td>
+
+<\td class="fa">
+
+<\/td>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/cardiff-city-vs-chelsea/1-1475109/" class="scorelink" onclick="return false;">
+
+<\td class="fs">
+
+<\/td>
+
+<\td class="fh">
+
+<\/td>
+
+<\td class="fd">
+
+<\tr class="even">
+
+<\/tr>
+
+<\/th>
+
+<\/span>
+
+<\span class="date">
+
+<\/span>
+
+<\/span>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/">
+
+<\span>
+
+<\/strong>
+
+<\strong>
+
+<\span class="league">
+
+<\th colspan="4">
+
+<\tr>
+
+<\col class="cola"/>
+
+<\col class="cols"/>
+
+<\col class="colh"/>
+
+<\col class="cold"/>
+
+<\table class="league-table">
+
+<\div class="content">
+
+<\/div>
+
+<\/ul>
+
+<\/li>
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/zimbabwe/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/zambia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uganda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/togo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tanzania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/swaziland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sudan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sierra-leone/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/senegal/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/rwanda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ivory-coast/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/nigeria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/namibia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mozambique/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mauritius/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mali/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malawi/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/madagascar/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/libya/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/liberia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lesotho/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/yemen/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guinea/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ghana/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/gambia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/gabon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/congo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/dr-congo/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cape-verde/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cameroon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/burkina-faso/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/botswana/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/benin/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/angola/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/vanuatu/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tahiti/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/solomon-islands/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/fiji/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/oceania/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uzbekistan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/taiwan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/united-arab-emirates/" class="cat" title="United Arab Emirates">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/syria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/saudi-arabia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/qatar/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/pakistan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/palestine/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/oman/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malaysia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lebanon/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/jordan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iraq/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/indonesia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/india/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/hong-kong/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bahrain/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/trinidad-and-tobago/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/saint-kitts-and-nevis/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/puerto-rico/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/panama/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/martinique/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/nicaragua/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/jamaica/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/haiti/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guadeloupe/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/grenada/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cuba/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/canada/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bermuda/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/barbados/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/antigua-and-barbuda/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/san-marino/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/malta/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/faroe-islands/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/andorra/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/albania/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light" style="display: none">
+
+<\/a>
+
+<\a href="/soccer/more/" class="cat" data-type="submenu">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/tunisia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/south-africa/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/morocco/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kenya/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/egypt/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/algeria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/africa-cup-of-nations/" class="cat" title="Africa Cup of Nations">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/africa/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/new-zealand/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/australia/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iran/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kuwait/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/kazakhstan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/georgia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/azerbaijan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/armenia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/vietnam/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/thailand/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/singapore/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/korea-republic/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/japan/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/china/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/asia/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/honduras/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/guatemala/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/el-salvador/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/costa-rica/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/usa/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/mexico/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/concacaf/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/venezuela/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/uruguay/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/peru/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/paraguay/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ecuador/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/colombia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/chile/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/brazil/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bolivia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/argentina/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/south-america/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ukraine/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/slovenia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/slovakia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/serbia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/russia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/romania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/poland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/montenegro/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/moldova/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/macedonia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/lithuania/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/latvia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/israel/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/hungary/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/estonia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/czech-republic/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/croatia/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bulgaria/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/bosnia/" class="cat" title="Bosnia and Herzegovina">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/belarus/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/wales/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/turkey/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/switzerland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/sweden/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/northern-ireland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/norway/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/luxembourg/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/ireland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/iceland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/greece/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/finland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/denmark/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/cyprus/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/austria/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=24&amp;pos=122" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-women/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-17/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-19/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/euro-under-21/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/world-cup-u17/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/world-cup-u20/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=125" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/scotland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/portugal/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/belgium/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/holland/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/france/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/germany/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/spain/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/italy/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/fa-trophy-qualification/" title="FA Trophy Qualification">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/fa-trophy/" title="FA Trophy">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/ryman-league/" title="Ryman League">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/ryman-league-play-off/" title="Ryman League:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/zamaretto-league/" title="Evo-Stik League Southern">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/zamaretto-league-play-off/" title="Evo-Stik League Southern:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/evo-stik-league/" title="Evo-Stik League">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/evo-stik-league-play-off/" title="Evo-Stik League:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/jp-trophy/" title="JP Trophy">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/community-shield/" title="Community Shield">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/carling-cup/" title="Capital One Cup">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/fa-cup/" title="FA Cup">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south/" title="Conference South">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-south-play-off/" title="Conference South:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north/" title="Conference North">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-north-play-off/" title="Conference North:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier/" title="Conference Premier">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/blue-square-premier-play-off/" title="Conference Premier:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/league-2/" title="League 2">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/league-2-play-off/" title="League 2:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/league-1/" title="League 1">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/league-1-play-off/" title="League 1:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/championship/" title="Championship">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/championship-play-off/" title="Championship:: play-off">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/england/premier-league/" title="Premier League">
+
+<\li>
+
+<\ul class="buttons">
+
+<\/a>
+
+<\a href="/soccer/england/?ssm=1" class="selected cat" data-type="selmenu">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=124" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="ad tcenter">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/intl/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/confederations-cup/" class="cat" title="Confederations Cup">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/worldcup2014/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/european-cups/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/europa-league/" class="cat">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/champions-league/" class="cat">
+
+<\li>
+
+<\ul class="buttons btn-light">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/soccer/live/">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/">
+
+<\li>
+
+<\ul class="buttons">
+
+<\div class="left-bar">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=126" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" allowTransparency="true" width="468" height="60">
+
+<\div class="big-add">
+
+<\/div>
+
+<\/iframe>
+
+<\iframe src="http://beta.ads.cc/ads/?site=25&amp;pos=123" width="120" height="60" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no" frameborder="no" style="border-width:0" allowtransparency="true">
+
+<\div class="top-add left">
+
+<\div class="bb">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/table>
+
+<\/tr>
+
+<\/td>
+
+<\/p>
+
+<\p>
+
+<\/h2>
+
+<\h2>
+
+<\/h1>
+
+<\h1>
+
+<\td>
+
+<\tr>
+
+<\table class="tagline right">
+
+<\/a>
+
+<\img src="http://cdn3.livescore.com/web/img/logo-fb-narrow.jpg" class="left" alt="LiveScore Soccer / Football" title="LiveScore Soccer / Football" width="465" height="68"/>
+
+<\a href="/">
+
+<\div class="header bb">
+
+<\/div>
+
+<\/div>
+
+<\div class="clear">
+
+<\/ul>
+
+<\/li>
+
+<\/a>
+
+<\a href="/contact/" title="Contact Us" class=" m10">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/mobile/" title="Mobile" class=" m9">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/android/" title="Android" class=" m8">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/iphone/" title="iPhone" class=" m7">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/cricket/" title="Cricket" class=" m6">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/tennis/" title="Tennis" class=" m5">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/basketball/" title="Basketball" class=" m4">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/hockey/" title="Hockey" class=" m3">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/worldcup/" title="World Cup" class=" m2">
+
+<\li>
+
+<\/li>
+
+<\/a>
+
+<\a href="/" title="Soccer" class="selected m1">
+
+<\li class="first">
+
+<\ul>
+
+<\div class="nav bb">
+
+<\div class="wrapper">
+
+<\body class="soccer narrow">
+
+<\/head>
+
+<\/style>
+
+<\style>
+
+<\/script>
+
+<\script>
+
+<\/script>
+
+<\script src="http://cdn1.livescore.com/web/js/custom_v1.1.4.js" type="text/javascript">
+
+<\link rel="stylesheet" media="screen" href="http://cdn1.livescore.com/web/css/main_v1.0.22.2.css">
+
+<\link rel="shortcut icon" type="image/png" href="http://cdn3.livescore.com/web/img/favicon.png">
+
+<\meta name="keywords" content="livescore, live scores, soccer, football"/>
+
+<\meta name="description" content="LiveScore.com - England Live Soccer Scores, the First live score site on the Internet, powered by LiveScore.com since 1998. Live Soccer from all around the World."/>
+
+<\meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+<\/title>
+
+<\title>
+
+<\head>
+
+<\html>
+
+finish printing

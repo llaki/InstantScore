@@ -95,10 +95,16 @@ public class CodeGenerator {
 			StringTokenizer tokenizer;
 			while(true) {
 				String line = rd.readLine();
-				if(line==null) break;
+				if(line==null || line.length()==0) break;
 				tokenizer = new StringTokenizer(line);
-				String phoneNumber = tokenizer.nextToken(), code = tokenizer.nextToken();
-				map.put(phoneNumber, code);
+				String code = "", phoneNumber = "";
+				if(tokenizer.hasMoreTokens()) { 
+					phoneNumber = tokenizer.nextToken();
+				}
+				if(tokenizer.hasMoreTokens()) { 
+					code = tokenizer.nextToken();
+					map.put(phoneNumber, code);
+				}
 			}
 			System.out.println("Read from codes file succesfully.");
 			rd.close();
@@ -110,8 +116,6 @@ public class CodeGenerator {
 		if(!codesFileExists) {
 			try {
 				PrintWriter pw = new PrintWriter(new FileWriter(codesFile));
-				pw.println();
-				pw.flush();
 				pw.close();
 				System.out.println("Codes file has been created.");
 			}
@@ -125,7 +129,7 @@ public class CodeGenerator {
 
 	private static final int CODE_LENGTH = 6;
 
-	public static final String CODES_FILE_NAME = "codes"; // TODO change the filename to a path of the file on AWS
+	public static final String CODES_FILE_NAME = "codes_base"; // TODO change the filename to a path of the file on AWS
 
 	private static HashMap<String, String> map = new HashMap<String, String>();
 

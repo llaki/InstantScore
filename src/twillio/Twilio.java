@@ -25,6 +25,7 @@ public class Twilio {
 	public static final String AUTH_TOKEN = "313a2ccaca5f1f2c013100a69106cc43";
 	//public static final String AUTH_TOKEN = "8ae403d4931f4fd3cde77e1991a1c710"; // chemi testAccountAuthToken
 	public static final String OUR_PHONE_NUMBER = "+12292562076";
+	public static final String TEST_PHONE_NUMBER = "15005550006";
 	
 	private TwilioRestClient client;
 	
@@ -44,8 +45,55 @@ public class Twilio {
 		messageFactory.create(params);
 	}
 	
+	static int numMessages = 10;
+	
+	public static Thread[] senders = new Thread[numMessages];
+	
+	public static final boolean[] completed = new boolean[numMessages];
+	
+	public static void markCompleted(int index) {
+		synchronized (completed) {
+			completed[index] = true;
+		}
+	}
+	
 	public static void main(String[] args) throws TwilioRestException {
-		new Twilio().send("+995595150038", "axlac ar movida?");
+		for(int i=0; i<senders.length; i++) {
+			senders[i] = new Thread(""+i) {
+				@Override
+				public void run(){
+					System.out.println("I am the thread num "+getName());
+					try {
+						new Twilio().send("+995598374203", "Empty message by "+getName());
+						Twilio.markCompleted(Integer.parseInt(getName()));
+					} catch (TwilioRestException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			};
+		}
+		for(int i=0; i<senders.length; i++) {
+			senders[i].start();
+		}
+		
+		long start = System.currentTimeMillis();
+		while(true) {
+			boolean fin = true;
+			for(int i=0; i<numMessages; i++) {
+				synchronized (completed) {
+					if(!completed[i]) {
+						fin = false;
+						break;
+					}
+				}
+			}
+			if(fin) {
+				break;
+			}
+		}
+		long fin = System.currentTimeMillis();
+		System.out.println((fin-start)*0.001+" secs have passed");
 	}
 	
 }

@@ -34,7 +34,7 @@ public class LivescoreConnection {
 		//System.out.println("writing...");
 		String htmlPage = getHtml(url);
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
-		PrintWriter out = new PrintWriter(new FileWriter("console"));
+		PrintWriter out = new PrintWriter(new FileWriter("console_"+url));
 		for(int i=0; i<nodeList.size(); i++){
 			out.println("start printing...");
 			out.println("###"+nodeList.get(i));
@@ -46,7 +46,7 @@ public class LivescoreConnection {
 	}
 	
 	public ArrayList<MatchInfo> getMatchInfosFromLivescore() throws Exception {
-		BufferedReader rd = new BufferedReader(new FileReader("console"));
+		BufferedReader rd = new BufferedReader(new FileReader("console_"+url));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
 		while((line = rd.readLine()) != null){
@@ -190,7 +190,7 @@ public class LivescoreConnection {
 			return false;
 		}
 		Team home = matchInfo.getHomeTeam(), away = matchInfo.getAwayTeam();
-		if(home==null || away==null || home.toString().length()==0 || away.toString().length()==0) {
+		if(home==null || away==null ) {
 			return false;
 		}
 		return true;
@@ -247,7 +247,8 @@ public class LivescoreConnection {
 			System.out.println("MalformedUrlException occured");
 		} 
 		catch (IOException e) {   
-			System.out.println("IOException occured");
+			System.out.println("IOException occured on " + url);
+			e.printStackTrace();
 		}
 		return sb.toString();
 	}
@@ -255,7 +256,7 @@ public class LivescoreConnection {
 	public static void main(String[] args) throws Exception {
 		
 		// basic test here ...
-		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/soccer/europa-league/", "scores", true);
+		LivescoreConnection livescoreCon = new LivescoreConnection("http://www.livescore.com/soccer/England/", "scores", true);
 		while(true){
 			//System.out.println("new refresh...");
 			livescoreCon.refreshURLAndWriteIntoFile();

@@ -1,7 +1,11 @@
 package model;
 import java.util.*;
+import java.util.logging.Logger;
 
 public class MatchInfo {
+	
+	private final static Logger LOGGER = Logger.getLogger(MatchInfo.class.getName());
+	
 	private Team home, away;
 	
 	private String id;
@@ -20,6 +24,13 @@ public class MatchInfo {
 	
 	public static void copyUsers(MatchInfo from, MatchInfo to){
 		to.setInterestedUsersSet(from.getSetOfUsers());
+	}
+	
+	public void removeSubscriptionForUser(User u) {
+		synchronized (setInterestedUsers) {
+			setInterestedUsers.remove(u);
+			System.out.println("User "+u+" have been removed from match "+getId());
+		}
 	}
 	
 	public HashSet<User> getSetOfUsers(){
@@ -117,6 +128,7 @@ public class MatchInfo {
 
 	@Override
 	public String toString(){
+		if(home==null || away==null) return "";
 		StringBuilder sb = new StringBuilder();
 	//	sb.append(getTournament()+"\n");
 		sb.append(getMatchDate()+" "+getTimeStatus()+"    "+getHomeTeam()+" "+getMatchScore()+" "+getAwayTeam());

@@ -8,6 +8,8 @@ import java.util.*;
 
 public class AllGoingMatches {
 	
+	private static boolean firstRun = true;
+	
 	private static HashMap<String, MatchInfo> map = new HashMap<String, MatchInfo>();
 	
 	public static MatchInfo getSameMatchObject(MatchInfo match) throws Exception {
@@ -63,7 +65,12 @@ public class AllGoingMatches {
 			}
 		}
 		map = newMap;
-	//	printMap();
+		if(firstRun) {
+			printMap();
+			firstRun = false;
+		}
 	}
+	
+	
 	
 }
