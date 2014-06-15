@@ -34,7 +34,7 @@ public class LivescoreConnection {
 		//System.out.println("writing...");
 		String htmlPage = getHtml(url);
 		ArrayList<HtmlNode> nodeList = ParseUtils.getNodesForHtmlPage(htmlPage);
-		PrintWriter out = new PrintWriter(new FileWriter("console_"+url));
+		PrintWriter out = new PrintWriter(new FileWriter("console"));
 		for(int i=0; i<nodeList.size(); i++){
 			out.println("start printing...");
 			out.println("###"+nodeList.get(i));
@@ -46,7 +46,7 @@ public class LivescoreConnection {
 	}
 	
 	public ArrayList<MatchInfo> getMatchInfosFromLivescore() throws Exception {
-		BufferedReader rd = new BufferedReader(new FileReader("console_"+url));
+		BufferedReader rd = new BufferedReader(new FileReader("console"));
 		String line;
 		ArrayList<MatchInfo> matches = new ArrayList<MatchInfo>();
 		while((line = rd.readLine()) != null){
