@@ -7,8 +7,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.*;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-import model.AllGoingMatches;
 import model.AllMatches;
 import model.MatchInfo;
 import model.MatchInfoBuilder;
@@ -23,6 +24,7 @@ public class LivescoreConnection {
 	private String url, filename;
 	
 	private boolean allMatches = false;
+	private static final Logger LOGGER = Logger.getLogger(LivescoreConnection.class.getName());
 
 	public LivescoreConnection(String url, String filename, boolean allMatches) {
 		this.url = url;
@@ -190,7 +192,8 @@ public class LivescoreConnection {
 			return false;
 		}
 		Team home = matchInfo.getHomeTeam(), away = matchInfo.getAwayTeam();
-		if(home==null || away==null ) {
+		if(home==null || away==null || home.toString()==null ||
+		 home.toString().equals("null") || away.toString()==null || away.toString().equals("null")) {
 			return false;
 		}
 		return true;
@@ -244,10 +247,10 @@ public class LivescoreConnection {
 		    }
 		} 
 		catch (MalformedURLException e) {
-			System.out.println("MalformedUrlException occured");
-		} 
-		catch (IOException e) {   
-			System.out.println("IOException occured on " + url);
+			LOGGER.log(Level.WARNING, "MalformedUrlException occured");
+		}
+		catch (IOException e) {
+			LOGGER.log(Level.WARNING, "IOException occured on " + url);
 			e.printStackTrace();
 		}
 		return sb.toString();

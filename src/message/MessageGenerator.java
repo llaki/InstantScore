@@ -1,4 +1,7 @@
 package message;
+import java.util.logging.Logger;
+
+import livescore.LivescoreConnection;
 import model.Date;
 import model.MatchInfo;
 import model.MatchUpdate;
@@ -9,12 +12,14 @@ import model.Tournament;
 
 
 public class MessageGenerator {
+	private static final Logger LOGGER = Logger.getLogger(MessageGenerator.class.getName());
+	
 	public static void main(String[] args) {
 		MatchInfo m1 = new MatchInfo(new Team("A"), new Team("B"), new Score("0-0"), new Date("2 Dec"), 
 				new Tournament("Champ"), new Time("19:23"), false, false);
 		MatchInfo m2 = new MatchInfo(new Team("A"), new Team("B"), new Score("2-0"), new Date("2 Dec"), 
 				new Tournament("Champ"), new Time("4"), true, false);
-		System.out.println(generateMessageTextViaUpdate(MatchUpdate.matchHasBeenUpdated(m1, m2)));
+		LOGGER.info(generateMessageTextViaUpdate(MatchUpdate.getMatchUpdate(m1, m2)));
 	}
 	
 	public static String generateMessageTextViaUpdate(MatchUpdate update){

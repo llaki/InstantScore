@@ -78,7 +78,7 @@ public class MatchUpdate {
 		return bitmaskContainsBit(updateStatus, HOME_WON_PENALTIES);
 	}
 	
-	public static MatchUpdate matchHasBeenUpdated(MatchInfo old, MatchInfo current){
+	public static MatchUpdate getMatchUpdate(MatchInfo old, MatchInfo current){
 		if(old==null){
 			old = MatchInfo.returnEmptyMatchInfo();
 		}

@@ -16,8 +16,11 @@ import model.MatchInfo;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Listener implements ServletContextListener {
+	private static final Logger LOGGER = Logger.getLogger(Listener.class.getName());
 
 	@Override
 	public void contextDestroyed(ServletContextEvent arg0) {
@@ -34,8 +37,10 @@ public class Listener implements ServletContextListener {
 				HashMap<String, ArrayList<MatchInfo>> map = new HashMap<String, ArrayList<MatchInfo>>();
 				long lastTimeOfChecking = 0;
 				while (true) {
+				//	LOGGER.log(Level.OFF, "Refresh...");
 					long currentTime = System.currentTimeMillis();
 					boolean shouldCheckFutures = (currentTime - lastTimeOfChecking > NUM_MILISECONDS_IN_TWELVE_HOURS);
+				//	LOGGER.log(Level.OFF, shouldCheckFutures ? "Future YES" : "Future NO");
 					ArrayList<MatchInfo> allActiveMatches = new ArrayList<MatchInfo>();
 					try {
 						CountryScores cs = new CountryScores();
@@ -52,6 +57,7 @@ public class Listener implements ServletContextListener {
 								ArrayList<MatchInfo> list = cs.parseUrlForCountryScoresAndGetActiveMatches(url, true);
 								allActiveMatches.addAll(list);
 								map.put(url.getCountryName(), list);
+								lastTimeOfChecking = currentTime;
 							}
 							else {
 								allActiveMatches.addAll(map.get(url.getCountryName()));

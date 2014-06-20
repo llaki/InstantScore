@@ -2,12 +2,15 @@ package securitycode;
 import java.io.*;
 import java.util.HashMap;
 import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import twillio.Twilio;
 
 import com.twilio.sdk.TwilioRestException;
 
 public class CodeGenerator {
+	private static final Logger LOGGER = Logger.getLogger(CodeGenerator.class.getName());
 
 	/**
 	 * Generates random security code for a given phone number and returns it. It also logs the generated code in the file together with
@@ -30,7 +33,7 @@ public class CodeGenerator {
 	 * @param generatedCode generated security code
 	 */
 	public static void sendSecurityCodeToUser(String phoneNumber, String generatedCode){
-		System.out.println("Sending security code "+generatedCode+" to the user "+phoneNumber+"...");
+		LOGGER.log(Level.FINER, "Sending security code "+generatedCode+" to the user "+phoneNumber+"...");
 		Twilio twillioClient = new Twilio();
 		try {
 			twillioClient.send(phoneNumber, "Your security code is "+generatedCode+". \n Thanks for using InstantScore!");
@@ -106,21 +109,21 @@ public class CodeGenerator {
 					map.put(phoneNumber, code);
 				}
 			}
-			System.out.println("Read from codes file succesfully.");
+			LOGGER.log(Level.OFF,"Read from codes file succesfully.");
 			rd.close();
 		}
 		catch(IOException ex) {
-			System.out.println("Codes file have not been found.");
+			LOGGER.log(Level.SEVERE,"Codes file have not been found.");
 			codesFileExists = false;
 		}
 		if(!codesFileExists) {
 			try {
 				PrintWriter pw = new PrintWriter(new FileWriter(codesFile));
 				pw.close();
-				System.out.println("Codes file has been created.");
+				LOGGER.log(Level.OFF,"Codes file has been created.");
 			}
 			catch(IOException ex) {
-				System.out.println("IOException occured while attempting to create a codes file.");
+				LOGGER.log(Level.SEVERE,"IOException occured while attempting to create a codes file.");
 			}
 		}
 	}

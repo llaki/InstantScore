@@ -1,13 +1,17 @@
 package request;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import securitycode.CodeGenerator;
+import message.MessageSender;
 import model.AllGoingMatches;
 import model.MatchUserBinder;
 import model.User;
 import model.UserFactory;
 
 public class Request {
+	private static final Logger LOGGER = Logger.getLogger(Request.class.getName());
 	
 	private String phoneNumber, securityCode, data; //numberWithCode;
 
@@ -18,19 +22,19 @@ public class Request {
 		this.phoneNumber = "+"+phoneNum;
 		this.data = data;
 		this.securityCode = securityCode;
-		System.out.println("Inside Request constructor with parameters : "+data+" and "+phoneNum + " and "+ securityCode);
+		LOGGER.log(Level.INFO, "Inside Request constructor with parameters : "+data+" and "+phoneNum + " and "+ securityCode);
 		if((data==null || data.length()<=2) && (securityCode==null || securityCode.length()==0)){ // sec. code case
-			System.out.println("sending code procedure...");
+			LOGGER.log(Level.FINER, "sending code procedure...");
 			securityCode = CodeGenerator.generateCodeForPhoneNumber(phoneNumber);
 			CodeGenerator.sendSecurityCodeToUser(phoneNumber, securityCode);
 		}
 		else{ // matches subscribe case
 			if(!CodeGenerator.validatePair(phoneNumber, securityCode)){
 				// the pair is invalid, so we just stop here
-				System.out.println("invalid pair : phoneNum="+phoneNum+" and securityCode="+securityCode);
+				LOGGER.log(Level.WARNING, "invalid pair : phoneNum="+phoneNum+" and securityCode="+securityCode);
 				return;
 			}
-			System.out.println("parsing data ...");
+			LOGGER.log(Level.OFF, "parsing data ...");
 			parseData();
 		}
 	}
@@ -54,7 +58,7 @@ public class Request {
 			}
 			String matchId = data.substring(i + 1, till + 1);
 			matchIds.add(matchId);
-			System.out.println(matchId+" added to user...");
+			LOGGER.log(Level.FINER, matchId+" added to user...");
 			MatchUserBinder.addMatchToUser(u,
 					AllGoingMatches.getExistingMatchObject(matchId));
 			matchIds.add(matchId);

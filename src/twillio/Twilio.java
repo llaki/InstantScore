@@ -1,10 +1,13 @@
 package twillio;
 // Install the Java helper library from twilio.com/docs/java/install
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.logging.Logger;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.naming.resources.jndi.Handler;
 import org.eclipse.jdt.internal.compiler.batch.Main;
 
 import com.twilio.sdk.TwilioRestClient;
@@ -33,9 +36,23 @@ public class Twilio {
 		client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
 	}
 	
+	public static HashMap<String, String> lastSentMessage = new HashMap<String, String>();
+	
+	private final static Logger LOGGER = Logger.getLogger(Twilio.class.getName());
+	
 	public void send(String to, String txt) throws TwilioRestException {
+		
+		if(lastSentMessage.containsKey(to) && lastSentMessage.get(to).equals(txt)) {
+			LOGGER.info("Attempted to send message "+txt+" to the user "+to);
+			// We have already sent that message to the user. No need to send the same thing again. This should never happen
+			// in expected scenario but this is just to make sure that bug never arises and we won't send multiple messages
+			// for no reason.
+			return;
+		}
+		lastSentMessage.put(to, txt);
+		
 		// Build a filter for the MessageList
-		System.out.println("sending message to " + to);
+		LOGGER.info("sending message '" +txt+"' to " + to);
 		List<NameValuePair> params = new ArrayList<NameValuePair>();
 		params.add(new BasicNameValuePair("Body", txt));
 		params.add(new BasicNameValuePair("To", to));
@@ -58,6 +75,9 @@ public class Twilio {
 	}
 	
 	public static void main(String[] args) throws TwilioRestException {
+		new Twilio().send("+995598374203", "basic sms test");
+		if(3>1+1) System.exit(0);
+		
 		for(int i=0; i<senders.length; i++) {
 			senders[i] = new Thread(""+i) {
 				@Override

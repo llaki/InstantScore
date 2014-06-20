@@ -1,10 +1,16 @@
 package parseutils;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import message.MessageSender;
 
 public class ParseUtils {
+	private static final Logger LOGGER = Logger.getLogger(ParseUtils.class.getName());
+
 	public static void main(String[] args) {
 		// TODO write test here
-		System.out.println(DATE_TAG_NAME);
+		LOGGER.log(Level.INFO, DATE_TAG_NAME);
 	}
 	
 	public static boolean isImageTag(String tag){

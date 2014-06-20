@@ -60,7 +60,7 @@ public class TimeUtils {
 	};
 	
 	public static boolean isFullTimeEnded(Time time){
-		return time.getTime().equals("FT");
+		return time!=null && time.getTime()!=null && time.getTime().equals("FT");
 	}
 	
 	public static final int FIRST_HALF_DURATION = 45;
